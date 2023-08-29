@@ -7,7 +7,7 @@ The project demonstrates how to view and process images in ASP.NET Core:
 * Open image file.
 * View images in image viewer with ability to zoom and magnify image. Also image viewer can rotate an image display. Set up settings of image viewer.
 * View image thumbnails in thumbnail viewer. Set up settings of thumbnail viewer.
-* Apply 110+ image processing commands to the whole image or image region.
+* Apply 110+ image processing commands to the whole image or image region. Set up settings of image processing command.
 * Print processed image.
 * Download processed image.
 * The application can be used in any modern HTML5 web browser.
