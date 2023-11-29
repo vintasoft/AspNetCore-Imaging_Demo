@@ -5,7 +5,8 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
 
     // a value indicating whether image processing command uses image region from rectangular selection visual tool
     var _isVisualToolSelectionUsed = false;
-
+    var _imageProcessingCommandSettingsDialog = null;
+    var _imageProcessingCommandResultDialog = null;
 
 
     /**
@@ -37,8 +38,33 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
             }
         }
 
-        // show image processing command setting dialog
-        new ImageProcessingCommandSettingsDialogJS(imageProcessingCommand);
+
+        // if previous image processing dialog exists
+        if (_imageProcessingCommandSettingsDialog != null) {
+            // remove dialog from web document viewer
+            docViewer.get_Items().removeItem(_imageProcessingCommandSettingsDialog);
+            // destroy dialog
+            delete _imageProcessingCommandSettingsDialog;
+            // clear link to dialog
+            _imageProcessingCommandSettingsDialog = null;
+        }
+
+        // create the property grid for image processing command
+        var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(imageProcessingCommand);
+
+        // create the image processing dialog
+        _imageProcessingCommandSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+            propertyGrid,
+            {
+                title: "Image processing command settings",
+                cssClass: "vsui-dialog imageProcessingSettings",
+                localizationId: "imageProcessingSettingsDialog"
+            });
+        // add dialog to the web document viewer
+        docViewer.get_Items().addItem(_imageProcessingCommandSettingsDialog);
+
+        // show the dialog
+        _imageProcessingCommandSettingsDialog.show();
     }
 
     /**
@@ -115,7 +141,104 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
         delete imageProcessingResult.guid;
         delete imageProcessingResult.sourceImage;
 
-        new ImageProcessingCommandResultDialogJS(docViewer, imageProcessingResult);
+
+        // if previous image processing command result dialog exists
+        if (_imageProcessingCommandResultDialog != null) {
+            // remove dialog from web document viewer
+            docViewer.get_Items().removeItem(_imageProcessingCommandResultDialog);
+            // destroy dialog
+            delete _imageProcessingCommandResultDialog;
+            // clear link to dialog
+            _imageProcessingCommandResultDialog = null;
+        }
+
+        // create the property grid for image processing command result
+        var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(imageProcessingResult);
+
+        // create the image processing result dialog
+        _imageProcessingCommandResultDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+            propertyGrid,
+            {
+                title: "Image processing command result",
+                cssClass: "vsui-dialog imageProcessingResult",
+                localizationId: "imageProcessingResultDialog",
+                hideNestedElements: false,
+                editable: false
+            });
+        // add dialog to the web document viewer
+        docViewer.get_Items().addItem(_imageProcessingCommandResultDialog);
+
+        // show the dialog
+        _imageProcessingCommandResultDialog.show();
+
+
+        var documentRegions = imageProcessingResult.documentRegions;
+        var regions = imageProcessingResult.regions;
+        var halftoneRegions = imageProcessingResult.halftoneRegions;
+        if (documentRegions != null || regions != null || halftoneRegions != null) {
+            var fillColor = "rgba(255,255,0,0.3)";
+            var highlightRegions;
+            if (documentRegions != null) {
+                highlightRegions = documentRegions;
+                fillColor = "rgba(255,255,0,0.3)";
+            }
+            else if (regions != null) {
+                highlightRegions = regions;
+                fillColor = "rgba(0,255,0,0.3)";
+            }
+            else if (halftoneRegions != null) {
+                highlightRegions = halftoneRegions;
+                fillColor = "rgba(0,0,255,0.3)";
+            }
+            // highlight regions in image viewer
+            __highlightInformativeImageProcessingCommandResults(docViewer, highlightRegions, fillColor)
+        }
+    }
+
+    /**
+     Highlights regions in image viewer.
+     @param {object} docViewer DocumentViewer.
+     @param {object} highlightRegions Regions.
+     @param {string} fillColor Fill color.
+    */
+    function __highlightInformativeImageProcessingCommandResults(docViewer, highlightRegions, fillColor) {
+        // get the highlight tool from web document viewer
+        var highlightVisualTool = docViewer.getVisualToolById("HighlightTool");
+        // set the highlight tool as current visual tool of web document viewer
+        docViewer.set_CurrentVisualTool(highlightVisualTool);
+
+        // array of WebHighlightObjectsJS
+        var highlightObjects = [];
+
+        // if highlight regions are defined
+        if (highlightRegions != null) {
+            // for each region
+            for (var i = 0; i < highlightRegions.length; i++) {
+                // get current region
+                var region = highlightRegions[i];
+                var highlightObject;
+                // if source region is rectangle
+                if (region.width != null)
+                    // create WebHighlightObjectJS
+                    highlightObject = Vintasoft.Imaging.UI.VisualTools.WebHighlightObjectJS.createObjectFromRectangle(region);
+                // if source region is array of points
+                else
+                    // create WebHighlightObjectJS
+                    highlightObject = Vintasoft.Imaging.UI.VisualTools.WebHighlightObjectJS.createObjectFromPolygon(region);
+                // if region contains information about region type
+                if (region.type != null)
+                    // add region type as tooltip
+                    highlightObject.set_ToolTip(region.type);
+
+                // add created WebHighlightObjectJS
+                highlightObjects.push(highlightObject);
+            }
+        }
+
+        // clear highlight regions in highlight tool
+        highlightVisualTool.clearItems();
+        // add highlight regions to the highlight tool
+        highlightVisualTool.addItems(new Vintasoft.Imaging.UI.VisualTools.WebHighlightObjectsJS(highlightObjects, fillColor, 'rgba(0,0,0,1)'));
     }
 
 }

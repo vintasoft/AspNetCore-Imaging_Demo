@@ -11,6 +11,7 @@ The project demonstrates how to view and process images in ASP.NET Core:
 * Print processed image.
 * Download processed image.
 * The application can be used in any modern HTML5 web browser.
+* The application UI is localized into 45 languages (Afrikaans, Arabic, Armenian, Azerbaijan, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Georgian, German, Greece, Hebrew, Hindi, Hungarian, Italian, Japanese, Kazakh, Korean, Kyrgyz, Latvian, Lithuanian, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Tajik, Tatar, Turkish, Turkmen, Ukrainian, Uzbek, Vietnamese, Zulu).
 
 
 ## Screenshot
@@ -31,9 +32,9 @@ The project demonstrates how to view and process images in ASP.NET Core:
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCoreImagingDemo.Net7.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCoreImagingDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCoreImagingDemo.Net7.csproj
+   dotnet build AspNetCoreImagingDemo.Net8.csproj
    ```
 
 4. Run compiled application and try to view and annotate images and documents.
