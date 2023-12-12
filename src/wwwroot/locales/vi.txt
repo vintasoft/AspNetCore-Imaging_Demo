@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Hủy"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tên tập tin:"
+			},
+			"fileFormatLabel": {
+				"text": "Định dạng tập tin:"
+			},
+			"savePagesLabel": {
+				"text": "Lưu các trang:"
+			},
+			"allPagesOption": {
+				"text": "Tất cả các trang"
+			},
+			"currentPageOption": {
+				"text": "Trang hiện tại"
+			},
+			"pagesOption": {
+				"text": "Trang"
+			},
+			"saveAnnoLabel": {
+				"text": "Lưu chú thích"
+			},
+			"burnAnnoLabel": {
+				"text": "Ghi chú thích"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Xoay chế độ xem theo chiều kim đồng hồ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Xoay chế độ xem ngược chiều kim đồng hồ"
+		},
+		"removeImagesButton": {
+			"text": "Xóa hình ảnh"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
 		"vsdv-printImagesDialog-title": "In ảnh",
 		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
 		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
+		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
+		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin"
 	}
 }

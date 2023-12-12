@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Atšaukti"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Failo pavadinimas:"
+			},
+			"fileFormatLabel": {
+				"text": "Dokumento formatas:"
+			},
+			"savePagesLabel": {
+				"text": "Išsaugoti puslapius:"
+			},
+			"allPagesOption": {
+				"text": "Visi puslapiai"
+			},
+			"currentPageOption": {
+				"text": "Dabartinis puslapis"
+			},
+			"pagesOption": {
+				"text": "Puslapiai"
+			},
+			"saveAnnoLabel": {
+				"text": "Išsaugoti komentarus"
+			},
+			"burnAnnoLabel": {
+				"text": "Įrašyti komentarus"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Sukti vaizdą pagal laikrodžio rodyklę"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pasukti vaizdą prieš laikrodžio rodyklę"
+		},
+		"removeImagesButton": {
+			"text": "Pašalinti vaizdus"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
+		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
+		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus"
 	}
 }

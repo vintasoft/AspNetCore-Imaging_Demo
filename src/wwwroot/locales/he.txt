@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "בטל"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "שם קובץ:"
+			},
+			"fileFormatLabel": {
+				"text": "פורמט קובץ:"
+			},
+			"savePagesLabel": {
+				"text": "שמור דפים:"
+			},
+			"allPagesOption": {
+				"text": "כל הדפים"
+			},
+			"currentPageOption": {
+				"text": "דף נוכחי"
+			},
+			"pagesOption": {
+				"text": "דפים"
+			},
+			"saveAnnoLabel": {
+				"text": "שמור הערות"
+			},
+			"burnAnnoLabel": {
+				"text": "צריבת הערות"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "סובב את התצוגה בכיוון השעון"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "סובב את התצוגה נגד כיוון השעון"
+		},
+		"removeImagesButton": {
+			"text": "הסר תמונות"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
 		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
+		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ"
 	}
 }

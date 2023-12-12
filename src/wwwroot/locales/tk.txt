@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Elatyr"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faýlyň ady:"
+			},
+			"fileFormatLabel": {
+				"text": "Faýl formaty:"
+			},
+			"savePagesLabel": {
+				"text": "Sahypalary ýazdyryň:"
+			},
+			"allPagesOption": {
+				"text": "Allhli sahypalar"
+			},
+			"currentPageOption": {
+				"text": "Häzirki sahypa"
+			},
+			"pagesOption": {
+				"text": "Sahypalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Bellikleri ýazdyryň"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotasiýalary ýakyň"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görnüşi sagat ugruna öwüriň"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görnüşi sagat tersine öwüriň"
+		},
+		"removeImagesButton": {
+			"text": "Suratlary aýyryň"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
+		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň"
 	}
 }

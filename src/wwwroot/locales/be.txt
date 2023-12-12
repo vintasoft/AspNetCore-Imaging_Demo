@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Імя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Фармат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Захаваць старонкі:"
+			},
+			"allPagesOption": {
+				"text": "Усе старонкі"
+			},
+			"currentPageOption": {
+				"text": "Бягучая старонка"
+			},
+			"pagesOption": {
+				"text": "старонкі"
+			},
+			"saveAnnoLabel": {
+				"text": "Захаваць анатацыі"
+			},
+			"burnAnnoLabel": {
+				"text": "Запісаць анатацыі"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Павярнуць выгляд па гадзіннікавай стрэлцы"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Павярнуць выгляд супраць гадзіннікавай стрэлкі"
+		},
+		"removeImagesButton": {
+			"text": "Выдаліць выявы"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
 		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
+		"vsdv-exportFileSettingsDialog-title": "Экспарт налад файла"
 	}
 }

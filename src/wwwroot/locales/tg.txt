@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Бекор кардан"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Номи парванда:"
+			},
+			"fileFormatLabel": {
+				"text": "Формати файл:"
+			},
+			"savePagesLabel": {
+				"text": "Саҳифаҳоро захира кунед:"
+			},
+			"allPagesOption": {
+				"text": "Ҳама саҳифаҳо"
+			},
+			"currentPageOption": {
+				"text": "Саҳифаи ҷорӣ"
+			},
+			"pagesOption": {
+				"text": "Саҳифаҳо"
+			},
+			"saveAnnoLabel": {
+				"text": "Эзоҳҳоро захира кунед"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияҳоро сӯзондан"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Намоишро бо ақрабаки соат гардонед"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Намоишро ба муқобили ақрабаки соат гардонед"
+		},
+		"removeImagesButton": {
+			"text": "Тасвирҳоро нест кунед"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
+		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед"
 	}
 }

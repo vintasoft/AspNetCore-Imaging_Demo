@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Tiedoston nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Tiedosto muoto:"
+			},
+			"savePagesLabel": {
+				"text": "Tallenna sivut:"
+			},
+			"allPagesOption": {
+				"text": "Kaikki sivut"
+			},
+			"currentPageOption": {
+				"text": "Nykyinen sivu"
+			},
+			"pagesOption": {
+				"text": "Sivut"
+			},
+			"saveAnnoLabel": {
+				"text": "Tallenna merkinnät"
+			},
+			"burnAnnoLabel": {
+				"text": "Polta huomautuksia"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Kierrä näkymää myötäpäivään"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Kierrä näkymää vastapäivään"
+		},
+		"removeImagesButton": {
+			"text": "Poista kuvat"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vsdv-printImagesDialog-title": "Tulosta kuvat",
 		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
 		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta",
+		"vsdv-exportFileSettingsDialog-title": "Vie tiedostoasetukset"
 	}
 }

@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Kanselleer"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Lêernaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Lêerformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Stoor bladsye:"
+			},
+			"allPagesOption": {
+				"text": "Alle bladsye"
+			},
+			"currentPageOption": {
+				"text": "Huidige bladsy"
+			},
+			"pagesOption": {
+				"text": "Bladsye"
+			},
+			"saveAnnoLabel": {
+				"text": "Stoor aantekeninge"
+			},
+			"burnAnnoLabel": {
+				"text": "Brand aantekeninge"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Draai aansig kloksgewys"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai aansig antikloksgewys"
+		},
+		"removeImagesButton": {
+			"text": "Verwyder beelde"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
 		"vsdv-printImagesDialog-title": "Druk prente",
 		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
 		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
+		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
+		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit"
 	}
 }

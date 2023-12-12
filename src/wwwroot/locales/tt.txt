@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Баш тарту"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл исеме:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл форматы:"
+			},
+			"savePagesLabel": {
+				"text": "Битләрне саклагыз:"
+			},
+			"allPagesOption": {
+				"text": "Барлык битләр"
+			},
+			"currentPageOption": {
+				"text": "Хәзерге бит"
+			},
+			"pagesOption": {
+				"text": "Битләр"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияләрне саклагыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияләрне яндырыгыз"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Күренешне сәгать юлы белән әйләндерегез"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Күренешне сәгатенә каршы әйләндерегез"
+		},
+		"removeImagesButton": {
+			"text": "Рәсемнәрне бетерегез"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү",
+		"vsdv-exportFileSettingsDialog-title": "Файл көйләүләрен экспортлагыз"
 	}
 }

@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Atcelt"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faila nosaukums:"
+			},
+			"fileFormatLabel": {
+				"text": "Faila formāts:"
+			},
+			"savePagesLabel": {
+				"text": "Saglabāt lapas:"
+			},
+			"allPagesOption": {
+				"text": "Visas lapas"
+			},
+			"currentPageOption": {
+				"text": "Pašreizējā lapa"
+			},
+			"pagesOption": {
+				"text": "Lapas"
+			},
+			"saveAnnoLabel": {
+				"text": "Saglabājiet anotācijas"
+			},
+			"burnAnnoLabel": {
+				"text": "Ierakstīt anotācijas"
+			},
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pagriezt skatu pulksteņrādītāja virzienā"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+		},
+		"removeImagesButton": {
+			"text": "Noņemiet attēlus"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
+		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus"
 	}
 }

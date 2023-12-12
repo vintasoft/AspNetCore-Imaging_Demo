@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "रद्द करें"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "फ़ाइल का नाम:"
+			},
+			"fileFormatLabel": {
+				"text": "फ़ाइल फ़ारमैट:"
+			},
+			"savePagesLabel": {
+				"text": "पेज सहेजें:"
+			},
+			"allPagesOption": {
+				"text": "सभी पृष्ठ"
+			},
+			"currentPageOption": {
+				"text": "वर्तमान पृष्ठ"
+			},
+			"pagesOption": {
+				"text": "पृष्ठों"
+			},
+			"saveAnnoLabel": {
+				"text": "एनोटेशन सहेजें"
+			},
+			"burnAnnoLabel": {
+				"text": "टिप्पणियाँ जलाएँ"
+			},
+			"okButton": {
+				"value": "ठीक है"
+			},
+			"cancelButton": {
+				"value": "रद्द करें"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "दृश्य को दक्षिणावर्त घुमाएँ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "दृश्य को वामावर्त घुमाएँ"
+		},
+		"removeImagesButton": {
+			"text": "छवियाँ हटाएँ"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
 		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
 		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
 		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL से छवि अपलोड करें",
+		"vsdv-exportFileSettingsDialog-title": "फ़ाइल सेटिंग्स निर्यात करें"
 	}
 }

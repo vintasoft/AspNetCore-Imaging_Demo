@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Annulla"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nome del file:"
+			},
+			"fileFormatLabel": {
+				"text": "Formato del file:"
+			},
+			"savePagesLabel": {
+				"text": "Salva pagine:"
+			},
+			"allPagesOption": {
+				"text": "Tutte le pagine"
+			},
+			"currentPageOption": {
+				"text": "Pagina corrente"
+			},
+			"pagesOption": {
+				"text": "Pagine"
+			},
+			"saveAnnoLabel": {
+				"text": "Salva annotazioni"
+			},
+			"burnAnnoLabel": {
+				"text": "Masterizza annotazioni"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annulla"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ruota la vista in senso orario"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ruota la vista in senso antiorario"
+		},
+		"removeImagesButton": {
+			"text": "Rimuovi immagini"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
 		"vsdv-printImagesDialog-title": "Stampa immagini",
 		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",
 		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
 		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
+		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL",
+		"vsdv-exportFileSettingsDialog-title": "Esporta le impostazioni del file"
 	}
 }

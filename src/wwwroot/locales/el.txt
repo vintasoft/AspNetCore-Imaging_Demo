@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ονομα αρχείου:"
+			},
+			"fileFormatLabel": {
+				"text": "Μορφή αρχείου:"
+			},
+			"savePagesLabel": {
+				"text": "Αποθήκευση σελίδων:"
+			},
+			"allPagesOption": {
+				"text": "Όλες οι σελίδες"
+			},
+			"currentPageOption": {
+				"text": "Τρέχουσα σελίδα"
+			},
+			"pagesOption": {
+				"text": "Σελίδες"
+			},
+			"saveAnnoLabel": {
+				"text": "Αποθήκευση σχολιασμών"
+			},
+			"burnAnnoLabel": {
+				"text": "Κάψτε σχολιασμούς"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή δεξιόστροφα"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Περιστρέψτε την προβολή αριστερόστροφα"
+		},
+		"removeImagesButton": {
+			"text": "Αφαίρεση εικόνων"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
 		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
+		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου"
 	}
 }

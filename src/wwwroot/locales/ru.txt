@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Имя файла:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файла:"
+			},
+			"savePagesLabel": {
+				"text": "Сохраните страницы:"
+			},
+			"allPagesOption": {
+				"text": "Всех страницах"
+			},
+			"currentPageOption": {
+				"text": "Текущей странице"
+			},
+			"pagesOption": {
+				"text": "Страницы"
+			},
+			"saveAnnoLabel": {
+				"text": "Сохранить аннотации"
+			},
+			"burnAnnoLabel": {
+				"text": "Прожечь аннотации"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернуть вид по часовой стрелке"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Повернуть вид против часовой стрелки"
+		},
+		"removeImagesButton": {
+			"text": "Удалить изображения"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
 		"vsdv-printImagesDialog-title": "Распечатать изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
+		"vsdv-uploadImageFromUrlDialog-title": "Открыть изображение с URL",
+		"vsdv-exportFileSettingsDialog-title": "Экспортируйте настройки файла"
 	}
 }

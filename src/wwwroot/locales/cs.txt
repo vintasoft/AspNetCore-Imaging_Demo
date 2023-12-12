@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Název souboru:"
+			},
+			"fileFormatLabel": {
+				"text": "Formát souboru:"
+			},
+			"savePagesLabel": {
+				"text": "Uložit stránky:"
+			},
+			"allPagesOption": {
+				"text": "Všechny stránky"
+			},
+			"currentPageOption": {
+				"text": "Aktuální stránka"
+			},
+			"pagesOption": {
+				"text": "Stránky"
+			},
+			"saveAnnoLabel": {
+				"text": "Uložit anotace"
+			},
+			"burnAnnoLabel": {
+				"text": "Vypálit anotace"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Otočit pohled ve směru hodinových ručiček"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Otočit pohled proti směru hodinových ručiček"
+		},
+		"removeImagesButton": {
+			"text": "Odebrat obrázky"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
 		"vsdv-printImagesDialog-title": "Tisk obrázků",
 		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s poznámkami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
+		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL",
+		"vsdv-exportFileSettingsDialog-title": "Export nastavení souboru"
 	}
 }

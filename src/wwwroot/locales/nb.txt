@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnavn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Lagre sider:"
+			},
+			"allPagesOption": {
+				"text": "Alle sider"
+			},
+			"currentPageOption": {
+				"text": "Gjeldende side"
+			},
+			"pagesOption": {
+				"text": "Sider"
+			},
+			"saveAnnoLabel": {
+				"text": "Lagre merknader"
+			},
+			"burnAnnoLabel": {
+				"text": "Brenn merknader"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roter visningen med klokken"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Roter visningen mot klokken"
+		},
+		"removeImagesButton": {
+			"text": "Fjern bilder"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
 		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL",
+		"vsdv-exportFileSettingsDialog-title": "Eksporter filinnstillinger"
 	}
 }

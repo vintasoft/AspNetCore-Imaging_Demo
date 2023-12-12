@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Mégse"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fájl név:"
+			},
+			"fileFormatLabel": {
+				"text": "Fájlformátum:"
+			},
+			"savePagesLabel": {
+				"text": "Oldalak mentése:"
+			},
+			"allPagesOption": {
+				"text": "Minden oldal"
+			},
+			"currentPageOption": {
+				"text": "Aktuális oldal"
+			},
+			"pagesOption": {
+				"text": "Oldalak"
+			},
+			"saveAnnoLabel": {
+				"text": "Megjegyzések mentése"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotációk írása"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Nézet forgatása az óramutató járásával megegyező irányba"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+		},
+		"removeImagesButton": {
+			"text": "Képek eltávolítása"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsdv-printImagesDialog-title": "Képek nyomtatása",
 		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
 		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
+		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása"
 	}
 }

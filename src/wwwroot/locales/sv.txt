@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Filnamn:"
+			},
+			"fileFormatLabel": {
+				"text": "Filformat:"
+			},
+			"savePagesLabel": {
+				"text": "Spara sidorna:"
+			},
+			"allPagesOption": {
+				"text": "Alla sidor"
+			},
+			"currentPageOption": {
+				"text": "Aktuell sida"
+			},
+			"pagesOption": {
+				"text": "Sidor"
+			},
+			"saveAnnoLabel": {
+				"text": "Spara kommentarer"
+			},
+			"burnAnnoLabel": {
+				"text": "Bränn anteckningar"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotera vyn medurs"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotera vyn moturs"
+		},
+		"removeImagesButton": {
+			"text": "Ta bort bilder"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
 		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
+		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna"
 	}
 }

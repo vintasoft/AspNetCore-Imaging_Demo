@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Չեղարկել"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ֆայլի անունը."
+			},
+			"fileFormatLabel": {
+				"text": "Ֆայլի ձևաչափ."
+			},
+			"savePagesLabel": {
+				"text": "Պահպանել էջերը."
+			},
+			"allPagesOption": {
+				"text": "Բոլոր էջերը"
+			},
+			"currentPageOption": {
+				"text": "Ընթացիկ էջ"
+			},
+			"pagesOption": {
+				"text": "Էջեր"
+			},
+			"saveAnnoLabel": {
+				"text": "Պահպանեք ծանոթագրությունները"
+			},
+			"burnAnnoLabel": {
+				"text": "Այրել ծանոթագրությունները"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Պտտեցնել դիտումը ժամացույցի սլաքի ուղղությամբ"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Պտտեցնել տեսքը ժամացույցի սլաքի հակառակ ուղղությամբ"
+		},
+		"removeImagesButton": {
+			"text": "Հեռացնել պատկերները"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները."
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
+		"vsdv-exportFileSettingsDialog-title": "Արտահանել ֆայլի կարգավորումները"
 	}
 }

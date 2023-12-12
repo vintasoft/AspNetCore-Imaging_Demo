@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Bekor qilish"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl nomi:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formati:"
+			},
+			"savePagesLabel": {
+				"text": "Sahifalarni saqlang:"
+			},
+			"allPagesOption": {
+				"text": "Barcha sahifalar"
+			},
+			"currentPageOption": {
+				"text": "Joriy sahifa"
+			},
+			"pagesOption": {
+				"text": "Sahifalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Izohlarni saqlang"
+			},
+			"burnAnnoLabel": {
+				"text": "Izohlarni yoqish"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
+		},
+		"removeImagesButton": {
+			"text": "Rasmlarni olib tashlang"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
+		"vsdv-exportFileSettingsDialog-title": "Fayl sozlamalarini eksport qiling"
 	}
 }

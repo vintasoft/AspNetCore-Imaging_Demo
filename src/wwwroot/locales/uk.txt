@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Скасувати"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ім'я файлу:"
+			},
+			"fileFormatLabel": {
+				"text": "Формат файлу:"
+			},
+			"savePagesLabel": {
+				"text": "Збережіть сторінки:"
+			},
+			"allPagesOption": {
+				"text": "Всі сторінки"
+			},
+			"currentPageOption": {
+				"text": "Поточна сторінка"
+			},
+			"pagesOption": {
+				"text": "сторінки"
+			},
+			"saveAnnoLabel": {
+				"text": "Зберегти анотації"
+			},
+			"burnAnnoLabel": {
+				"text": "Записати анотації"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Повернути перегляд за годинниковою стрілкою"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Обернути вигляд проти годинникової стрілки"
+		},
+		"removeImagesButton": {
+			"text": "Видаліть зображення"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
+		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу"
 	}
 }

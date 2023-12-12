@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Anulează"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Nume de fișier:"
+			},
+			"fileFormatLabel": {
+				"text": "Tipul fisierului:"
+			},
+			"savePagesLabel": {
+				"text": "Salvați pagini:"
+			},
+			"allPagesOption": {
+				"text": "Toate paginile"
+			},
+			"currentPageOption": {
+				"text": "Pagina curentă"
+			},
+			"pagesOption": {
+				"text": "Pagini"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvați adnotările"
+			},
+			"burnAnnoLabel": {
+				"text": "Ardeți adnotări"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Anulează"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Rotiți vizualizarea în sensul acelor de ceasornic"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Rotiți vizualizarea în sens invers acelor de ceasornic"
+		},
+		"removeImagesButton": {
+			"text": "Eliminați imaginile"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
 		"vsdv-printImagesDialog-title": "Tipărește imagini",
 		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
 		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
 		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
+		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului"
 	}
 }

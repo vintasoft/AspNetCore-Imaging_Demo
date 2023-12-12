@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ime datoteke:"
+			},
+			"fileFormatLabel": {
+				"text": "Format datoteke:"
+			},
+			"savePagesLabel": {
+				"text": "Shrani strani:"
+			},
+			"allPagesOption": {
+				"text": "Vse strani"
+			},
+			"currentPageOption": {
+				"text": "Trenutna stran"
+			},
+			"pagesOption": {
+				"text": "Strani"
+			},
+			"saveAnnoLabel": {
+				"text": "Shranite opombe"
+			},
+			"burnAnnoLabel": {
+				"text": "Zapiši opombe"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zasukaj pogled v smeri urinega kazalca"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+		},
+		"removeImagesButton": {
+			"text": "Odstranite slike"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
 		"vsdv-printImagesDialog-title": "Natisnite slike",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
+		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
+		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke"
 	}
 }

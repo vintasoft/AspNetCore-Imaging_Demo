@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "გაუქმება"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Ფაილის სახელი:"
+			},
+			"fileFormatLabel": {
+				"text": "Ფაილის ფორმატი:"
+			},
+			"savePagesLabel": {
+				"text": "გვერდების შენახვა:"
+			},
+			"allPagesOption": {
+				"text": "ყველა გვერდი"
+			},
+			"currentPageOption": {
+				"text": "Ამჟამინდელი გვერდი"
+			},
+			"pagesOption": {
+				"text": "გვერდები"
+			},
+			"saveAnnoLabel": {
+				"text": "შეინახეთ ანოტაციები"
+			},
+			"burnAnnoLabel": {
+				"text": "ანოტაციების დაწვა"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "ხედის როტაცია საათის ისრის მიმართულებით"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
+		},
+		"removeImagesButton": {
+			"text": "სურათების წაშლა"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
+		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
+		"vsdv-exportFileSettingsDialog-title": "ფაილის პარამეტრების ექსპორტი"
 	}
 }

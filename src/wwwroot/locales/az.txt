@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Ləğv et"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Fayl adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Fayl formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Səhifələri yadda saxla:"
+			},
+			"allPagesOption": {
+				"text": "Bütün səhifələr"
+			},
+			"currentPageOption": {
+				"text": "Cari səhifə"
+			},
+			"pagesOption": {
+				"text": "Səhifələr"
+			},
+			"saveAnnoLabel": {
+				"text": "Annotasiyaları yadda saxlayın"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotasiyaları yandırın"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünüşü saat yönünde çevirin"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünüşü saat yönünün əksinə çevirin"
+		},
+		"removeImagesButton": {
+			"text": "Şəkilləri silin"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
 		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
+		"vsdv-exportFileSettingsDialog-title": "Fayl parametrlərini ixrac edin"
 	}
 }

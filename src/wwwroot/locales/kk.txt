@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Болдырмау"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Файл атауы:"
+			},
+			"fileFormatLabel": {
+				"text": "Файл пішімі:"
+			},
+			"savePagesLabel": {
+				"text": "Беттерді сақтау:"
+			},
+			"allPagesOption": {
+				"text": "Барлық беттер"
+			},
+			"currentPageOption": {
+				"text": "Ағымдағы бет"
+			},
+			"pagesOption": {
+				"text": "Беттер"
+			},
+			"saveAnnoLabel": {
+				"text": "Аннотацияларды сақтаңыз"
+			},
+			"burnAnnoLabel": {
+				"text": "Аннотацияларды жазу"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Көріністі сағат тілімен бұрыңыз"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Көріністі сағат тіліне қарсы бұраңыз"
+		},
+		"removeImagesButton": {
+			"text": "Суреттерді жою"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
+		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау"
 	}
 }

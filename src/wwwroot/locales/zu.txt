@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Igama lefayela:"
+			},
+			"fileFormatLabel": {
+				"text": "Ifomethi yefayela:"
+			},
+			"savePagesLabel": {
+				"text": "Londoloza amakhasi:"
+			},
+			"allPagesOption": {
+				"text": "Wonke amakhasi"
+			},
+			"currentPageOption": {
+				"text": "Ikhasi lamanje"
+			},
+			"pagesOption": {
+				"text": "Amakhasi"
+			},
+			"saveAnnoLabel": {
+				"text": "Londoloza izichasiselo"
+			},
+			"burnAnnoLabel": {
+				"text": "Shisa izichasiselo"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokwewashi"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungezisa ukubuka ngokuphikisana newashi"
+		},
+		"removeImagesButton": {
+			"text": "Susa izithombe"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsdv-printImagesDialog-title": "Phrinta izithombe",
 		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
 		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
+		"vsdv-exportFileSettingsDialog-title": "Khipha izilungiselelo zefayela"
 	}
 }

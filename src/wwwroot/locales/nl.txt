@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Annuleren"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Bestandsnaam:"
+			},
+			"fileFormatLabel": {
+				"text": "Bestandsformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Pagina's opslaan:"
+			},
+			"allPagesOption": {
+				"text": "Alle pagina's"
+			},
+			"currentPageOption": {
+				"text": "Huidige pagina"
+			},
+			"pagesOption": {
+				"text": "Pagina's"
+			},
+			"saveAnnoLabel": {
+				"text": "Bewaar annotaties"
+			},
+			"burnAnnoLabel": {
+				"text": "Annotaties branden"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Roteer de weergave met de klok mee"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Draai de weergave tegen de klok in"
+		},
+		"removeImagesButton": {
+			"text": "Afbeeldingen verwijderen"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
 		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
+		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren"
 	}
 }

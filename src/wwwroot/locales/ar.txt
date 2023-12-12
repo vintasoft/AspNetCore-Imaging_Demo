@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "إلغاء"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "اسم الملف:"
+			},
+			"fileFormatLabel": {
+				"text": "تنسيق الملف:"
+			},
+			"savePagesLabel": {
+				"text": "حفظ الصفحات:"
+			},
+			"allPagesOption": {
+				"text": "كافة الصفحات"
+			},
+			"currentPageOption": {
+				"text": "الصفحة الحالية"
+			},
+			"pagesOption": {
+				"text": "الصفحات"
+			},
+			"saveAnnoLabel": {
+				"text": "حفظ التعليقات التوضيحية"
+			},
+			"burnAnnoLabel": {
+				"text": "حرق التعليقات التوضيحية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "تدوير العرض في اتجاه عقارب الساعة"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "تدوير العرض عكس اتجاه عقارب الساعة"
+		},
+		"removeImagesButton": {
+			"text": "إزالة الصور"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
+		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير"
 	}
 }

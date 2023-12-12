@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "取消"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "文件名："
+			},
+			"fileFormatLabel": {
+				"text": "文件格式："
+			},
+			"savePagesLabel": {
+				"text": "保存页面："
+			},
+			"allPagesOption": {
+				"text": "所有页面"
+			},
+			"currentPageOption": {
+				"text": "当前页面"
+			},
+			"pagesOption": {
+				"text": "页数"
+			},
+			"saveAnnoLabel": {
+				"text": "保存注释"
+			},
+			"burnAnnoLabel": {
+				"text": "刻录注释"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
+				"value": "取消"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "顺时针旋转视图"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "逆时针旋转视图"
+		},
+		"removeImagesButton": {
+			"text": "删除图像"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "风俗",
 		"vsdv-printImagesDialog-title": "打印图像",
 		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
 		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释："
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
+		"vsdv-uploadImageFromUrlDialog-title": "从 URL 上传图像",
+		"vsdv-exportFileSettingsDialog-title": "导出文件设置"
 	}
 }

@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Jina la faili:"
+			},
+			"fileFormatLabel": {
+				"text": "Umbizo la faili:"
+			},
+			"savePagesLabel": {
+				"text": "Hifadhi kurasa:"
+			},
+			"allPagesOption": {
+				"text": "Kurasa zote"
+			},
+			"currentPageOption": {
+				"text": "Ukurasa wa sasa"
+			},
+			"pagesOption": {
+				"text": "Kurasa"
+			},
+			"saveAnnoLabel": {
+				"text": "Hifadhi maelezo"
+			},
+			"burnAnnoLabel": {
+				"text": "Choma maelezo"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Zungusha mwonekano wa saa"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Zungusha mwonekano kinyume cha saa"
+		},
+		"removeImagesButton": {
+			"text": "Ondoa picha"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
 		"vsdv-printImagesDialog-title": "Chapisha picha",
 		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
 		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL",
+		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili"
 	}
 }

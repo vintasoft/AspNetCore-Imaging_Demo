@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "취소"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "파일 이름:"
+			},
+			"fileFormatLabel": {
+				"text": "파일 형식:"
+			},
+			"savePagesLabel": {
+				"text": "페이지 저장:"
+			},
+			"allPagesOption": {
+				"text": "모든 페이지"
+			},
+			"currentPageOption": {
+				"text": "현재 페이지"
+			},
+			"pagesOption": {
+				"text": "페이지"
+			},
+			"saveAnnoLabel": {
+				"text": "주석 저장"
+			},
+			"burnAnnoLabel": {
+				"text": "주석 굽기"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "보기를 시계 방향으로 회전"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "시계 반대 방향으로 보기 회전"
+		},
+		"removeImagesButton": {
+			"text": "이미지 제거"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
 		"vsdv-printImagesDialog-title": "이미지 인쇄",
 		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
 		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
+		"vsdv-exportFileSettingsDialog-title": "파일 설정 내보내기"
 	}
 }

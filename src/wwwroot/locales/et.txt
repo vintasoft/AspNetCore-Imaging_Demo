@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "Tühista"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Faili nimi:"
+			},
+			"fileFormatLabel": {
+				"text": "Failiformaat:"
+			},
+			"savePagesLabel": {
+				"text": "Salvesta lehed:"
+			},
+			"allPagesOption": {
+				"text": "Kõik lehed"
+			},
+			"currentPageOption": {
+				"text": "Käesolev lehekülg"
+			},
+			"pagesOption": {
+				"text": "Leheküljed"
+			},
+			"saveAnnoLabel": {
+				"text": "Salvestage märkused"
+			},
+			"burnAnnoLabel": {
+				"text": "Märkuste kirjutamine"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Pöörake vaadet päripäeva"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Pöörake vaadet vastupäeva"
+		},
+		"removeImagesButton": {
+			"text": "Eemaldage pildid"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
+		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted"
 	}
 }

@@ -326,6 +326,25 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
+
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    uploadImageFromUrlDialog.render(floatingContainer);
+    tempDialogs.push(uploadImageFromUrlDialog);
+
+    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    exportFileSettingsDialog.render(floatingContainer);
+    tempDialogs.push(exportFileSettingsDialog);
+
+
+    // create image viewer context menu panel
+    var imageViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebImageViewerContextMenuJS();
+    imageViewerContextMenu.render(floatingContainer);
+    tempDialogs.push(imageViewerContextMenu);
+    
+    // create thumbnail viewer context menu panel
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS();
+    thumbnailViewerContextMenu.render(floatingContainer);
+    tempDialogs.push(thumbnailViewerContextMenu);
 }
 
 /**
@@ -347,6 +366,11 @@ function __enableUiLocalization() {
 
     // subscribe to the "dialogShown" event of document viewer
     Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
+        _localizer.localizeDocument();
+    });
+
+    // subscribe to the "contextMenuShown" event of document viewer
+    Vintasoft.Shared.subscribeToEvent(_docViewer, "contextMenuShown", function (event, data) {
         _localizer.localizeDocument();
     });
 }

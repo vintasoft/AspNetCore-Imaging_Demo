@@ -455,6 +455,55 @@
 			"сancelButton": {
 				"value": "İptal"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"exportFileSettingsDialog": {
+			"fileNameLabel": {
+				"text": "Dosya adı:"
+			},
+			"fileFormatLabel": {
+				"text": "Dosya formatı:"
+			},
+			"savePagesLabel": {
+				"text": "Sayfaları kaydedin:"
+			},
+			"allPagesOption": {
+				"text": "Tüm Sayfalar"
+			},
+			"currentPageOption": {
+				"text": "Mevcut sayfa"
+			},
+			"pagesOption": {
+				"text": "Sayfalar"
+			},
+			"saveAnnoLabel": {
+				"text": "Ek açıklamaları kaydet"
+			},
+			"burnAnnoLabel": {
+				"text": "Ek açıklamaları yaz"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"rotateViewClockwiseButton": {
+			"text": "Görünümü saat yönünde döndür"
+		},
+		"rotateViewCounterClockwiseButton": {
+			"text": "Görünümü saat yönünün tersine döndür"
+		},
+		"removeImagesButton": {
+			"text": "Resimleri kaldır"
 		}
 	},
 	"strings": {
@@ -477,8 +526,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
+		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar"
 	}
 }
