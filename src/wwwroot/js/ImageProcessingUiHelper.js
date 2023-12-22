@@ -53,7 +53,7 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
         var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(imageProcessingCommand);
 
         // create the image processing dialog
-        _imageProcessingCommandSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+        _imageProcessingCommandSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiPropertyGridDialogJS(
             propertyGrid,
             {
                 title: "Image processing command settings",
@@ -156,7 +156,7 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
         var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(imageProcessingResult);
 
         // create the image processing result dialog
-        _imageProcessingCommandResultDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+        _imageProcessingCommandResultDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiPropertyGridDialogJS(
             propertyGrid,
             {
                 title: "Image processing command result",
