@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Herramientas"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descargar y abrir archivo"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Subir y agregar archivo"
 		},
 		"previousUploadFilesButton": {
 			"title": "Ver una lista de archivos descargados previamente"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Cargar y abrir archivo de imagen por URL"
+		"openFileFromUrlButton": {
+			"title": "Abrir archivo desde URL"
 		},
 		"printImagesButton": {
 			"title": "Imprimir imágenes"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportar y descargar archivo"
+		},
+		"clearSessionCacheButton": {
+			"title": "Borrar caché de sesión"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar al ancho"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Procesamiento de imágenes"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Girar la vista en el sentido de las agujas del reloj"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Girar la vista en sentido antihorario"
+			},
+			"deleteThumbnailButton": {
+				"title": "Eliminar miniatura"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Permitir selección múltiple de miniaturas:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilice casillas de verificación para la miniatura:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilice el panel de acciones para la miniatura:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Puede arrastrar miniaturas:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Formato de archivo:"
 			},
 			"savePagesLabel": {
-				"text": "Guardar páginas:"
+				"text": "Guarde las páginas:"
 			},
 			"allPagesOption": {
 				"text": "Todas las páginas"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Eliminar imágenes"
+		},
+		"moveImageUpButton": {
+			"text": "Mover imagen hacia arriba"
+		},
+		"moveImageDownButton": {
+			"text": "Mover imagen hacia abajo"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Subir archivo",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descargar y abrir archivo",
+		"vsdv-uploadAndAddFileButton-addFileString": "Subir y agregar archivo",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Procesamiento de imágenes",
 		"vsdv-openFile-addFileString": "Agregar archivo",
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Guardar cambios en anotaciones",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Grabar anotaciones en imágenes",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Guardar cambios en un documento PDF",
+		"vsui-thumbnailViewer-selectedLabel": "SELECCIONADO",
+		"vsdv-uploadFileButton-uploadFileString": "Subir archivo",
 		"vsdv-documentPasswordDialog-title": "Contraseña del documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportar configuración de archivos"
+		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo."
 	}
 }

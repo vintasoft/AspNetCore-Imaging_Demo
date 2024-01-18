@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Įrankiai"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Įkelti ir atidaryti failą"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Įkelti ir pridėti failą"
 		},
 		"previousUploadFilesButton": {
 			"title": "Anksčiau įkelti failai"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Įkelkite ir atidarykite vaizdo failą pagal URL"
+		"openFileFromUrlButton": {
+			"title": "Atidaryti failą iš URL"
 		},
 		"printImagesButton": {
 			"title": "Spausdinti vaizdus"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportuoti ir atsisiųsti failą"
+		},
+		"clearSessionCacheButton": {
+			"title": "Išvalyti seanso talpyklą"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tinka pločiui"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Vaizdo apdorojimas"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Sukti vaizdą pagal laikrodžio rodyklę"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Pasukti vaizdą prieš laikrodžio rodyklę"
+			},
+			"deleteThumbnailButton": {
+				"title": "Ištrinti miniatiūrą"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Keli pasirinkimai:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Naudokite miniatiūros žymimuosius laukelius:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Naudokite veiksmų skydelį miniatiūrai:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Galima vilkti miniatiūras:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Dokumento formatas:"
 			},
 			"savePagesLabel": {
-				"text": "Išsaugoti puslapius:"
+				"text": "Išsaugokite puslapius:"
 			},
 			"allPagesOption": {
 				"text": "Visi puslapiai"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Pašalinti vaizdus"
+		},
+		"moveImageUpButton": {
+			"text": "Perkelti vaizdą aukštyn"
+		},
+		"moveImageDownButton": {
+			"text": "Perkelti vaizdą žemyn"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Įkelti ir atidaryti failą",
+		"vsdv-uploadAndAddFileButton-addFileString": "Įkelti ir pridėti failą",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Vaizdo apdorojimas",
 		"vsdv-openFile-addFileString": "Pridėti failą",
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vsui-thumbnailViewer-selectedLabel": "PASIRINKTA",
+		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
 		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
 		"vsdv-dialog-okButton": "Gerai",
 		"vsdv-dialog-cancelButton": "Atšaukti",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
-		"vsdv-exportFileSettingsDialog-title": "Eksportuoti failo nustatymus"
+		"vsdv-exportFileSettingsDialog-title": "Failo eksporto nustatymai"
 	}
 }

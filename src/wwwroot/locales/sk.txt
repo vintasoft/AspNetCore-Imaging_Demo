@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Nástroje"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Nahrajte a otvorte súbor"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a pridajte súbor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Predtým nahrané súbory"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otvorte súbor obrázka podľa adresy URL"
+		"openFileFromUrlButton": {
+			"title": "Otvorte súbor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tlač obrázkov"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stiahnite súbor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazať vyrovnávaciu pamäť relácie"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prispôsobiť na šírku"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Spracovanie obrazu"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Otočiť pohľad v smere hodinových ručičiek"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Otočiť pohľad proti smeru hodinových ručičiek"
+			},
+			"deleteThumbnailButton": {
+				"title": "Odstrániť miniatúru"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Viacnásobný výber:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použite začiarkavacie políčka pre miniatúry:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použiť panel akcií pre miniatúru:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Môže presúvať miniatúry:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Odstráňte obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posunúť obrázok nahor"
+		},
+		"moveImageDownButton": {
+			"text": "Posunúť obrázok nadol"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Nahrajte a otvorte súbor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a pridajte súbor",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Spracovanie obrazu",
 		"vsdv-openFile-addFileString": "Pridať súbor",
 		"vsdv-openFile-authenticateFileString": "Overiť súbor",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
+		"vsui-thumbnailViewer-selectedLabel": "VYBRANÝ",
+		"vsdv-uploadFileButton-uploadFileString": "Nahrajte súbor",
 		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Zrušiť",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
 		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázok z adresy URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportujte nastavenia súboru"
+		"vsdv-exportFileSettingsDialog-title": "Nastavenia exportu súboru"
 	}
 }

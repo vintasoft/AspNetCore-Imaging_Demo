@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Công cụ"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Tải lên và thêm tập tin"
 		},
 		"previousUploadFilesButton": {
 			"title": "Xem danh sách các tệp đã tải xuống trước đó"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		"openFileFromUrlButton": {
+			"title": "Mở tệp từ URL"
 		},
 		"printImagesButton": {
 			"title": "In ảnh"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Xuất và tải xuống tệp"
+		},
+		"clearSessionCacheButton": {
+			"title": "Xóa bộ nhớ đệm phiên"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Đang xử lý hình ảnh"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Xoay chế độ xem theo chiều kim đồng hồ"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Xoay chế độ xem ngược chiều kim đồng hồ"
+			},
+			"deleteThumbnailButton": {
+				"title": "Xóa hình thu nhỏ"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sử dụng các hộp kiểm cho hình thu nhỏ:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sử dụng bảng hành động cho hình thu nhỏ:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Xóa hình ảnh"
+		},
+		"moveImageUpButton": {
+			"text": "Di chuyển hình ảnh lên"
+		},
+		"moveImageDownButton": {
+			"text": "Di chuyển hình ảnh xuống"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
+		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Đang xử lý hình ảnh",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsui-thumbnailViewer-selectedLabel": "ĐÃ CHỌN",
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
 		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Hủy",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
-		"vsdv-exportFileSettingsDialog-title": "Xuất cài đặt tập tin"
+		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
 	}
 }

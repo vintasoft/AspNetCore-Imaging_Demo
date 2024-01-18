@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Εργαλεία"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Μεταφόρτωση και προσθήκη αρχείου"
 		},
 		"previousUploadFilesButton": {
 			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		"openFileFromUrlButton": {
+			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Εξαγωγή και λήψη αρχείου"
+		},
+		"clearSessionCacheButton": {
+			"title": "Εκκαθάριση προσωρινής μνήμης περιόδου λειτουργίας"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Περιστρέψτε την προβολή δεξιόστροφα"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Περιστρέψτε την προβολή αριστερόστροφα"
+			},
+			"deleteThumbnailButton": {
+				"title": "Διαγραφή μικρογραφίας"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Χρησιμοποιήστε πλαίσια ελέγχου για μικρογραφία:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Χρησιμοποιήστε το πλαίσιο ενεργειών για μικρογραφία:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Μορφή αρχείου:"
 			},
 			"savePagesLabel": {
-				"text": "Αποθήκευση σελίδων:"
+				"text": "Αποθηκεύστε τις σελίδες:"
 			},
 			"allPagesOption": {
 				"text": "Όλες οι σελίδες"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Αφαίρεση εικόνων"
+		},
+		"moveImageUpButton": {
+			"text": "Μετακίνηση εικόνας προς τα πάνω"
+		},
+		"moveImageDownButton": {
+			"text": "Μετακίνηση εικόνας προς τα κάτω"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
+		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
 		"vsdv-imageProcessingPanel-imageProcessingString": "ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsui-thumbnailViewer-selectedLabel": "ΕΠΙΛΕΓΜΕΝΟ",
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
 		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
 		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
-		"vsdv-exportFileSettingsDialog-title": "Εξαγωγή ρυθμίσεων αρχείου"
+		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
 	}
 }

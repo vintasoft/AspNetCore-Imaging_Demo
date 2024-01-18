@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Куралдар"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Жүктөө жана файлды ачуу"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Жүктөө жана файлды кошуу"
 		},
 		"previousUploadFilesButton": {
 			"title": "Мурда жүктөлгөн файлдар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Сүрөт файлын URL аркылуу жүктөңүз жана ачыңыз"
+		"openFileFromUrlButton": {
+			"title": "Файлды URL'ден ачыңыз"
 		},
 		"printImagesButton": {
 			"title": "Сүрөттөрдү басып чыгаруу"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлды экспорттоо жана жүктөө"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сеанс кэшин тазалоо"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "туурасына туура келет"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Сүрөт иштетүү"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Көрүнүштү саат жебеси боюнча буруңуз"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Көрүнүштү саат жебесине каршы буруңуз"
+			},
+			"deleteThumbnailButton": {
+				"title": "Эскизди жок кылуу"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Көп тандоо:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Эскиз үчүн белгилөө кутучаларын колдонуңуз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Эскиз үчүн аракеттер панелин колдонуңуз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Эскиздерди сүйрө алат:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Сүрөттөрдү алып салуу"
+		},
+		"moveImageUpButton": {
+			"text": "Сүрөттү өйдө жылдырыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Сүрөттү ылдый жылдырыңыз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Жүктөө жана файлды ачуу",
+		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Сүрөт иштетүү",
 		"vsdv-openFile-addFileString": "Файл кошуу",
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
+		"vsui-thumbnailViewer-selectedLabel": "ТАНДАЛГАН",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
 		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
 		"vsdv-dialog-okButton": "макул",
 		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
 		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
 		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
 		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
 		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
-		"vsdv-exportFileSettingsDialog-title": "Файл жөндөөлөрүн экспорттоо"
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар"
 	}
 }

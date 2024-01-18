@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Zana"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Pakia na uongeze faili"
 		},
 		"previousUploadFilesButton": {
 			"title": "Faili Zilizopakiwa Hapo awali"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Pakia na ufungue faili ya picha kwa URL"
+		"openFileFromUrlButton": {
+			"title": "Fungua faili kutoka kwa URL"
 		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Hamisha na kupakua faili"
+		},
+		"clearSessionCacheButton": {
+			"title": "Futa akiba ya kipindi"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Uchakataji wa picha"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Zungusha mwonekano wa saa"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Zungusha mwonekano kinyume cha saa"
+			},
+			"deleteThumbnailButton": {
+				"title": "Futa kijipicha"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Chaguo nyingi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Tumia visanduku vya kuteua kwa kijipicha:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Tumia paneli ya vitendo kwa kijipicha:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Ondoa picha"
+		},
+		"moveImageUpButton": {
+			"text": "Sogeza picha juu"
+		},
+		"moveImageDownButton": {
+			"text": "Sogeza picha chini"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
+		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Uchakataji wa picha",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsui-thumbnailViewer-selectedLabel": "WALIOCHAGULIWA",
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
 		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsdv-dialog-okButton": "sawa",
 		"vsdv-dialog-cancelButton": "Ghairi",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
 		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL",
-		"vsdv-exportFileSettingsDialog-title": "Hamisha mipangilio ya faili"
+		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili"
 	}
 }

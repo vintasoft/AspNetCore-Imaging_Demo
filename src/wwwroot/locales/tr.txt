@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Araçlar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Dosyayı indir ve aç"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Dosya yükleyin ve ekleyin"
 		},
 		"previousUploadFilesButton": {
 			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Resim dosyasını URL'ye göre yükleyin ve açın"
+		"openFileFromUrlButton": {
+			"title": "Dosyayı URL'den aç"
 		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Dosyayı dışa aktarın ve indirin"
+		},
+		"clearSessionCacheButton": {
+			"title": "Oturum önbelleğini temizle"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Genişliğe Sığdır"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Görüntü işleme"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Görünümü saat yönünde döndür"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Görünümü saat yönünün tersine döndür"
+			},
+			"deleteThumbnailButton": {
+				"title": "Küçük resmi sil"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Birden çok küçük resim seçimine izin ver:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Küçük resim için onay kutularını kullanın:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Küçük resim için eylemler panelini kullanın:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Küçük Resimleri Sürükleyebilir:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Resimleri kaldır"
+		},
+		"moveImageUpButton": {
+			"text": "Resmi yukarı taşı"
+		},
+		"moveImageDownButton": {
+			"text": "Resmi aşağı taşı"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Dosyayı indir ve aç",
+		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Görüntü işleme",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vsui-thumbnailViewer-selectedLabel": "SEÇİLDİ",
+		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
 		"vsdv-documentPasswordDialog-title": "Belge parolası",
 		"vsdv-dialog-okButton": "Tamam",
 		"vsdv-dialog-cancelButton": "İptal",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
-		"vsdv-exportFileSettingsDialog-title": "Dosya ayarlarını dışa aktar"
+		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları"
 	}
 }

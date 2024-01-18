@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Unelte"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Încărcați și adăugați fișier"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vedeți o listă de fișiere descărcate anterior"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		"openFileFromUrlButton": {
+			"title": "Deschideți fișierul de la URL"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportați și descărcați fișierul"
+		},
+		"clearSessionCacheButton": {
+			"title": "Goliți memoria cache a sesiunii"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Procesarea imaginii"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Rotiți vizualizarea în sensul acelor de ceasornic"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Rotiți vizualizarea în sens invers acelor de ceasornic"
+			},
+			"deleteThumbnailButton": {
+				"title": "Ștergeți miniatura"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilizați casetele de selectare pentru miniatură:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilizați panoul de acțiuni pentru miniatură:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Tipul fisierului:"
 			},
 			"savePagesLabel": {
-				"text": "Salvați pagini:"
+				"text": "Salvați paginile:"
 			},
 			"allPagesOption": {
 				"text": "Toate paginile"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Eliminați imaginile"
+		},
+		"moveImageUpButton": {
+			"text": "Mutați imaginea în sus"
+		},
+		"moveImageDownButton": {
+			"text": "Mutați imaginea în jos"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
+		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Procesarea imaginii",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsui-thumbnailViewer-selectedLabel": "SELECTAT",
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
 		"vsdv-documentPasswordDialog-title": "Parola documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
 		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportați setările fișierului"
+		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
 	}
 }

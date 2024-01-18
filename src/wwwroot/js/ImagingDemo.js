@@ -72,7 +72,7 @@ function __initMenu(docViewerSettings) {
         var fileMenuPanelItems = fileMenuPanel.get_Items();
 
         // add the "Previous uploaded files" button to the menu panel
-        fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
+        fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
     }
 }
 
@@ -109,6 +109,8 @@ function __initSidePanel(docViewerSettings) {
         thumbnailViewerPanel.set_CanDeleteThumbnailsUsingContextMenu(true);
         // enable ability to set custom thumbnail rotation
         thumbnailViewerPanel.set_CanSetCustomViewRotationUsingContextMenu(true);
+        // enable ability to move thumbnail
+        thumbnailViewerPanel.set_CanMoveThumbnailUsingContextMenu(true);
     }
 }
 
@@ -411,6 +413,8 @@ function __main() {
     // specify that document viewer should show "Export and download file" button instead of "Download file" button
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
+    docViewerSettings.set_CanAddFile(true);
+    docViewerSettings.set_CanClearSessionCache(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);
@@ -442,6 +446,7 @@ function __main() {
     thumbnailViewer1.set_CanNavigateThumbnailsUsingKeyboard(true);
     thumbnailViewer1.set_CanSelectThumbnailsUsingKeyboard(true);
     thumbnailViewer1.set_CanDeleteThumbnailsUsingKeyboard(true);
+    thumbnailViewer1.set_UseThumbnailActionsPanel(true);
 
     // get the image viewer of document viewer
     var imageViewer1 = _docViewer.get_ImageViewer();

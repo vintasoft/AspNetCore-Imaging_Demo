@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Воситаҳо"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Файлро бор кунед ва илова кунед"
 		},
 		"previousUploadFilesButton": {
 			"title": "Файлҳои қаблан боршуда"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Файли тасвириро тавассути URL бор кунед ва кушоед"
+		"openFileFromUrlButton": {
+			"title": "Файлро аз URL кушоед"
 		},
 		"printImagesButton": {
 			"title": "Тасвирҳоро чоп кунед"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлро содирот ва зеркашӣ кунед"
+		},
+		"clearSessionCacheButton": {
+			"title": "Тоза кардани кэши сессия"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ба паҳнои мувофиқ"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Коркарди тасвир"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Намоишро бо ақрабаки соат гардонед"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Намоишро ба муқобили ақрабаки соат гардонед"
+			},
+			"deleteThumbnailButton": {
+				"title": "Нусхаи ангораро нест кунед"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Интихоби бисёрҷониба:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Барои эскиз қуттиҳои қайдкуниро истифода баред:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Панели амалҳоро барои эскиз истифода баред:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Тасвирҳоро нест кунед"
+		},
+		"moveImageUpButton": {
+			"text": "Тасвирро ба боло ҳаракат кунед"
+		},
+		"moveImageDownButton": {
+			"text": "Тасвирро ба поён ҳаракат кунед"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Коркарди тасвир",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vsui-thumbnailViewer-selectedLabel": "ИНТИХОБ ШУДА",
+		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
 		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
 		"vsdv-dialog-okButton": "ДУРУСТ",
 		"vsdv-dialog-cancelButton": "Бекор кардан",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
-		"vsdv-exportFileSettingsDialog-title": "Танзимоти файлро содир кунед"
+		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
 	}
 }

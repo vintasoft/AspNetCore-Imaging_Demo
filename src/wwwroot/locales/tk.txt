@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Gurallar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Faýl ýükläň we goşuň"
 		},
 		"previousUploadFilesButton": {
 			"title": "Öň ýüklenen faýllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Surat faýlyny URL boýunça ýükläň we açyň"
+		"openFileFromUrlButton": {
+			"title": "URL-den faýl açyň"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faýly eksport ediň we göçürip alyň"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiýa keşini arassalaň"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inine laýyk"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Suraty gaýtadan işlemek"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Görnüşi sagat ugruna öwüriň"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Görnüşi sagat tersine öwüriň"
+			},
+			"deleteThumbnailButton": {
+				"title": "Kiçi suraty pozuň"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Köp saýlaw:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz üçin bellik gutularyny ulanyň:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz üçin hereketler panelini ulanyň:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Suratlary aýyryň"
+		},
+		"moveImageUpButton": {
+			"text": "Suraty ýokaryk galdyryň"
+		},
+		"moveImageDownButton": {
+			"text": "Suraty aşak süýşüriň"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Suraty gaýtadan işlemek",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsui-thumbnailViewer-selectedLabel": "Saýlandy",
+		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
 		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
-		"vsdv-exportFileSettingsDialog-title": "Faýl sazlamalaryny eksport ediň"
+		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
 	}
 }

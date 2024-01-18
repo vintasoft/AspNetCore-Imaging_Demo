@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Інструменти"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Завантажте та відкрийте файл"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Завантажити та додати файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раніше завантажені файли"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Завантажте та відкрийте файл зображення за URL-адресою"
+		"openFileFromUrlButton": {
+			"title": "Відкрити файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк зображень"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортуйте та завантажуйте файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистити кеш сесії"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Підгонка по ширині"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Обробка зображення"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Повернути перегляд за годинниковою стрілкою"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Обернути вигляд проти годинникової стрілки"
+			},
+			"deleteThumbnailButton": {
+				"title": "Видалити мініатюру"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Множинний вибір:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Використовуйте прапорці для мініатюри:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Використовуйте панель дій для мініатюри:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Видаліть зображення"
+		},
+		"moveImageUpButton": {
+			"text": "Перемістити зображення вгору"
+		},
+		"moveImageDownButton": {
+			"text": "Перемістити зображення вниз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Обробка зображення",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
+		"vsui-thumbnailViewer-selectedLabel": "ВИБРАНО",
+		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
 		"vsdv-documentPasswordDialog-title": "Пароль документа",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-dialog-cancelButton": "Скасувати",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
-		"vsdv-exportFileSettingsDialog-title": "Експортуйте налаштування файлу"
+		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу"
 	}
 }

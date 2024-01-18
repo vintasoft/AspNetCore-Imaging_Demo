@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Værktøjer"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Download og åbn fil"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Upload og tilføj fil"
 		},
 		"previousUploadFilesButton": {
 			"title": "Se en liste over tidligere downloadede filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload og åbn billedfil ved URL"
+		"openFileFromUrlButton": {
+			"title": "Åbn fil fra URL"
 		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksporter og download fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Ryd sessionscache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Tilpas til bredde"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Billedbehandling"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Roter visningen med uret"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Roter visningen mod uret"
+			},
+			"deleteThumbnailButton": {
+				"title": "Slet thumbnail"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Tillad valg af flere miniaturebilleder:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Brug afkrydsningsfelter til thumbnail:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Brug handlingspanelet til thumbnail:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan trække miniaturebilleder:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Filformat:"
 			},
 			"savePagesLabel": {
-				"text": "Gem sider:"
+				"text": "Gem siderne:"
 			},
 			"allPagesOption": {
 				"text": "Alle sider"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Fjern billeder"
+		},
+		"moveImageUpButton": {
+			"text": "Flyt billedet op"
+		},
+		"moveImageDownButton": {
+			"text": "Flyt billedet ned"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Download og åbn fil",
+		"vsdv-uploadAndAddFileButton-addFileString": "Upload og tilføj fil",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Billedbehandling",
 		"vsdv-openFile-addFileString": "Tilføj fil",
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Gem ændringer i PDF-dokument",
+		"vsui-thumbnailViewer-selectedLabel": "VALGTE",
+		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
 		"vsdv-documentPasswordDialog-title": "Dokumentadgangskode",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuller",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL",
-		"vsdv-exportFileSettingsDialog-title": "Eksporter filindstillinger"
+		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil"
 	}
 }

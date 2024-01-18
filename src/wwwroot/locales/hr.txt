@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Alati"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Preuzmi i otvori datoteku"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Prenesi i dodaj datoteku"
 		},
 		"previousUploadFilesButton": {
 			"title": "Pogledajte popis prethodno preuzetih datoteka"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Prenesite i otvorite slikovnu datoteku prema URL-u"
+		"openFileFromUrlButton": {
+			"title": "Otvori datoteku s URL-a"
 		},
 		"printImagesButton": {
 			"title": "Ispis slika"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvoz i preuzimanje datoteke"
+		},
+		"clearSessionCacheButton": {
+			"title": "Očisti predmemoriju sesije"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -69,9 +75,20 @@
 		"showImageProcessingPanelButton": {
 			"title": "Obrada slike"
 		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Zakreni pogled u smjeru kazaljke na satu"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Zakreni prikaz u smjeru suprotnom od kazaljke na satu"
+			},
+			"deleteThumbnailButton": {
+				"title": "Izbriši sličicu"
+			}
+		},
 		"imageProcessingPanel": {
 			"parametersButton": {
-				"value": "Postavke"
+				"value": "postavke"
 			},
 			"runButton": {
 				"value": "primijeniti"
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Dopusti odabir više sličica:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Koristite potvrdne okvire za minijaturu:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Koristite radnu ploču za minijaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Mogu povlačiti sličice:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Format datoteke:"
 			},
 			"savePagesLabel": {
-				"text": "Spremi stranice:"
+				"text": "Spremite stranice:"
 			},
 			"allPagesOption": {
 				"text": "Sve stranice"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Ukloni slike"
+		},
+		"moveImageUpButton": {
+			"text": "Pomakni sliku gore"
+		},
+		"moveImageDownButton": {
+			"text": "Pomakni sliku prema dolje"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Preuzmi i otvori datoteku",
+		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Obrada slike",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vsui-thumbnailViewer-selectedLabel": "ODABRAN",
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
 		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Odustani",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
 		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
-		"vsdv-exportFileSettingsDialog-title": "Izvoz postavki datoteke"
+		"vsdv-exportFileSettingsDialog-title": "Postavke za izvoz datoteke"
 	}
 }

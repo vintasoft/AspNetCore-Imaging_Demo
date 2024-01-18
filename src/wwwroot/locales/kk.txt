@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Құралдар"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлды жүктеп алыңыз және ашыңыз"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Файлды жүктеп салыңыз және қосыңыз"
 		},
 		"previousUploadFilesButton": {
 			"title": "Бұрын жүктелген файлдар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Сурет файлын URL мекенжайы бойынша жүктеп салыңыз және ашыңыз"
+		"openFileFromUrlButton": {
+			"title": "URL мекенжайынан файлды ашыңыз"
 		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлды экспорттау және жүктеп алу"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сеанс кэшін тазалау"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Енге сәйкес"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Кескінді өңдеу"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Көріністі сағат тілімен бұрыңыз"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Көріністі сағат тіліне қарсы бұраңыз"
+			},
+			"deleteThumbnailButton": {
+				"title": "Нобайды жою"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Көп таңдау:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Нобай үшін құсбелгілерді пайдаланыңыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Нобай үшін әрекеттер тақтасын пайдаланыңыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Файл пішімі:"
 			},
 			"savePagesLabel": {
-				"text": "Беттерді сақтау:"
+				"text": "Беттерді сақтаңыз:"
 			},
 			"allPagesOption": {
 				"text": "Барлық беттер"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Суреттерді жою"
+		},
+		"moveImageUpButton": {
+			"text": "Кескінді жоғары жылжытыңыз"
+		},
+		"moveImageDownButton": {
+			"text": "Кескінді төмен жылжытыңыз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Кескінді өңдеу",
 		"vsdv-openFile-addFileString": "Файл қосу",
 		"vsdv-openFile-authenticateFileString": "Файлдың аутентификациясы",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
+		"vsui-thumbnailViewer-selectedLabel": "ТАҢДАлған",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
 		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-dialog-cancelButton": "Болдырмау",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
-		"vsdv-exportFileSettingsDialog-title": "Файл параметрлерін экспорттау"
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер"
 	}
 }

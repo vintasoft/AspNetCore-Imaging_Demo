@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "उपकरण"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "फ़ाइल डाउनलोड करें और खोलें"
+		},
+		"uploadAndAddFileButton": {
+			"title": "फ़ाइल अपलोड करें और जोड़ें"
 		},
 		"previousUploadFilesButton": {
 			"title": "पहले डाउनलोड की गई फ़ाइलों की सूची देखें"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL द्वारा छवि फ़ाइल अपलोड करें और खोलें"
+		"openFileFromUrlButton": {
+			"title": "URL से फ़ाइल खोलें"
 		},
 		"printImagesButton": {
 			"title": "छवियाँ मुद्रित करें"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "फ़ाइल निर्यात करें और डाउनलोड करें"
+		},
+		"clearSessionCacheButton": {
+			"title": "सत्र कैश साफ़ करें"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "चौड़ाई के अनुरूप"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "मूर्ति प्रोद्योगिकी"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "दृश्य को दक्षिणावर्त घुमाएँ"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "दृश्य को वामावर्त घुमाएँ"
+			},
+			"deleteThumbnailButton": {
+				"title": "थंबनेल हटाएँ"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "एकाधिक थंबनेल चयन की अनुमति दें:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "थंबनेल के लिए चेकबॉक्स का उपयोग करें:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "थंबनेल के लिए क्रिया पैनल का उपयोग करें:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "छवियाँ हटाएँ"
+		},
+		"moveImageUpButton": {
+			"text": "छवि को ऊपर ले जाएं"
+		},
+		"moveImageDownButton": {
+			"text": "छवि को नीचे ले जाएँ"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
+		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
 		"vsdv-imageProcessingPanel-imageProcessingString": "मूर्ति प्रोद्योगिकी",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vsui-thumbnailViewer-selectedLabel": "चयनित",
+		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
 		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsdv-dialog-okButton": "ठीक है",
 		"vsdv-dialog-cancelButton": "रद्द करें",
@@ -530,7 +562,7 @@
 		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL से छवि अपलोड करें",
-		"vsdv-exportFileSettingsDialog-title": "फ़ाइल सेटिंग्स निर्यात करें"
+		"vsdv-uploadImageFromUrlDialog-title": "यूआरएल से छवि अपलोड करें",
+		"vsdv-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग"
 	}
 }

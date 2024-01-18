@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Gereedskap"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Laai op en voeg lêer by"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekyk 'n lys van voorheen afgelaaide lêers"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laai prentlêer op en maak oop volgens URL"
+		"openFileFromUrlButton": {
+			"title": "Maak lêer oop vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Druk prente"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Voer en laai lêer af"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vee sessiekas uit"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Pas by breedte"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Beeldverwerking"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Draai aansig kloksgewys"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Draai aansig antikloksgewys"
+			},
+			"deleteThumbnailButton": {
+				"title": "Vee kleinkiekie uit"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Laat meervoudige kleinkiekies toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik merkblokkies vir kleinkiekie:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik handelingepaneel vir kleinkiekie:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Lêerformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Stoor bladsye:"
+				"text": "Stoor die bladsye:"
 			},
 			"allPagesOption": {
 				"text": "Alle bladsye"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Verwyder beelde"
+		},
+		"moveImageUpButton": {
+			"text": "Skuif prent op"
+		},
+		"moveImageDownButton": {
+			"text": "Skuif prent af"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Beeldverwerking",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vsui-thumbnailViewer-selectedLabel": "GEKIES",
+		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
 		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Kanselleer",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "Voer lêerinstellings uit"
+		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer"
 	}
 }

@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Asboblar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faylni yuklang va oching"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Faylni yuklang va qo'shing"
 		},
 		"previousUploadFilesButton": {
 			"title": "Oldin yuklangan fayllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Rasm faylini URL orqali yuklang va oching"
+		"openFileFromUrlButton": {
+			"title": "URL manzilidan faylni oching"
 		},
 		"printImagesButton": {
 			"title": "Rasmlarni chop etish"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faylni eksport qilish va yuklab olish"
+		},
+		"clearSessionCacheButton": {
+			"title": "Seans keshini tozalash"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Kenglikka moslash"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Tasvirni qayta ishlash"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Ko'rinishni soat yo'nalishi bo'yicha aylantiring"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Ko'rinishni soat sohasi farqli ravishda aylantiring"
+			},
+			"deleteThumbnailButton": {
+				"title": "Eskizni oʻchirish"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Ko'p tanlov:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz uchun belgilash katakchalaridan foydalaning:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz uchun harakatlar panelidan foydalaning:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Eskizlarni tortib olish mumkin:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Rasmlarni olib tashlang"
+		},
+		"moveImageUpButton": {
+			"text": "Rasmni yuqoriga siljiting"
+		},
+		"moveImageDownButton": {
+			"text": "Rasmni pastga siljiting"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylni yuklang va oching",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faylni yuklang va qo'shing",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Tasvirni qayta ishlash",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vsui-thumbnailViewer-selectedLabel": "TANLANGAN",
+		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
 		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
 		"vsdv-dialog-okButton": "KELISHDIKMI",
 		"vsdv-dialog-cancelButton": "Bekor qilish",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
 		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
-		"vsdv-exportFileSettingsDialog-title": "Fayl sozlamalarini eksport qiling"
+		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar"
 	}
 }

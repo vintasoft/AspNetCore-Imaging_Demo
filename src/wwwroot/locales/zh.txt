@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "工具"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "上传并打开文件"
+		},
+		"uploadAndAddFileButton": {
+			"title": "上傳並新增文件"
 		},
 		"previousUploadFilesButton": {
 			"title": "之前上传的文件"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "通过URL上传并打开图像文件"
+		"openFileFromUrlButton": {
+			"title": "從 URL 開啟文件"
 		},
 		"printImagesButton": {
 			"title": "打印图像"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "导出和下载文件"
+		},
+		"clearSessionCacheButton": {
+			"title": "清除會話快取"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "图像处理"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "順時針旋轉視圖"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "逆時針旋轉視圖"
+			},
+			"deleteThumbnailButton": {
+				"title": "刪除縮圖"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "多选："
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "使用縮圖複選框："
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "使用縮圖的操作面板："
+			},
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
@@ -466,13 +489,13 @@
 		},
 		"exportFileSettingsDialog": {
 			"fileNameLabel": {
-				"text": "文件名："
+				"text": "檔案名稱："
 			},
 			"fileFormatLabel": {
 				"text": "文件格式："
 			},
 			"savePagesLabel": {
-				"text": "保存页面："
+				"text": "儲存頁面："
 			},
 			"allPagesOption": {
 				"text": "所有页面"
@@ -481,7 +504,7 @@
 				"text": "当前页面"
 			},
 			"pagesOption": {
-				"text": "页数"
+				"text": "頁數"
 			},
 			"saveAnnoLabel": {
 				"text": "保存注释"
@@ -497,17 +520,24 @@
 			}
 		},
 		"rotateViewClockwiseButton": {
-			"text": "顺时针旋转视图"
+			"text": "順時針旋轉視圖"
 		},
 		"rotateViewCounterClockwiseButton": {
-			"text": "逆时针旋转视图"
+			"text": "逆時針旋轉視圖"
 		},
 		"removeImagesButton": {
-			"text": "删除图像"
+			"text": "刪除影像"
+		},
+		"moveImageUpButton": {
+			"text": "向上移動影像"
+		},
+		"moveImageDownButton": {
+			"text": "向下移動影像"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "上传文件",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
+		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
 		"vsdv-imageProcessingPanel-imageProcessingString": "图像处理",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vsui-thumbnailViewer-selectedLabel": "已選",
+		"vsdv-uploadFileButton-uploadFileString": "上传文件",
 		"vsdv-documentPasswordDialog-title": "文档密码",
 		"vsdv-dialog-okButton": "好的",
 		"vsdv-dialog-cancelButton": "取消",
@@ -530,7 +562,7 @@
 		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
-		"vsdv-uploadImageFromUrlDialog-title": "从 URL 上传图像",
-		"vsdv-exportFileSettingsDialog-title": "导出文件设置"
+		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
+		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置"
 	}
 }

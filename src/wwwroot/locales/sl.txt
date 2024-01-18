@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Orodja"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Naložite in dodajte datoteko"
 		},
 		"previousUploadFilesButton": {
 			"title": "Prej naložene datoteke"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		"openFileFromUrlButton": {
+			"title": "Odpri datoteko z naslova URL"
 		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvozi in prenesi datoteko"
+		},
+		"clearSessionCacheButton": {
+			"title": "Počisti predpomnilnik seje"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Obdelava slik"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Zasukaj pogled v smeri urinega kazalca"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Zasukaj pogled v nasprotni smeri urinega kazalca"
+			},
+			"deleteThumbnailButton": {
+				"title": "Izbriši sličico"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Večkratna izbira:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Uporabite potrditvena polja za sličico:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Uporabi ploščo z dejanji za sličico:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Odstranite slike"
+		},
+		"moveImageUpButton": {
+			"text": "Premakni sliko navzgor"
+		},
+		"moveImageDownButton": {
+			"text": "Premakni sliko navzdol"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
+		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Obdelava slik",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vsui-thumbnailViewer-selectedLabel": "IZBRANO",
+		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
 		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Prekliči",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
 		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
-		"vsdv-exportFileSettingsDialog-title": "Izvozite nastavitve datoteke"
+		"vsdv-exportFileSettingsDialog-title": "Nastavitve za izvoz datoteke"
 	}
 }

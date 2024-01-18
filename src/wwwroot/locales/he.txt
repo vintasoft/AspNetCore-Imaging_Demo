@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "כלים"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
+		},
+		"uploadAndAddFileButton": {
+			"title": "העלה והוסף קובץ"
 		},
 		"previousUploadFilesButton": {
 			"title": "הצג רשימה של קבצים שהורדו בעבר"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		"openFileFromUrlButton": {
+			"title": "פתח קובץ מ-URL"
 		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ייצא והורד קובץ"
+		},
+		"clearSessionCacheButton": {
+			"title": "נקה את מטמון ההפעלה"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "עיבוד תמונה"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "סובב את התצוגה בכיוון השעון"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "סובב את התצוגה נגד כיוון השעון"
+			},
+			"deleteThumbnailButton": {
+				"title": "מחק תמונה ממוזערת"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "השתמש בתיבות סימון עבור תמונה ממוזערת:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "השתמש בחלונית פעולות לתמונה ממוזערת:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
@@ -472,7 +495,7 @@
 				"text": "פורמט קובץ:"
 			},
 			"savePagesLabel": {
-				"text": "שמור דפים:"
+				"text": "שמור את הדפים:"
 			},
 			"allPagesOption": {
 				"text": "כל הדפים"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "הסר תמונות"
+		},
+		"moveImageUpButton": {
+			"text": "הזז את התמונה למעלה"
+		},
+		"moveImageDownButton": {
+			"text": "הזז את התמונה למטה"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
+		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-imageProcessingPanel-imageProcessingString": "עיבוד תמונה",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsui-thumbnailViewer-selectedLabel": "נבחר",
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
 		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-dialog-cancelButton": "בטל",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
 		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
-		"vsdv-exportFileSettingsDialog-title": "ייצוא הגדרות קובץ"
+		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
 	}
 }

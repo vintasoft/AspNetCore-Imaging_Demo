@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Rīki"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Augšupielādējiet un pievienojiet failu"
 		},
 		"previousUploadFilesButton": {
 			"title": "Iepriekš augšupielādētie faili"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Augšupielādējiet un atveriet attēla failu pēc URL"
+		"openFileFromUrlButton": {
+			"title": "Atveriet failu no URL"
 		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportēt un lejupielādēt failu"
+		},
+		"clearSessionCacheButton": {
+			"title": "Notīrīt sesijas kešatmiņu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Piemērots platumam"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Attēlu apstrāde"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Pagriezt skatu pulksteņrādītāja virzienā"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Pagriezt skatu pretēji pulksteņrādītāja virzienam"
+			},
+			"deleteThumbnailButton": {
+				"title": "Dzēst sīktēlu"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Vairāku atlase:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Izmantojiet izvēles rūtiņas sīktēlam:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Izmantojiet darbību paneli sīktēlam:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Faila formāts:"
 			},
 			"savePagesLabel": {
-				"text": "Saglabāt lapas:"
+				"text": "Saglabājiet lapas:"
 			},
 			"allPagesOption": {
 				"text": "Visas lapas"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Noņemiet attēlus"
+		},
+		"moveImageUpButton": {
+			"text": "Pārvietot attēlu uz augšu"
+		},
+		"moveImageDownButton": {
+			"text": "Pārvietot attēlu uz leju"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
+		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Attēlu apstrāde",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vsui-thumbnailViewer-selectedLabel": "ATLASĪTS",
+		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
 		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-dialog-cancelButton": "Atcelt",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
-		"vsdv-exportFileSettingsDialog-title": "Eksportēt faila iestatījumus"
+		"vsdv-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi"
 	}
 }

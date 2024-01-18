@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Werkzeuge"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Datei herunterladen und öffnen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Datei hochladen und hinzufügen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zeigen Sie eine Liste der zuvor heruntergeladenen Dateien an"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Bilddatei per URL hochladen und öffnen"
+		"openFileFromUrlButton": {
+			"title": "Datei über URL öffnen"
 		},
 		"printImagesButton": {
 			"title": "Bilder drucken"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Datei exportieren und herunterladen"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sitzungscache leeren"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "An Breite anpassen"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Bildverarbeitung"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Ansicht im Uhrzeigersinn drehen"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Ansicht gegen den Uhrzeigersinn drehen"
+			},
+			"deleteThumbnailButton": {
+				"title": "Miniaturansicht löschen"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Auswahl mehrerer Miniaturansichten zulassen:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kontrollkästchen für Miniaturansichten verwenden:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Verwenden Sie das Aktionsfeld für Miniaturansichten:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kann Miniaturansichten ziehen:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Datei Format:"
 			},
 			"savePagesLabel": {
-				"text": "Seiten speichern:"
+				"text": "Speichern Sie die Seiten:"
 			},
 			"allPagesOption": {
 				"text": "Alle Seiten"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Bilder entfernen"
+		},
+		"moveImageUpButton": {
+			"text": "Bild nach oben verschieben"
+		},
+		"moveImageDownButton": {
+			"text": "Bild nach unten verschieben"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Datei herunterladen und öffnen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Datei hochladen und hinzufügen",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Bildverarbeitung",
 		"vsdv-openFile-addFileString": "Datei hinzufügen",
 		"vsdv-openFile-authenticateFileString": "Datei authentifizieren",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Speichern Sie Änderungen in Anmerkungen",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brennen Sie Anmerkungen zu Bildern",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Änderungen im PDF-Dokument speichern",
+		"vsui-thumbnailViewer-selectedLabel": "AUSGEWÄHLT",
+		"vsdv-uploadFileButton-uploadFileString": "Datei hochladen",
 		"vsdv-documentPasswordDialog-title": "Dokumentpasswort",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Abbrechen",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Einstellungen für die Miniaturansichtsansicht",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Anmerkungen auf Miniaturansichten anzeigen:",
 		"vsdv-uploadImageFromUrlDialog-title": "Bild von URL hochladen",
-		"vsdv-exportFileSettingsDialog-title": "Dateieinstellungen exportieren"
+		"vsdv-exportFileSettingsDialog-title": "Die Einstellungen zum Exportieren der Datei"
 	}
 }

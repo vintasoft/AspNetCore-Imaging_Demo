@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Eszközök"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Fájl letöltése és megnyitása"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Fájl feltöltése és hozzáadása"
 		},
 		"previousUploadFilesButton": {
 			"title": "A korábban letöltött fájlok listájának megtekintése"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Töltse fel és nyissa meg a képfájlt URL-cím szerint"
+		"openFileFromUrlButton": {
+			"title": "Fájl megnyitása az URL-ből"
 		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Fájl exportálása és letöltése"
+		},
+		"clearSessionCacheButton": {
+			"title": "A munkamenet gyorsítótárának törlése"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Szélességhez igazítás"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Képfeldolgozás"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Nézet forgatása az óramutató járásával megegyező irányba"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Nézet elforgatása az óramutató járásával ellentétes irányba"
+			},
+			"deleteThumbnailButton": {
+				"title": "Bélyegkép törlése"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Több indexkép kiválasztásának engedélyezése:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Használjon jelölőnégyzeteket az indexképhez:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "A műveletek panel használata indexképhez:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Fájlformátum:"
 			},
 			"savePagesLabel": {
-				"text": "Oldalak mentése:"
+				"text": "Mentse el az oldalakat:"
 			},
 			"allPagesOption": {
 				"text": "Minden oldal"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Képek eltávolítása"
+		},
+		"moveImageUpButton": {
+			"text": "Kép mozgatása felfelé"
+		},
+		"moveImageDownButton": {
+			"text": "Kép mozgatása lefelé"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
+		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Képfeldolgozás",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
+		"vsui-thumbnailViewer-selectedLabel": "KIVÁLASZTOTT",
+		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
 		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-dialog-cancelButton": "Mégse",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
-		"vsdv-exportFileSettingsDialog-title": "Fájlbeállítások exportálása"
+		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
 	}
 }

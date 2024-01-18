@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Инструменты"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Загрузите и добавьте файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузить и откройть файл изображения по URL-адресу"
+		"openFileFromUrlButton": {
+			"title": "Открыть файл по URL"
 		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистить кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Обработка изображений"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Повернуть вид по часовой стрелке"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Повернуть вид против часовой стрелки"
+			},
+			"deleteThumbnailButton": {
+				"title": "Удалить миниатюру"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешить выбор нескольких миниатюр:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Используйте флажки для миниатюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Используйте панель действий для миниатюр:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можно перетаскивать миниатюры:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Удалить изображения"
+		},
+		"moveImageUpButton": {
+			"text": "Переместить изображение вверх"
+		},
+		"moveImageDownButton": {
+			"text": "Переместить изображение вниз"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Обработка изображений",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsui-thumbnailViewer-selectedLabel": "ВЫБРАННЫЕ",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
 		"vsdv-documentPasswordDialog-title": "Пароль к документу",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отмена",
@@ -530,7 +562,7 @@
 		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
-		"vsdv-uploadImageFromUrlDialog-title": "Открыть изображение с URL",
-		"vsdv-exportFileSettingsDialog-title": "Экспортируйте настройки файла"
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL",
+		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла"
 	}
 }

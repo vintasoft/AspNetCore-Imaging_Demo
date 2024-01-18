@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Nástroje"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Stáhněte a otevřete soubor"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Nahrajte a přidejte soubor"
 		},
 		"previousUploadFilesButton": {
 			"title": "Zobrazit seznam dříve stažených souborů"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Nahrajte a otevřete soubor obrázku podle adresy URL"
+		"openFileFromUrlButton": {
+			"title": "Otevřete soubor z adresy URL"
 		},
 		"printImagesButton": {
 			"title": "Tisk obrázků"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportujte a stáhněte soubor"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vymazat mezipaměť relace"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Přizpůsobit šířce"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Zpracování obrazu"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Otočit pohled ve směru hodinových ručiček"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Otočit pohled proti směru hodinových ručiček"
+			},
+			"deleteThumbnailButton": {
+				"title": "Smazat miniaturu"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Povolit výběr více miniatur:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Použijte zaškrtávací políčka pro miniatury:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Použijte panel akcí pro miniaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Může přetahovat miniatury:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Formát souboru:"
 			},
 			"savePagesLabel": {
-				"text": "Uložit stránky:"
+				"text": "Uložte stránky:"
 			},
 			"allPagesOption": {
 				"text": "Všechny stránky"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Odebrat obrázky"
+		},
+		"moveImageUpButton": {
+			"text": "Posuňte obrázek nahoru"
+		},
+		"moveImageDownButton": {
+			"text": "Posuňte obrázek dolů"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Stáhněte a otevřete soubor",
+		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a přidejte soubor",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Zpracování obrazu",
 		"vsdv-openFile-addFileString": "Přidat soubor",
 		"vsdv-openFile-authenticateFileString": "Ověření souboru",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte změny v anotacích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypálit poznámky na obrázky",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
+		"vsui-thumbnailViewer-selectedLabel": "VYBRANÝ",
+		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
 		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Zrušit",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
 		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL",
-		"vsdv-exportFileSettingsDialog-title": "Export nastavení souboru"
+		"vsdv-exportFileSettingsDialog-title": "Nastavení pro export souboru"
 	}
 }

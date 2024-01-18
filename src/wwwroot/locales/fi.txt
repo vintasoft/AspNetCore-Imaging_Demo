@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Työkalut"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Lataa ja lisää tiedosto"
 		},
 		"previousUploadFilesButton": {
 			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		"openFileFromUrlButton": {
+			"title": "Avaa tiedosto URL-osoitteesta"
 		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Vie ja lataa tiedosto"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tyhjennä istunnon välimuisti"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Kuvankäsittely"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Kierrä näkymää myötäpäivään"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Kierrä näkymää vastapäivään"
+			},
+			"deleteThumbnailButton": {
+				"title": "Poista pikkukuva"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Käytä pikkukuvien valintaruutuja:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Käytä toimintopaneelia pikkukuvalle:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Poista kuvat"
+		},
+		"moveImageUpButton": {
+			"text": "Siirrä kuvaa ylöspäin"
+		},
+		"moveImageDownButton": {
+			"text": "Siirrä kuvaa alas"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
+		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Kuvankäsittely",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsui-thumbnailViewer-selectedLabel": "VALITTU",
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
 		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Peruuta",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
 		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta",
-		"vsdv-exportFileSettingsDialog-title": "Vie tiedostoasetukset"
+		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset"
 	}
 }

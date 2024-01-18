@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Tööriistad"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laadige üles ja avage fail"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Laadige üles ja lisage fail"
 		},
 		"previousUploadFilesButton": {
 			"title": "Varem üleslaaditud failid"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laadige üles ja avage pildifail URL-i järgi"
+		"openFileFromUrlButton": {
+			"title": "Ava fail URL-ist"
 		},
 		"printImagesButton": {
 			"title": "Printige pilte"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faili eksportimine ja allalaadimine"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tühjendage seansi vahemälu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sobivad laiusele"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Pildi töötlemine"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Pöörake vaadet päripäeva"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Pöörake vaadet vastupäeva"
+			},
+			"deleteThumbnailButton": {
+				"title": "Kustuta pisipilt"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Mitmikvalimine:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kasutage pisipiltide jaoks märkeruutusid:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Kasutage pisipiltide jaoks toimingute paneeli:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Failiformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Salvesta lehed:"
+				"text": "Salvestage lehed:"
 			},
 			"allPagesOption": {
 				"text": "Kõik lehed"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Eemaldage pildid"
+		},
+		"moveImageUpButton": {
+			"text": "Liigutage pilti üles"
+		},
+		"moveImageDownButton": {
+			"text": "Liigutage pilti alla"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Pildi töötlemine",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vsui-thumbnailViewer-selectedLabel": "VALITUD",
+		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
 		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-dialog-cancelButton": "Tühista",
@@ -526,11 +558,11 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
-		"vsdv-exportFileSettingsDialog-title": "Ekspordi faili sätted"
+		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted"
 	}
 }

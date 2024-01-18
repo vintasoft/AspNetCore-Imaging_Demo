@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Инструменти"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Изтеглете и отворете файл"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Качете и добавете файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Вижте списък с предварително изтеглени файлове"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Качете и отворете файл с изображение по URL"
+		"openFileFromUrlButton": {
+			"title": "Отворете файл от URL"
 		},
 		"printImagesButton": {
 			"title": "Печат на изображения"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортиране и изтегляне на файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Изчистване на кеша на сесията"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Побиране по ширина"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Обработка на изображение"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Завъртете изгледа по часовниковата стрелка"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Завъртете изгледа обратно на часовниковата стрелка"
+			},
+			"deleteThumbnailButton": {
+				"title": "Изтриване на миниизображение"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешаване на избор на няколко миниатюри:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Използвайте квадратчета за отметка за миниизображение:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Използвайте панела с действия за миниатюра:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Може да плъзгате миниатюри:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Файлов формат:"
 			},
 			"savePagesLabel": {
-				"text": "Запазване на страници:"
+				"text": "Запазете страниците:"
 			},
 			"allPagesOption": {
 				"text": "Всички страници"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Премахване на изображения"
+		},
+		"moveImageUpButton": {
+			"text": "Преместване на изображението нагоре"
+		},
+		"moveImageDownButton": {
+			"text": "Преместете изображението надолу"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Изтеглете и отворете файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Качете и добавете файл",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Обработка на изображение",
 		"vsdv-openFile-addFileString": "Добави файл",
 		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsui-thumbnailViewer-selectedLabel": "ИЗБРАНО",
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
 		"vsdv-documentPasswordDialog-title": "Парола за документ",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отказ",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
 		"vsdv-uploadImageFromUrlDialog-title": "Качете изображение от URL",
-		"vsdv-exportFileSettingsDialog-title": "Експортиране на настройките на файла"
+		"vsdv-exportFileSettingsDialog-title": "Настройки за експортиране на файл"
 	}
 }

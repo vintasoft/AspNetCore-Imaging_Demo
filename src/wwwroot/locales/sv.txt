@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Verktyg"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Ladda ner och öppna filen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Ladda upp och lägg till fil"
 		},
 		"previousUploadFilesButton": {
 			"title": "Visa en lista över tidigare nedladdade filer"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Ladda upp och öppna bildfilen via URL"
+		"openFileFromUrlButton": {
+			"title": "Öppna filen från URL"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportera och ladda ner fil"
+		},
+		"clearSessionCacheButton": {
+			"title": "Rensa sessionscache"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Anpassa till bredd"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Bildbehandling"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Rotera vyn medurs"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Rotera vyn moturs"
+			},
+			"deleteThumbnailButton": {
+				"title": "Ta bort miniatyrbild"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Tillåt val av flera miniatyrer:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Använd kryssrutor för miniatyr:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Använd åtgärdspanelen för miniatyr:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrer:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Ta bort bilder"
+		},
+		"moveImageUpButton": {
+			"text": "Flytta bilden uppåt"
+		},
+		"moveImageDownButton": {
+			"text": "Flytta bilden nedåt"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Ladda ner och öppna filen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Ladda upp och lägg till fil",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Bildbehandling",
 		"vsdv-openFile-addFileString": "Lägg till fil",
 		"vsdv-openFile-authenticateFileString": "Autentisera fil",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vsui-thumbnailViewer-selectedLabel": "VALD",
+		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
 		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
 		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportera filinställningarna"
+		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
 	}
 }

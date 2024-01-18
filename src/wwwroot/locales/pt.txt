@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Ferramentas"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Baixe e abra o arquivo"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Carregar e adicionar arquivo"
 		},
 		"previousUploadFilesButton": {
 			"title": "Ver uma lista de arquivos baixados anteriormente"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Carregar e abrir arquivo de imagem por URL"
+		"openFileFromUrlButton": {
+			"title": "Abrir arquivo do URL"
 		},
 		"printImagesButton": {
 			"title": "imprimir imagens"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportar e baixar arquivo"
+		},
+		"clearSessionCacheButton": {
+			"title": "Limpar cache da sessão"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar à largura"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Processamento de imagem"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Girar visualização no sentido horário"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Girar visualização no sentido anti-horário"
+			},
+			"deleteThumbnailButton": {
+				"title": "Excluir miniatura"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Permitir seleção de várias miniaturas:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Use caixas de seleção para miniaturas:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Use o painel de ações para miniaturas:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pode arrastar miniaturas:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Formato de arquivo:"
 			},
 			"savePagesLabel": {
-				"text": "Salvar páginas:"
+				"text": "Salve as páginas:"
 			},
 			"allPagesOption": {
 				"text": "Todas as páginas"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Remover imagens"
+		},
+		"moveImageUpButton": {
+			"text": "Mover imagem para cima"
+		},
+		"moveImageDownButton": {
+			"text": "Mover imagem para baixo"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Baixe e abra o arquivo",
+		"vsdv-uploadAndAddFileButton-addFileString": "Carregar e adicionar arquivo",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Processamento de imagem",
 		"vsdv-openFile-addFileString": "Adicionar ficheiro",
 		"vsdv-openFile-authenticateFileString": "Autenticar arquivo",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvar alterações nas anotações",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Gravar anotações em imagens",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvar alterações no documento PDF",
+		"vsui-thumbnailViewer-selectedLabel": "SELECIONADO",
+		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
 		"vsdv-documentPasswordDialog-title": "Senha do documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Configurações do visualizador de miniaturas",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Exibir anotações nas miniaturas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Carregar imagem do URL",
-		"vsdv-exportFileSettingsDialog-title": "Exportar configurações de arquivo"
+		"vsdv-exportFileSettingsDialog-title": "As configurações para exportar arquivo"
 	}
 }

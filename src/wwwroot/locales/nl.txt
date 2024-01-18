@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Gereedschap"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Bestand downloaden en openen"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Bestand uploaden en toevoegen"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekijk een lijst met eerder gedownloade bestanden"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Upload en open het afbeeldingsbestand via URL"
+		"openFileFromUrlButton": {
+			"title": "Bestand openen vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Bestand exporteren en downloaden"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiecache wissen"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Aanpassen aan breedte"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Afbeelding verwerken"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Roteer de weergave met de klok mee"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Draai de weergave tegen de klok in"
+			},
+			"deleteThumbnailButton": {
+				"title": "Miniatuur verwijderen"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Sta meerdere miniatuurselectie toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik selectievakjes voor miniatuur:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik het actiepaneel voor miniatuur:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan miniaturen slepen:"
 			},
@@ -472,7 +495,7 @@
 				"text": "Bestandsformaat:"
 			},
 			"savePagesLabel": {
-				"text": "Pagina's opslaan:"
+				"text": "Bewaar de pagina's:"
 			},
 			"allPagesOption": {
 				"text": "Alle pagina's"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Afbeeldingen verwijderen"
+		},
+		"moveImageUpButton": {
+			"text": "Verplaats afbeelding omhoog"
+		},
+		"moveImageDownButton": {
+			"text": "Verplaats afbeelding naar beneden"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Bestand downloaden en openen",
+		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Afbeelding verwerken",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
+		"vsui-thumbnailViewer-selectedLabel": "GESELECTEERD",
+		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
 		"vsdv-documentPasswordDialog-title": "Documentwachtwoord",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuleren",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "Bestandsinstellingen exporteren"
+		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
 	}
 }

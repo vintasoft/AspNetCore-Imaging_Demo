@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Amathuluzi"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Layisha futhi uvule ifayela"
+		},
+		"uploadAndAddFileButton": {
+			"title": "Layisha futhi wengeze ifayela"
 		},
 		"previousUploadFilesButton": {
 			"title": "Amafayela Alayishwe Ngokudlule"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Layisha futhi uvule ifayela lesithombe nge-URL"
+		"openFileFromUrlButton": {
+			"title": "Vula ifayela ku-URL"
 		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Khipha futhi ulande ifayela"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sula inqolobane yeseshini"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Linganisa ububanzi"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "Ukucutshungulwa kwesithombe"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "Zungezisa ukubuka ngokwewashi"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "Zungezisa ukubuka ngokuphikisana newashi"
+			},
+			"deleteThumbnailButton": {
+				"title": "Susa isithonjana"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "Ukukhetha okuningi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sebenzisa amabhokisi okuhlola ukuze uthole isithonjana:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sebenzisa iphaneli yezenzo ukuze uthole isithonjana:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "Susa izithombe"
+		},
+		"moveImageUpButton": {
+			"text": "Hambisa isithombe phezulu"
+		},
+		"moveImageDownButton": {
+			"text": "Hambisa isithombe phansi"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
+		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
 		"vsdv-imageProcessingPanel-imageProcessingString": "Ukucutshungulwa kwesithombe",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
+		"vsui-thumbnailViewer-selectedLabel": "OKUKHETHIWE",
+		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
 		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
 		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
-		"vsdv-exportFileSettingsDialog-title": "Khipha izilungiselelo zefayela"
+		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
 	}
 }

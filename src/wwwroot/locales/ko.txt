@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "도구"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "파일 다운로드 및 열기"
+		},
+		"uploadAndAddFileButton": {
+			"title": "파일 업로드 및 추가"
 		},
 		"previousUploadFilesButton": {
 			"title": "이전에 다운로드한 파일 목록 보기"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL로 이미지 파일 업로드 및 열기"
+		"openFileFromUrlButton": {
+			"title": "URL에서 파일 열기"
 		},
 		"printImagesButton": {
 			"title": "이미지 인쇄"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "파일 내보내기 및 다운로드"
+		},
+		"clearSessionCacheButton": {
+			"title": "세션 캐시 지우기"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "너비에 맞춤"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "이미지 처리"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "보기를 시계 방향으로 회전"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "시계 반대 방향으로 보기 회전"
+			},
+			"deleteThumbnailButton": {
+				"title": "썸네일 삭제"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "여러 섬네일 선택 허용:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "썸네일에 체크박스를 사용하세요:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "축소판에 작업 패널 사용:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "썸네일 드래그 가능:"
 			},
@@ -472,7 +495,7 @@
 				"text": "파일 형식:"
 			},
 			"savePagesLabel": {
-				"text": "페이지 저장:"
+				"text": "페이지를 저장합니다."
 			},
 			"allPagesOption": {
 				"text": "모든 페이지"
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "이미지 제거"
+		},
+		"moveImageUpButton": {
+			"text": "이미지를 위로 이동"
+		},
+		"moveImageDownButton": {
+			"text": "이미지를 아래로 이동"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "파일 다운로드 및 열기",
+		"vsdv-uploadAndAddFileButton-addFileString": "파일 업로드 및 추가",
 		"vsdv-imageProcessingPanel-imageProcessingString": "이미지 처리",
 		"vsdv-openFile-addFileString": "파일 추가",
 		"vsdv-openFile-authenticateFileString": "파일 인증",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
+		"vsui-thumbnailViewer-selectedLabel": "선택된",
+		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
 		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
 		"vsdv-dialog-okButton": "확인",
 		"vsdv-dialog-cancelButton": "취소",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
-		"vsdv-exportFileSettingsDialog-title": "파일 설정 내보내기"
+		"vsdv-exportFileSettingsDialog-title": "파일을 내보내는 설정"
 	}
 }

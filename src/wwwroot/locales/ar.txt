@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "أدوات"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "تحميل وفتح الملف"
+		},
+		"uploadAndAddFileButton": {
+			"title": "تحميل وإضافة الملف"
 		},
 		"previousUploadFilesButton": {
 			"title": "عرض قائمة بالملفات التي تم تنزيلها مسبقًا"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "تحميل وفتح ملف الصورة عن طريق URL"
+		"openFileFromUrlButton": {
+			"title": "افتح الملف من URL"
 		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "تصدير وتنزيل الملف"
+		},
+		"clearSessionCacheButton": {
+			"title": "مسح ذاكرة التخزين المؤقت للجلسة"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "ملائم للعرض"
@@ -68,6 +74,17 @@
 		},
 		"showImageProcessingPanelButton": {
 			"title": "معالجة الصورة"
+		},
+		"thumbnailViewerPanel": {
+			"rotateViewClockwiseButton": {
+				"title": "تدوير العرض في اتجاه عقارب الساعة"
+			},
+			"rotateViewCounterClockwiseButton": {
+				"title": "تدوير العرض عكس اتجاه عقارب الساعة"
+			},
+			"deleteThumbnailButton": {
+				"title": "حذف الصورة المصغرة"
+			}
 		},
 		"imageProcessingPanel": {
 			"parametersButton": {
@@ -446,6 +463,12 @@
 			"multiSelectLabel": {
 				"text": "السماح باختيار صور مصغرة متعددة:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "استخدم مربعات الاختيار للصورة المصغرة:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "استخدم لوحة الإجراءات للصورة المصغرة:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
@@ -504,10 +527,17 @@
 		},
 		"removeImagesButton": {
 			"text": "إزالة الصور"
+		},
+		"moveImageUpButton": {
+			"text": "حرك الصورة لأعلى"
+		},
+		"moveImageDownButton": {
+			"text": "نقل الصورة إلى أسفل"
 		}
 	},
 	"strings": {
-		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
+		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
 		"vsdv-imageProcessingPanel-imageProcessingString": "معالجة الصورة",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
@@ -516,6 +546,8 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
+		"vsui-thumbnailViewer-selectedLabel": "المحدد",
+		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
 		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-dialog-cancelButton": "إلغاء",
@@ -531,6 +563,6 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
-		"vsdv-exportFileSettingsDialog-title": "إعدادات ملف التصدير"
+		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
 	}
 }
