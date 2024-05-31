@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL мекенжайынан файлды ашыңыз"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Құжат орналасу параметрлері"
+		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
 		},
@@ -179,6 +182,41 @@
 				"value": "ЖАРАЙДЫ МА"
 			},
 			"сancelButton": {
+				"value": "Болдырмау"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Әдепкі орналасу параметрлерін пайдаланыңыз"
+			},
+			"showHiddenContentLabel": {
+				"text": "Жасырын мазмұнды көрсету"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Жұмыс парағының енін бет ені ретінде пайдаланыңыз"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Жұмыс парағының биіктігін бет биіктігі ретінде пайдаланыңыз"
+			},
+			"usePrintAreaLabel": {
+				"text": "Басып шығару аймағын пайдаланыңыз"
+			},
+			"usePageMarginLabel": {
+				"text": "Бет жиегін пайдаланыңыз"
+			},
+			"usePageScaleLabel": {
+				"text": "Бет масштабын пайдаланыңыз"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Жасырын жұмыс парақтарын көрсету"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Жасырын графиканы көрсету"
+			},
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
 				"value": "Болдырмау"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер"
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттауға арналған параметрлер",
+		"vsdv-documentLayoutSettingsDialog-title": "Құжат орналасу параметрлері"
 	}
 }

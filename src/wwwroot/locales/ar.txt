@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "افتح الملف من URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "إعدادات تخطيط المستند"
+		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
 		},
@@ -179,6 +182,41 @@
 				"value": "موافق"
 			},
 			"сancelButton": {
+				"value": "إلغاء"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "استخدم إعدادات التخطيط الافتراضية"
+			},
+			"showHiddenContentLabel": {
+				"text": "إظهار المحتوى المخفي"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "استخدم عرض ورقة العمل كعرض الصفحة"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "استخدم ارتفاع ورقة العمل كارتفاع الصفحة"
+			},
+			"usePrintAreaLabel": {
+				"text": "استخدام منطقة الطباعة"
+			},
+			"usePageMarginLabel": {
+				"text": "استخدام هامش الصفحة"
+			},
+			"usePageScaleLabel": {
+				"text": "استخدم مقياس الصفحة"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "إظهار أوراق العمل المخفية"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "إظهار الرسومات المخفية"
+			},
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
 				"value": "إلغاء"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
-		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
+		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
+		"vsdv-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند"
 	}
 }

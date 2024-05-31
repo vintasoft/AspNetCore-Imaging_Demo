@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Dosyayı URL'den aç"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Belge düzeni ayarları"
+		},
 		"printImagesButton": {
 			"title": "Görüntüleri Yazdır"
 		},
@@ -179,6 +182,41 @@
 				"value": "Tamam"
 			},
 			"сancelButton": {
+				"value": "İptal"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Varsayılan düzen ayarlarını kullan"
+			},
+			"showHiddenContentLabel": {
+				"text": "Gizli içeriği göster"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Çalışma sayfası genişliğini sayfa genişliği olarak kullan"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Çalışma sayfası yüksekliğini sayfa yüksekliği olarak kullan"
+			},
+			"usePrintAreaLabel": {
+				"text": "Yazdırma alanını kullan"
+			},
+			"usePageMarginLabel": {
+				"text": "Sayfa kenar boşluğunu kullan"
+			},
+			"usePageScaleLabel": {
+				"text": "Sayfa ölçeğini kullan"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Gizli çalışma sayfalarını göster"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Gizli grafikleri göster"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
 				"value": "İptal"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
-		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları"
+		"vsdv-exportFileSettingsDialog-title": "Dosyayı dışa aktarma ayarları",
+		"vsdv-documentLayoutSettingsDialog-title": "Belge düzeni ayarları"
 	}
 }

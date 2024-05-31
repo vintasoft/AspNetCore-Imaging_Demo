@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Файлды URL'ден ачыңыз"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Документтин жайгашуу орнотуулары"
+		},
 		"printImagesButton": {
 			"title": "Сүрөттөрдү басып чыгаруу"
 		},
@@ -179,6 +182,41 @@
 				"value": "макул"
 			},
 			"сancelButton": {
+				"value": "Жокко чыгаруу"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Демейки жайгашуу орнотууларын колдонуңуз"
+			},
+			"showHiddenContentLabel": {
+				"text": "Жашыруун мазмунду көрсөтүү"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Барактын туурасы катары иш барагынын туурасын колдонуңуз"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Барактын бийиктиги катары жумушчу барактын бийиктигин колдонуңуз"
+			},
+			"usePrintAreaLabel": {
+				"text": "Басып чыгаруу аймагын колдонуңуз"
+			},
+			"usePageMarginLabel": {
+				"text": "Барактын маржасын колдонуңуз"
+			},
+			"usePageScaleLabel": {
+				"text": "Барактын масштабын колдонуңуз"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Жашыруун иш барактарын көрсөтүү"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Жашыруун графиканы көрсөтүү"
+			},
+			"okButton": {
+				"value": "макул"
+			},
+			"cancelButton": {
 				"value": "Жокко чыгаруу"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
 		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар"
+		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
+		"vsdv-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары"
 	}
 }

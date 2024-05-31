@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Avaa tiedosto URL-osoitteesta"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Asiakirjan asetteluasetukset"
+		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Peruuta"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Käytä oletusasetteluasetuksia"
+			},
+			"showHiddenContentLabel": {
+				"text": "Näytä piilotettu sisältö"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Käytä laskentataulukon leveyttä sivun leveyteenä"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Käytä laskentataulukon korkeutta sivun korkeudena"
+			},
+			"usePrintAreaLabel": {
+				"text": "Käytä tulostusaluetta"
+			},
+			"usePageMarginLabel": {
+				"text": "Käytä sivun marginaalia"
+			},
+			"usePageScaleLabel": {
+				"text": "Käytä sivun mittakaavaa"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Näytä piilotetut laskentataulukot"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Näytä piilotetut grafiikat"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Peruuta"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
 		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta",
-		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset"
+		"vsdv-exportFileSettingsDialog-title": "Tiedoston vientiasetukset",
+		"vsdv-documentLayoutSettingsDialog-title": "Asiakirjan asetteluasetukset"
 	}
 }

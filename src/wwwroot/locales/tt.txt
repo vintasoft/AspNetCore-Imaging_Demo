@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL'тан файлны ачу"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Документация көйләүләре"
+		},
 		"printImagesButton": {
 			"title": "Рәсемнәрне бастыру"
 		},
@@ -179,6 +182,41 @@
 				"value": "ЯРАРМЫ"
 			},
 			"сancelButton": {
+				"value": "Баш тарту"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Килешү макетларын кулланыгыз"
+			},
+			"showHiddenContentLabel": {
+				"text": "Яшерен эчтәлекне күрсәт"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Эш битенең киңлеген бит киңлеге итеп кулланыгыз"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Эш битенең биеклеген бит биеклеге итеп кулланыгыз"
+			},
+			"usePrintAreaLabel": {
+				"text": "Басма өлкәсен кулланыгыз"
+			},
+			"usePageMarginLabel": {
+				"text": "Бит маржасын кулланыгыз"
+			},
+			"usePageScaleLabel": {
+				"text": "Бит масштабын кулланыгыз"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Яшерен эш битләрен күрсәтегез"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Яшерен графиканы күрсәт"
+			},
+			"okButton": {
+				"value": "ЯРАРМЫ"
+			},
+			"cancelButton": {
 				"value": "Баш тарту"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү",
-		"vsdv-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр"
+		"vsdv-exportFileSettingsDialog-title": "Файлны экспортлау өчен көйләүләр",
+		"vsdv-documentLayoutSettingsDialog-title": "Документация көйләүләре"
 	}
 }

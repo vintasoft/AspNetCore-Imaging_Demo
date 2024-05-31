@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Mở tệp từ URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Cài đặt bố cục tài liệu"
+		},
 		"printImagesButton": {
 			"title": "In ảnh"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Sử dụng cài đặt bố cục mặc định"
+			},
+			"showHiddenContentLabel": {
+				"text": "Hiển thị nội dung ẩn"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Sử dụng chiều rộng trang tính làm chiều rộng trang"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Sử dụng chiều cao trang tính làm chiều cao trang"
+			},
+			"usePrintAreaLabel": {
+				"text": "Sử dụng vùng in"
+			},
+			"usePageMarginLabel": {
+				"text": "Sử dụng lề trang"
+			},
+			"usePageScaleLabel": {
+				"text": "Sử dụng tỷ lệ trang"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Hiển thị các bảng tính ẩn"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Hiển thị đồ họa ẩn"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Hủy"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
-		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
+		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
+		"vsdv-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu"
 	}
 }

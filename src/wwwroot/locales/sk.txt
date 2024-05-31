@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Otvorte súbor z adresy URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Nastavenia rozloženia dokumentu"
+		},
 		"printImagesButton": {
 			"title": "Tlač obrázkov"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Zrušiť"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Použiť predvolené nastavenia rozloženia"
+			},
+			"showHiddenContentLabel": {
+				"text": "Zobraziť skrytý obsah"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Ako šírku strany použite šírku pracovného hárka"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Ako výšku strany použite výšku hárka"
+			},
+			"usePrintAreaLabel": {
+				"text": "Použite oblasť tlače"
+			},
+			"usePageMarginLabel": {
+				"text": "Použite okraj stránky"
+			},
+			"usePageScaleLabel": {
+				"text": "Použite mierku strany"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Zobraziť skryté pracovné hárky"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Zobraziť skrytú grafiku"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Zrušiť"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
 		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázok z adresy URL",
-		"vsdv-exportFileSettingsDialog-title": "Nastavenia exportu súboru"
+		"vsdv-exportFileSettingsDialog-title": "Nastavenia exportu súboru",
+		"vsdv-documentLayoutSettingsDialog-title": "Nastavenia rozloženia dokumentu"
 	}
 }

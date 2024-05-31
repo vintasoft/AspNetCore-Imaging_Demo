@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Файлро аз URL кушоед"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Танзимоти тарҳбандии ҳуҷҷат"
+		},
 		"printImagesButton": {
 			"title": "Тасвирҳоро чоп кунед"
 		},
@@ -179,6 +182,41 @@
 				"value": "ДУРУСТ"
 			},
 			"сancelButton": {
+				"value": "Бекор кардан"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Танзимоти тарҳбандии пешфарзро истифода баред"
+			},
+			"showHiddenContentLabel": {
+				"text": "Мундариҷаи пинҳоншударо нишон диҳед"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Паҳнои варақро ҳамчун паҳнои саҳифа истифода баред"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Баландии варақи корро ҳамчун баландии саҳифа истифода баред"
+			},
+			"usePrintAreaLabel": {
+				"text": "Майдони чопро истифода баред"
+			},
+			"usePageMarginLabel": {
+				"text": "Маржаи саҳифаро истифода баред"
+			},
+			"usePageScaleLabel": {
+				"text": "Миқёси саҳифаро истифода баред"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Варақаҳои кории пинҳоншударо нишон диҳед"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Графикаи пинҳоншударо нишон диҳед"
+			},
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
 				"value": "Бекор кардан"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
-		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
+		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
+		"vsdv-documentLayoutSettingsDialog-title": "Танзимоти тарҳбандии ҳуҷҷат"
 	}
 }

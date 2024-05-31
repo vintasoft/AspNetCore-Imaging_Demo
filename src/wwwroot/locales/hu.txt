@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Fájl megnyitása az URL-ből"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumentum elrendezési beállítások"
+		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
 		},
@@ -179,6 +182,41 @@
 				"value": "Rendben"
 			},
 			"сancelButton": {
+				"value": "Mégse"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Használja az alapértelmezett elrendezési beállításokat"
+			},
+			"showHiddenContentLabel": {
+				"text": "Rejtett tartalom megjelenítése"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Használja a munkalap szélességét oldalszélességként"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Használja a munkalap magasságát oldalmagasságként"
+			},
+			"usePrintAreaLabel": {
+				"text": "Nyomtatási terület használata"
+			},
+			"usePageMarginLabel": {
+				"text": "Oldalmargó használata"
+			},
+			"usePageScaleLabel": {
+				"text": "Használjon oldalléptéket"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Rejtett munkalapok megjelenítése"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Rejtett grafikák megjelenítése"
+			},
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
 				"value": "Mégse"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
-		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
+		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentum elrendezési beállítások"
 	}
 }

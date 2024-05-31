@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "פתח קובץ מ-URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "הגדרות פריסת מסמך"
+		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
 		},
@@ -179,6 +182,41 @@
 				"value": "בסדר"
 			},
 			"сancelButton": {
+				"value": "בטל"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "השתמש בהגדרות ברירת המחדל של פריסה"
+			},
+			"showHiddenContentLabel": {
+				"text": "הצג תוכן מוסתר"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "השתמש ברוחב גליון העבודה בתור רוחב העמוד"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "השתמש בגובה גליון העבודה כגובה העמוד"
+			},
+			"usePrintAreaLabel": {
+				"text": "השתמש באזור ההדפסה"
+			},
+			"usePageMarginLabel": {
+				"text": "השתמש בשולי העמוד"
+			},
+			"usePageScaleLabel": {
+				"text": "השתמש בסולם עמודים"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "הצג גליונות עבודה נסתרים"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "הצג גרפיקה נסתרת"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
 				"value": "בטל"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
 		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
-		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ"
+		"vsdv-exportFileSettingsDialog-title": "ההגדרות לייצוא הקובץ",
+		"vsdv-documentLayoutSettingsDialog-title": "הגדרות פריסת מסמך"
 	}
 }

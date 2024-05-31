@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL에서 파일 열기"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "문서 레이아웃 설정"
+		},
 		"printImagesButton": {
 			"title": "이미지 인쇄"
 		},
@@ -179,6 +182,41 @@
 				"value": "확인"
 			},
 			"сancelButton": {
+				"value": "취소"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "기본 레이아웃 설정 사용"
+			},
+			"showHiddenContentLabel": {
+				"text": "숨겨진 콘텐츠 표시"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "워크시트 너비를 페이지 너비로 사용"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "워크시트 높이를 페이지 높이로 사용"
+			},
+			"usePrintAreaLabel": {
+				"text": "인쇄 영역 사용"
+			},
+			"usePageMarginLabel": {
+				"text": "페이지 여백 사용"
+			},
+			"usePageScaleLabel": {
+				"text": "페이지 배율 사용"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "숨겨진 워크시트 표시"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "숨겨진 그래픽 표시"
+			},
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
 				"value": "취소"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
-		"vsdv-exportFileSettingsDialog-title": "파일을 내보내는 설정"
+		"vsdv-exportFileSettingsDialog-title": "파일을 내보내는 설정",
+		"vsdv-documentLayoutSettingsDialog-title": "문서 레이아웃 설정"
 	}
 }

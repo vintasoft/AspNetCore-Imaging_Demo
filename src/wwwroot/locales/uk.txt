@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Відкрити файл з URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Параметри оформлення документа"
+		},
 		"printImagesButton": {
 			"title": "Друк зображень"
 		},
@@ -179,6 +182,41 @@
 				"value": "В порядку"
 			},
 			"сancelButton": {
+				"value": "Скасувати"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Використовуйте налаштування макета за замовчуванням"
+			},
+			"showHiddenContentLabel": {
+				"text": "Показати прихований вміст"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Використовуйте ширину аркуша як ширину сторінки"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Використовуйте висоту аркуша як висоту сторінки"
+			},
+			"usePrintAreaLabel": {
+				"text": "Використовуйте область друку"
+			},
+			"usePageMarginLabel": {
+				"text": "Використовуйте поля сторінки"
+			},
+			"usePageScaleLabel": {
+				"text": "Використовуйте масштаб сторінки"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Показати приховані аркуші"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Показати приховану графіку"
+			},
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
 				"value": "Скасувати"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
-		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу"
+		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу",
+		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа"
 	}
 }

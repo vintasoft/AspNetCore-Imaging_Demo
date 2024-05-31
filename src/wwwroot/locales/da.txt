@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Åbn fil fra URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Indstillinger for dokumentlayout"
+		},
 		"printImagesButton": {
 			"title": "Udskriv billeder"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annuller"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Brug standardlayoutindstillinger"
+			},
+			"showHiddenContentLabel": {
+				"text": "Vis skjult indhold"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Brug regnearksbredde som sidebredde"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Brug regnearkshøjde som sidehøjde"
+			},
+			"usePrintAreaLabel": {
+				"text": "Brug udskriftsområde"
+			},
+			"usePageMarginLabel": {
+				"text": "Brug sidemargen"
+			},
+			"usePageScaleLabel": {
+				"text": "Brug sideskala"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Vis skjulte regneark"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Vis skjult grafik"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annuller"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL",
-		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil"
+		"vsdv-exportFileSettingsDialog-title": "Indstillingerne for at eksportere fil",
+		"vsdv-documentLayoutSettingsDialog-title": "Indstillinger for dokumentlayout"
 	}
 }

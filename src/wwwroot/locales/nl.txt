@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Bestand openen vanaf URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Instellingen voor documentlay-out"
+		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annuleren"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Gebruik standaard lay-outinstellingen"
+			},
+			"showHiddenContentLabel": {
+				"text": "Toon verborgen inhoud"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Gebruik werkbladbreedte als paginabreedte"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Gebruik werkbladhoogte als paginahoogte"
+			},
+			"usePrintAreaLabel": {
+				"text": "Gebruik afdrukgebied"
+			},
+			"usePageMarginLabel": {
+				"text": "Gebruik paginamarge"
+			},
+			"usePageScaleLabel": {
+				"text": "Gebruik paginaschaal"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Toon verborgen werkbladen"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Toon verborgen afbeeldingen"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annuleren"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
+		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
+		"vsdv-documentLayoutSettingsDialog-title": "Instellingen voor documentlay-out"
 	}
 }

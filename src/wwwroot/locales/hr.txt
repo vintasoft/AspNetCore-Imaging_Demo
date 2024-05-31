@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Otvori datoteku s URL-a"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Postavke izgleda dokumenta"
+		},
 		"printImagesButton": {
 			"title": "Ispis slika"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Odustani"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Koristite zadane postavke izgleda"
+			},
+			"showHiddenContentLabel": {
+				"text": "Prikaži skriveni sadržaj"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Koristite širinu radnog lista kao širinu stranice"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Koristite visinu radnog lista kao visinu stranice"
+			},
+			"usePrintAreaLabel": {
+				"text": "Koristite područje ispisa"
+			},
+			"usePageMarginLabel": {
+				"text": "Koristite marginu stranice"
+			},
+			"usePageScaleLabel": {
+				"text": "Koristite mjerilo stranice"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Prikaži skrivene radne listove"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Prikaži skrivene grafike"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Odustani"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
 		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
-		"vsdv-exportFileSettingsDialog-title": "Postavke za izvoz datoteke"
+		"vsdv-exportFileSettingsDialog-title": "Postavke za izvoz datoteke",
+		"vsdv-documentLayoutSettingsDialog-title": "Postavke izgleda dokumenta"
 	}
 }

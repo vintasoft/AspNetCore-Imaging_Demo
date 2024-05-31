@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "გახსენით ფაილი URL-დან"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "დოკუმენტის განლაგების პარამეტრები"
+		},
 		"printImagesButton": {
 			"title": "სურათების დაბეჭდვა"
 		},
@@ -179,6 +182,41 @@
 				"value": "კარგი"
 			},
 			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "გამოიყენეთ ნაგულისხმევი განლაგების პარამეტრები"
+			},
+			"showHiddenContentLabel": {
+				"text": "დამალული შინაარსის ჩვენება"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "გამოიყენეთ სამუშაო ფურცლის სიგანე, როგორც გვერდის სიგანე"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "გამოიყენეთ სამუშაო ფურცლის სიმაღლე, როგორც გვერდის სიმაღლე"
+			},
+			"usePrintAreaLabel": {
+				"text": "გამოიყენეთ ბეჭდვის არე"
+			},
+			"usePageMarginLabel": {
+				"text": "გამოიყენეთ გვერდის ზღვარი"
+			},
+			"usePageScaleLabel": {
+				"text": "გამოიყენეთ გვერდის მასშტაბი"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "დამალული სამუშაო ფურცლების ჩვენება"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "დამალული გრაფიკის ჩვენება"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
 				"value": "გაუქმება"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
 		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
-		"vsdv-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
+		"vsdv-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
+		"vsdv-documentLayoutSettingsDialog-title": "დოკუმენტის განლაგების პარამეტრები"
 	}
 }

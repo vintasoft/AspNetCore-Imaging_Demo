@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Maak lêer oop vanaf URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumentuitleginstellings"
+		},
 		"printImagesButton": {
 			"title": "Druk prente"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Kanselleer"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Gebruik verstekuitleginstellings"
+			},
+			"showHiddenContentLabel": {
+				"text": "Wys verborge inhoud"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Gebruik werkbladwydte as bladsywydte"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Gebruik werkbladhoogte as bladsyhoogte"
+			},
+			"usePrintAreaLabel": {
+				"text": "Gebruik drukarea"
+			},
+			"usePageMarginLabel": {
+				"text": "Gebruik bladsymarge"
+			},
+			"usePageScaleLabel": {
+				"text": "Gebruik bladsyskaal"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Wys versteekte werkblaaie"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Wys verborge grafika"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Kanselleer"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer"
+		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings"
 	}
 }

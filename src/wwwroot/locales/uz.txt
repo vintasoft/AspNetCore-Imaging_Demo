@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL manzilidan faylni oching"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Hujjatlarni joylashtirish sozlamalari"
+		},
 		"printImagesButton": {
 			"title": "Rasmlarni chop etish"
 		},
@@ -179,6 +182,41 @@
 				"value": "KELISHDIKMI"
 			},
 			"сancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Standart tartib sozlamalaridan foydalaning"
+			},
+			"showHiddenContentLabel": {
+				"text": "Yashirin tarkibni ko'rsatish"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Sahifa kengligi sifatida ishchi varaq kengligidan foydalaning"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Sahifa balandligi sifatida ishchi varaq balandligidan foydalaning"
+			},
+			"usePrintAreaLabel": {
+				"text": "Chop etish maydonidan foydalaning"
+			},
+			"usePageMarginLabel": {
+				"text": "Sahifa chetidan foydalaning"
+			},
+			"usePageScaleLabel": {
+				"text": "Sahifa masshtabidan foydalaning"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Yashirin ish varaqlarini ko'rsatish"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Yashirin grafiklarni ko'rsatish"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
 				"value": "Bekor qilish"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
 		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
-		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar"
+		"vsdv-exportFileSettingsDialog-title": "Faylni eksport qilish uchun sozlamalar",
+		"vsdv-documentLayoutSettingsDialog-title": "Hujjatlarni joylashtirish sozlamalari"
 	}
 }

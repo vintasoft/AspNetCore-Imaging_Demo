@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Öppna filen från URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Inställningar för dokumentlayout"
+		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Använd standardlayoutinställningar"
+			},
+			"showHiddenContentLabel": {
+				"text": "Visa dolt innehåll"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Använd kalkylbladsbredd som sidbredd"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Använd kalkylbladshöjd som sidhöjd"
+			},
+			"usePrintAreaLabel": {
+				"text": "Använd utskriftsområdet"
+			},
+			"usePageMarginLabel": {
+				"text": "Använd sidmarginal"
+			},
+			"usePageScaleLabel": {
+				"text": "Använd sidskala"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Visa dolda kalkylblad"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Visa dold grafik"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Avbryt"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
 		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL",
-		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen"
+		"vsdv-exportFileSettingsDialog-title": "Inställningarna för att exportera filen",
+		"vsdv-documentLayoutSettingsDialog-title": "Inställningar för dokumentlayout"
 	}
 }

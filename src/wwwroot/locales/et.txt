@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Ava fail URL-ist"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumendi paigutuse seaded"
+		},
 		"printImagesButton": {
 			"title": "Printige pilte"
 		},
@@ -179,6 +182,41 @@
 				"value": "Okei"
 			},
 			"сancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Kasutage paigutuse vaikesätteid"
+			},
+			"showHiddenContentLabel": {
+				"text": "Kuva peidetud sisu"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Kasutage lehe laiuseks töölehe laiust"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Kasutage lehe kõrgusena töölehe kõrgust"
+			},
+			"usePrintAreaLabel": {
+				"text": "Kasutage prindiala"
+			},
+			"usePageMarginLabel": {
+				"text": "Kasutage lehe veerist"
+			},
+			"usePageScaleLabel": {
+				"text": "Kasutage lehe skaalat"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Kuva peidetud töölehed"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Näita peidetud graafikat"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
 				"value": "Tühista"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
-		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted"
+		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded"
 	}
 }

@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Fungua faili kutoka kwa URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Mipangilio ya mpangilio wa hati"
+		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
 		},
@@ -179,6 +182,41 @@
 				"value": "sawa"
 			},
 			"сancelButton": {
+				"value": "Ghairi"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Tumia mipangilio ya mpangilio chaguomsingi"
+			},
+			"showHiddenContentLabel": {
+				"text": "Onyesha maudhui yaliyofichwa"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Tumia upana wa laha ya kazi kama upana wa ukurasa"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Tumia urefu wa laha ya kazi kama urefu wa ukurasa"
+			},
+			"usePrintAreaLabel": {
+				"text": "Tumia eneo la kuchapisha"
+			},
+			"usePageMarginLabel": {
+				"text": "Tumia ukingo wa ukurasa"
+			},
+			"usePageScaleLabel": {
+				"text": "Tumia mizani ya ukurasa"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Onyesha laha za kazi zilizofichwa"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Onyesha michoro iliyofichwa"
+			},
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
 				"value": "Ghairi"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
 		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL",
-		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili"
+		"vsdv-exportFileSettingsDialog-title": "Mipangilio ya kuhamisha faili",
+		"vsdv-documentLayoutSettingsDialog-title": "Mipangilio ya mpangilio wa hati"
 	}
 }

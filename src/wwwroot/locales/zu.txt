@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Vula ifayela ku-URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Izilungiselelo zesakhiwo sedokhumenti"
+		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
 		},
@@ -179,6 +182,41 @@
 				"value": "KULUNGILE"
 			},
 			"сancelButton": {
+				"value": "Khansela"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Sebenzisa izilungiselelo zesakhiwo esizenzakalelayo"
+			},
+			"showHiddenContentLabel": {
+				"text": "Bonisa okuqukethwe okufihliwe"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Sebenzisa ububanzi beshidi lokusebenzela njengobubanzi bekhasi"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Sebenzisa ubude beshidi lokusebenzela njengobude bekhasi"
+			},
+			"usePrintAreaLabel": {
+				"text": "Sebenzisa indawo yokuphrinta"
+			},
+			"usePageMarginLabel": {
+				"text": "Sebenzisa imajini yekhasi"
+			},
+			"usePageScaleLabel": {
+				"text": "Sebenzisa isikali sekhasi"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Bonisa amaphepha okusebenza afihliwe"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Bonisa ihluzo ezifihliwe"
+			},
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
 				"value": "Khansela"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
 		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
-		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
+		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
+		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti"
 	}
 }

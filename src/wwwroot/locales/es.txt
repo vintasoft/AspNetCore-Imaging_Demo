@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Abrir archivo desde URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Configuración de diseño del documento"
+		},
 		"printImagesButton": {
 			"title": "Imprimir imágenes"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Cancelar"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Usar la configuración de diseño predeterminada"
+			},
+			"showHiddenContentLabel": {
+				"text": "Mostrar contenido oculto"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Usar el ancho de la hoja de trabajo como ancho de página"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Usar la altura de la hoja de trabajo como altura de la página"
+			},
+			"usePrintAreaLabel": {
+				"text": "Usar área de impresión"
+			},
+			"usePageMarginLabel": {
+				"text": "Usar margen de página"
+			},
+			"usePageScaleLabel": {
+				"text": "Usar escala de página"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Mostrar hojas de trabajo ocultas"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Mostrar gráficos ocultos"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Cancelar"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
-		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo."
+		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo.",
+		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento"
 	}
 }

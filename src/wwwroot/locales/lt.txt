@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Atidaryti failą iš URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Dokumento maketavimo nustatymai"
+		},
 		"printImagesButton": {
 			"title": "Spausdinti vaizdus"
 		},
@@ -179,6 +182,41 @@
 				"value": "Gerai"
 			},
 			"сancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Naudokite numatytuosius išdėstymo nustatymus"
+			},
+			"showHiddenContentLabel": {
+				"text": "Rodyti paslėptą turinį"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Naudokite darbalapio plotį kaip puslapio plotį"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Naudokite darbalapio aukštį kaip puslapio aukštį"
+			},
+			"usePrintAreaLabel": {
+				"text": "Naudokite spausdinimo sritį"
+			},
+			"usePageMarginLabel": {
+				"text": "Naudokite puslapio paraštę"
+			},
+			"usePageScaleLabel": {
+				"text": "Naudokite puslapio mastelį"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Rodyti paslėptus darbalapius"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Rodyti paslėptą grafiką"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
 				"value": "Atšaukti"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
 		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
-		"vsdv-exportFileSettingsDialog-title": "Failo eksporto nustatymai"
+		"vsdv-exportFileSettingsDialog-title": "Failo eksporto nustatymai",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumento maketavimo nustatymai"
 	}
 }

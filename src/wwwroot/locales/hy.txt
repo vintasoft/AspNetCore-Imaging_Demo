@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Բացեք ֆայլը URL-ից"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Փաստաթղթի դասավորության կարգավորումներ"
+		},
 		"printImagesButton": {
 			"title": "Տպել պատկերներ"
 		},
@@ -179,6 +182,41 @@
 				"value": "լավ"
 			},
 			"сancelButton": {
+				"value": "Չեղարկել"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Օգտագործեք լռելյայն դասավորության կարգավորումները"
+			},
+			"showHiddenContentLabel": {
+				"text": "Ցույց տալ թաքնված բովանդակությունը"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Օգտագործեք աշխատաթերթի լայնությունը որպես էջի լայնություն"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Օգտագործեք աշխատաթերթի բարձրությունը որպես էջի բարձրություն"
+			},
+			"usePrintAreaLabel": {
+				"text": "Օգտագործեք տպման տարածքը"
+			},
+			"usePageMarginLabel": {
+				"text": "Օգտագործեք էջի լուսանցքը"
+			},
+			"usePageScaleLabel": {
+				"text": "Օգտագործեք էջի սանդղակը"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Ցույց տալ թաքնված աշխատաթերթերը"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Ցույց տալ թաքնված գրաֆիկան"
+			},
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
 				"value": "Չեղարկել"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
-		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները"
+		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
+		"vsdv-documentLayoutSettingsDialog-title": "Փաստաթղթի դասավորության կարգավորումներ"
 	}
 }

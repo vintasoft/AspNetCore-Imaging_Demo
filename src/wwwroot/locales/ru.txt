@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Открыть файл по URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Настройки макета документа"
+		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
 		},
@@ -179,6 +182,41 @@
 				"value": "ОК"
 			},
 			"сancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Использовать настройки макета по умолчанию"
+			},
+			"showHiddenContentLabel": {
+				"text": "Показать скрытый контент"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Использовать ширину листа как ширину страницы"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Использовать высоту листа как высоту страницы"
+			},
+			"usePrintAreaLabel": {
+				"text": "Использовать область печати"
+			},
+			"usePageMarginLabel": {
+				"text": "Использовать поля страницы"
+			},
+			"usePageScaleLabel": {
+				"text": "Использовать масштаб страницы"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Показать скрытые листы"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Показать скрытую графику"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
 				"value": "Отмена"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
 		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL",
-		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла"
+		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла",
+		"vsdv-documentLayoutSettingsDialog-title": "Настройки макета документа"
 	}
 }

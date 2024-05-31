@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL-den faýl açyň"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Resminamanyň ýerleşiş sazlamalary"
+		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
 		},
@@ -179,6 +182,41 @@
 				"value": "Bolýar"
 			},
 			"сancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Adaty tertip sazlamalaryny ulanyň"
+			},
+			"showHiddenContentLabel": {
+				"text": "Gizlin mazmuny görkez"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Iş sahypasynyň giňligini sahypanyň ini hökmünde ulanyň"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Sahypanyň beýikligi hökmünde iş sahypasynyň beýikligini ulanyň"
+			},
+			"usePrintAreaLabel": {
+				"text": "Çap meýdanyny ulanyň"
+			},
+			"usePageMarginLabel": {
+				"text": "Sahypanyň marginini ulanyň"
+			},
+			"usePageScaleLabel": {
+				"text": "Sahypanyň masştabyny ulanyň"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Gizlin iş sahypalaryny görkeziň"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Gizlin grafikalary görkez"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
 				"value": "Elatyr"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
-		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
+		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
+		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary"
 	}
 }

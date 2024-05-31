@@ -73,6 +73,9 @@ function __initMenu(docViewerSettings) {
 
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
+
+        // add the "Document layout settings" button to the menu panel
+        fileMenuPanelItems.insertItem(4, "documentLayoutSettingsButton");
     }
 }
 
@@ -316,6 +319,10 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
+
+    var documentLayoutSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebDocumentLayoutSettingsDialogJS();
+    documentLayoutSettingsDialog.render(floatingContainer);
+    tempDialogs.push(documentLayoutSettingsDialog);
 
     var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);

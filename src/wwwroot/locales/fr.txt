@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "Ouvrir le fichier à partir de l'URL"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Paramètres de mise en page du document"
+		},
 		"printImagesButton": {
 			"title": "Imprimer des images"
 		},
@@ -179,6 +182,41 @@
 				"value": "OK"
 			},
 			"сancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Utiliser les paramètres de mise en page par défaut"
+			},
+			"showHiddenContentLabel": {
+				"text": "Afficher le contenu masqué"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "Utiliser la largeur de la feuille de calcul comme largeur de page"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "Utiliser la hauteur de la feuille de calcul comme hauteur de page"
+			},
+			"usePrintAreaLabel": {
+				"text": "Utiliser la zone d'impression"
+			},
+			"usePageMarginLabel": {
+				"text": "Utiliser la marge de la page"
+			},
+			"usePageScaleLabel": {
+				"text": "Utiliser l'échelle des pages"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Afficher les feuilles de calcul masquées"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Afficher les graphiques masqués"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
 				"value": "Annuler"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
 		"vsdv-uploadImageFromUrlDialog-title": "Télécharger une image à partir d'une URL",
-		"vsdv-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier"
+		"vsdv-exportFileSettingsDialog-title": "Les paramètres pour exporter le fichier",
+		"vsdv-documentLayoutSettingsDialog-title": "Paramètres de mise en page du document"
 	}
 }

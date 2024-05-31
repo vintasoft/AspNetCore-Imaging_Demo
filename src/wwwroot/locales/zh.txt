@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "從 URL 開啟文件"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "文档布局设置"
+		},
 		"printImagesButton": {
 			"title": "打印图像"
 		},
@@ -179,6 +182,41 @@
 				"value": "好的"
 			},
 			"сancelButton": {
+				"value": "取消"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "使用默认布局设置"
+			},
+			"showHiddenContentLabel": {
+				"text": "显示隐藏内容"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "使用工作表宽度作为页面宽度"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "使用工作表高度作为页面高度"
+			},
+			"usePrintAreaLabel": {
+				"text": "使用打印区域"
+			},
+			"usePageMarginLabel": {
+				"text": "使用页边距"
+			},
+			"usePageScaleLabel": {
+				"text": "使用页面比例"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "显示隐藏工作表"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "显示隐藏图形"
+			},
+			"okButton": {
+				"value": "好的"
+			},
+			"cancelButton": {
 				"value": "取消"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
 		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
-		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置"
+		"vsdv-exportFileSettingsDialog-title": "匯出文件的設置",
+		"vsdv-documentLayoutSettingsDialog-title": "文档布局设置"
 	}
 }

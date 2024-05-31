@@ -21,6 +21,9 @@
 		"openFileFromUrlButton": {
 			"title": "URL-dən faylı açın"
 		},
+		"documentLayoutSettingsButton": {
+			"title": "Sənəd tərtibatı parametrləri"
+		},
 		"printImagesButton": {
 			"title": "Şəkilləri çap edin"
 		},
@@ -179,6 +182,41 @@
 				"value": "tamam"
 			},
 			"сancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"documentLayoutSettingsDialog": {
+			"useDefaultLayoutSettingsLabel": {
+				"text": "Defolt tərtibat parametrlərindən istifadə edin"
+			},
+			"showHiddenContentLabel": {
+				"text": "Gizli məzmunu göstərin"
+			},
+			"useWorksheetWidthAsPageWidthLabel": {
+				"text": "İş vərəqinin enini səhifə eni kimi istifadə edin"
+			},
+			"useWorksheetHeightAsPageHeightLabel": {
+				"text": "İş vərəqinin hündürlüyünü səhifə hündürlüyü kimi istifadə edin"
+			},
+			"usePrintAreaLabel": {
+				"text": "Çap sahəsini istifadə edin"
+			},
+			"usePageMarginLabel": {
+				"text": "Səhifə kənarından istifadə edin"
+			},
+			"usePageScaleLabel": {
+				"text": "Səhifə ölçüsündən istifadə edin"
+			},
+			"showHiddenWorksheetsLabel": {
+				"text": "Gizli iş vərəqlərini göstərin"
+			},
+			"showHiddenGraphicsLabel": {
+				"text": "Gizli qrafikləri göstərin"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
 				"value": "Ləğv et"
 			}
 		},
@@ -563,6 +601,7 @@
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
 		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
-		"vsdv-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər"
+		"vsdv-exportFileSettingsDialog-title": "Faylı ixrac etmək üçün parametrlər",
+		"vsdv-documentLayoutSettingsDialog-title": "Sənəd tərtibatı parametrləri"
 	}
 }
