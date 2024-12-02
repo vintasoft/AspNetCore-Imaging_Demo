@@ -22,7 +22,7 @@
 			"title": "Maak lêer oop vanaf URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Dokumentuitleginstellings"
+			"title": "Uitleg instellings"
 		},
 		"printImagesButton": {
 			"title": "Druk prente"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Gebruik verstekuitleginstellings"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Bladsy grootte"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Wys verborge inhoud"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan deur kleinkiekies navigeer met sleutelbord:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan duimnaels met sleutelbord kies:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan duimnaels met sleutelbord uitvee:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Beeldverwerking",
+		"vsui-imageProcessingPanel-imageProcessingString": "Beeldverwerking",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
 		"vsui-thumbnailViewer-selectedLabel": "GEKIES",
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
-		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
+		"vsui-documentPasswordDialog-title": "Dokumentwagwoord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Kanselleer",
+		"vsui-documentPasswordPanel-authenticateFileString": "Bevestig lêer",
+		"vsui-imageSelectionDialog-title": "Kies prente",
+		"vsui-imageSelectionDialog-currentImageString": "Huidige prent",
+		"vsui-imageSelectionDialog-allImagesString": "Alle beelde",
+		"vsui-imageSelectionDialog-customImagesString": "Gepasmaak",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Kanselleer",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Bevestig lêer",
-		"vsdv-imageSelectionDialog-title": "Kies prente",
-		"vsdv-imageSelectionDialog-currentImageString": "Huidige prent",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle beelde",
-		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
-		"vsdv-printImagesDialog-title": "Druk prente",
-		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
-		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
+		"vsui-printImagesDialog-title": "Druk prente",
+		"vsui-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsui-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
+		"vsui-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
+		"vsui-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer",
-		"vsdv-documentLayoutSettingsDialog-title": "Dokumentuitleginstellings"
+		"vsui-exportFileSettingsDialog-title": "Die instellings om lêer uit te voer"
 	}
 }

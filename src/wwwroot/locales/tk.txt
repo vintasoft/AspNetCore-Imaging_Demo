@@ -22,7 +22,7 @@
 			"title": "URL-den faýl açyň"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Resminamanyň ýerleşiş sazlamalary"
+			"title": "Salgy sazlamalary"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Adaty tertip sazlamalaryny ulanyň"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Sahypanyň ululygy"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Gizlin mazmuny görkez"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp, kiçijik suratlary dolandyryp bilersiňiz:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp kiçijik suratlary saýlap bilersiňiz:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiatura arkaly kiçijik suratlary pozup bilersiňiz:"
+			},
 			"okButton": {
 				"value": "Bolýar"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Suraty gaýtadan işlemek",
+		"vsui-imageProcessingPanel-imageProcessingString": "Suraty gaýtadan işlemek",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
 		"vsui-thumbnailViewer-selectedLabel": "Saýlandy",
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
-		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-dialog-okButton": "Bolýar",
+		"vsui-dialog-cancelButton": "Elatyr",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
+		"vsui-imageSelectionDialog-title": "Suratlary saýlaň",
+		"vsui-imageSelectionDialog-currentImageString": "Häzirki surat",
+		"vsui-imageSelectionDialog-allImagesString": "Imageshli suratlar",
+		"vsui-imageSelectionDialog-customImagesString": "Omörite",
+		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-dialog-cancelButton": "Elatyr",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
-		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
-		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
-		"vsdv-imageSelectionDialog-allImagesString": "Imageshli suratlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
-		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
-		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
-		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsui-printImagesDialog-title": "Suratlary çap ediň",
+		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
+		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
 		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
-		"vsdv-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar",
-		"vsdv-documentLayoutSettingsDialog-title": "Resminamanyň ýerleşiş sazlamalary"
+		"vsui-exportFileSettingsDialog-title": "Faýl eksport etmek üçin sazlamalar"
 	}
 }

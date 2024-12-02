@@ -22,7 +22,7 @@
 			"title": "Ava fail URL-ist"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Dokumendi paigutuse seaded"
+			"title": "Paigutuse seaded"
 		},
 		"printImagesButton": {
 			"title": "Printige pilte"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Kasutage paigutuse vaikesätteid"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Lehekülje suurus"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Kuva peidetud sisu"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Oskab klaviatuuri abil pisipiltides navigeerida:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab valida klaviatuuri abil:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab klaviatuuri abil kustutada:"
+			},
 			"okButton": {
 				"value": "Okei"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Pildi töötlemine",
+		"vsui-imageProcessingPanel-imageProcessingString": "Pildi töötlemine",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
 		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
 		"vsui-thumbnailViewer-selectedLabel": "VALITUD",
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
-		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-dialog-okButton": "Okei",
+		"vsui-dialog-cancelButton": "Tühista",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentige fail",
+		"vsui-imageSelectionDialog-title": "Valige pildid",
+		"vsui-imageSelectionDialog-currentImageString": "Praegune pilt",
+		"vsui-imageSelectionDialog-allImagesString": "Kõik pildid",
+		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-dialog-cancelButton": "Tühista",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
-		"vsdv-imageSelectionDialog-title": "Valige pildid",
-		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
-		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
-		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
-		"vsdv-printImagesDialog-title": "Printige pilte",
-		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
-		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsui-printImagesDialog-title": "Printige pilte",
+		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
+		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
 		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
-		"vsdv-exportFileSettingsDialog-title": "Faili eksportimise sätted",
-		"vsdv-documentLayoutSettingsDialog-title": "Dokumendi paigutuse seaded"
+		"vsui-exportFileSettingsDialog-title": "Faili eksportimise sätted"
 	}
 }

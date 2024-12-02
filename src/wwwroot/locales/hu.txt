@@ -22,7 +22,7 @@
 			"title": "Fájl megnyitása az URL-ből"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Dokumentum elrendezési beállítások"
+			"title": "Elrendezési beállítások"
 		},
 		"printImagesButton": {
 			"title": "Képek nyomtatása"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Használja az alapértelmezett elrendezési beállításokat"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Oldalméret"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Rejtett tartalom megjelenítése"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Mozoghat a miniatűrök között a billentyűzet segítségével:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kiválaszthat miniatűröket a billentyűzet segítségével:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Törölheti a miniatűröket a billentyűzet segítségével:"
+			},
 			"okButton": {
 				"value": "Rendben"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
 		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Képfeldolgozás",
+		"vsui-imageProcessingPanel-imageProcessingString": "Képfeldolgozás",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
 		"vsui-thumbnailViewer-selectedLabel": "KIVÁLASZTOTT",
-		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
-		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsui-dialog-okButton": "Rendben",
+		"vsui-dialog-cancelButton": "Mégse",
+		"vsui-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
+		"vsui-imageSelectionDialog-title": "Képek kiválasztása",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuális kép",
+		"vsui-imageSelectionDialog-allImagesString": "Minden kép",
+		"vsui-imageSelectionDialog-customImagesString": "Egyedi",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumentum elrendezési beállítások",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-dialog-cancelButton": "Mégse",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
-		"vsdv-imageSelectionDialog-title": "Képek kiválasztása",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuális kép",
-		"vsdv-imageSelectionDialog-allImagesString": "Minden kép",
-		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
-		"vsdv-printImagesDialog-title": "Képek nyomtatása",
-		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
-		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsui-printImagesDialog-title": "Képek nyomtatása",
+		"vsui-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsui-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
+		"vsui-imageViewerSettingsDialog-title": "A képnézegető beállításai",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
 		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
-		"vsdv-exportFileSettingsDialog-title": "A fájl exportálásának beállításai",
-		"vsdv-documentLayoutSettingsDialog-title": "Dokumentum elrendezési beállítások"
+		"vsui-exportFileSettingsDialog-title": "A fájl exportálásának beállításai"
 	}
 }

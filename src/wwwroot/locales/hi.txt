@@ -22,7 +22,7 @@
 			"title": "URL से फ़ाइल खोलें"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "दस्तावेज़ लेआउट सेटिंग"
+			"title": "लेआउट सेटिंग"
 		},
 		"printImagesButton": {
 			"title": "छवियाँ मुद्रित करें"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "डिफ़ॉल्ट लेआउट सेटिंग का उपयोग करें"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "पेज साइज़"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "छिपी हुई सामग्री दिखाएँ"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल नेविगेट कर सकते हैं:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल चुन सकते हैं:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "कीबोर्ड का उपयोग करके थंबनेल हटा सकते हैं:"
+			},
 			"okButton": {
 				"value": "ठीक है"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
 		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
-		"vsdv-imageProcessingPanel-imageProcessingString": "मूर्ति प्रोद्योगिकी",
+		"vsui-imageProcessingPanel-imageProcessingString": "मूर्ति प्रोद्योगिकी",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
 		"vsdv-saveChanges-saveChangesInImages": "छवियों में परिवर्तन सहेजें",
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
 		"vsui-thumbnailViewer-selectedLabel": "चयनित",
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
-		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
+		"vsui-dialog-okButton": "ठीक है",
+		"vsui-dialog-cancelButton": "रद्द करें",
+		"vsui-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
+		"vsui-imageSelectionDialog-title": "छवियां चुनें",
+		"vsui-imageSelectionDialog-currentImageString": "वर्तमान छवि",
+		"vsui-imageSelectionDialog-allImagesString": "सभी छवियाँ",
+		"vsui-imageSelectionDialog-customImagesString": "कस्टम",
+		"vsdv-documentLayoutSettingsDialog-title": "दस्तावेज़ लेआउट सेटिंग",
 		"vsdv-dialog-okButton": "ठीक है",
 		"vsdv-dialog-cancelButton": "रद्द करें",
-		"vsdv-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
-		"vsdv-imageSelectionDialog-title": "छवियां चुनें",
-		"vsdv-imageSelectionDialog-currentImageString": "वर्तमान छवि",
-		"vsdv-imageSelectionDialog-allImagesString": "सभी छवियाँ",
-		"vsdv-imageSelectionDialog-customImagesString": "कस्टम",
-		"vsdv-printImagesDialog-title": "छवियाँ मुद्रित करें",
-		"vsdv-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
-		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
-		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
+		"vsui-printImagesDialog-title": "छवियाँ मुद्रित करें",
+		"vsui-printImagesPanel-imagePrintingString": "छवि मुद्रित हो रही है",
+		"vsui-printImagesPanel-withAnnotationsLabel": "एनोटेशन के साथ",
+		"vsui-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
+		"vsui-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
 		"vsdv-uploadImageFromUrlDialog-title": "यूआरएल से छवि अपलोड करें",
-		"vsdv-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग",
-		"vsdv-documentLayoutSettingsDialog-title": "दस्तावेज़ लेआउट सेटिंग"
+		"vsui-exportFileSettingsDialog-title": "फ़ाइल निर्यात करने की सेटिंग"
 	}
 }

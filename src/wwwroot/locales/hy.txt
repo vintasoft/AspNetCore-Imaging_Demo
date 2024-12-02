@@ -22,7 +22,7 @@
 			"title": "Բացեք ֆայլը URL-ից"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Փաստաթղթի դասավորության կարգավորումներ"
+			"title": "Դասավորության կարգավորումներ"
 		},
 		"printImagesButton": {
 			"title": "Տպել պատկերներ"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Օգտագործեք լռելյայն դասավորության կարգավորումները"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Էջի չափը"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Ցույց տալ թաքնված բովանդակությունը"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է նավարկել մանրապատկերներով՝ օգտագործելով ստեղնաշար."
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող եք ընտրել մանրապատկերներ՝ օգտագործելով ստեղնաշար."
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է ջնջել մանրապատկերները՝ օգտագործելով ստեղնաշար."
+			},
 			"okButton": {
 				"value": "լավ"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
 		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Պատկերի մշակում",
+		"vsui-imageProcessingPanel-imageProcessingString": "Պատկերի մշակում",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
 		"vsdv-saveChanges-saveChangesInImages": "Պահպանեք պատկերների փոփոխությունները",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
 		"vsui-thumbnailViewer-selectedLabel": "ԸՆՏՐՎԱԾ",
-		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
-		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsui-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsui-dialog-okButton": "լավ",
+		"vsui-dialog-cancelButton": "Չեղարկել",
+		"vsui-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
+		"vsui-imageSelectionDialog-title": "Ընտրեք պատկերներ",
+		"vsui-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
+		"vsui-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
+		"vsui-imageSelectionDialog-customImagesString": "Պատվերով",
+		"vsdv-documentLayoutSettingsDialog-title": "Փաստաթղթի դասավորության կարգավորումներ",
 		"vsdv-dialog-okButton": "լավ",
 		"vsdv-dialog-cancelButton": "Չեղարկել",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
-		"vsdv-imageSelectionDialog-title": "Ընտրեք պատկերներ",
-		"vsdv-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
-		"vsdv-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
-		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
-		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
-		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
-		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsui-printImagesDialog-title": "Տպել պատկերներ",
+		"vsui-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
+		"vsui-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
 		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
-		"vsdv-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները",
-		"vsdv-documentLayoutSettingsDialog-title": "Փաստաթղթի դասավորության կարգավորումներ"
+		"vsui-exportFileSettingsDialog-title": "Ֆայլի արտահանման կարգավորումները"
 	}
 }

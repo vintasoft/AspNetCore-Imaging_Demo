@@ -22,7 +22,7 @@
 			"title": "Файлды URL'ден ачыңыз"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Документтин жайгашуу орнотуулары"
+			"title": "Жайгашуу орнотуулары"
 		},
 		"printImagesButton": {
 			"title": "Сүрөттөрдү басып чыгаруу"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Демейки жайгашуу орнотууларын колдонуңуз"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Барактын өлчөмү"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Жашыруун мазмунду көрсөтүү"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Эскиздерди сүйрө алат:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди башкара алат:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди тандай алат:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди жок кыла алат:"
+			},
 			"okButton": {
 				"value": "макул"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Жүктөө жана файлды ачуу",
 		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Сүрөт иштетүү",
+		"vsui-imageProcessingPanel-imageProcessingString": "Сүрөт иштетүү",
 		"vsdv-openFile-addFileString": "Файл кошуу",
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
 		"vsui-thumbnailViewer-selectedLabel": "ТАНДАЛГАН",
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктөө",
-		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-dialog-okButton": "макул",
+		"vsui-dialog-cancelButton": "Жокко чыгаруу",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsui-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
+		"vsui-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
+		"vsui-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsdv-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары",
 		"vsdv-dialog-okButton": "макул",
 		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
-		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
-		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
-		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
-		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
-		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
-		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
+		"vsui-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
+		"vsui-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
+		"vsui-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
 		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
-		"vsdv-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар",
-		"vsdv-documentLayoutSettingsDialog-title": "Документтин жайгашуу орнотуулары"
+		"vsui-exportFileSettingsDialog-title": "Файлды экспорттоо үчүн орнотуулар"
 	}
 }

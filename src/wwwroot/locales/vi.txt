@@ -22,7 +22,7 @@
 			"title": "Mở tệp từ URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Cài đặt bố cục tài liệu"
+			"title": "Cài đặt bố cục"
 		},
 		"printImagesButton": {
 			"title": "In ảnh"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Sử dụng cài đặt bố cục mặc định"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Kích thước trang"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Hiển thị nội dung ẩn"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể điều hướng hình thu nhỏ bằng bàn phím:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể chọn hình thu nhỏ bằng bàn phím:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Có thể xóa hình thu nhỏ bằng bàn phím:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
 		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Đang xử lý hình ảnh",
+		"vsui-imageProcessingPanel-imageProcessingString": "Đang xử lý hình ảnh",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
 		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
 		"vsui-thumbnailViewer-selectedLabel": "ĐÃ CHỌN",
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
-		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Hủy",
+		"vsui-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
+		"vsui-imageSelectionDialog-title": "Chọn hình ảnh",
+		"vsui-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
+		"vsui-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
+		"vsui-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsdv-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Hủy",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
-		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
-		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
-		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
-		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
-		"vsdv-printImagesDialog-title": "In ảnh",
-		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "có chú thích",
-		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
-		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
+		"vsui-printImagesDialog-title": "In ảnh",
+		"vsui-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsui-printImagesPanel-withAnnotationsLabel": "có chú thích",
+		"vsui-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
+		"vsui-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:",
 		"vsdv-uploadImageFromUrlDialog-title": "Tải hình ảnh lên từ URL",
-		"vsdv-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin",
-		"vsdv-documentLayoutSettingsDialog-title": "Cài đặt bố cục tài liệu"
+		"vsui-exportFileSettingsDialog-title": "Các cài đặt để xuất tập tin"
 	}
 }

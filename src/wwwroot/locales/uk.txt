@@ -22,7 +22,7 @@
 			"title": "Відкрити файл з URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Параметри оформлення документа"
+			"title": "Налаштування макета"
 		},
 		"printImagesButton": {
 			"title": "Друк зображень"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Використовуйте налаштування макета за замовчуванням"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Розмір сторінки"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Показати прихований вміст"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна переміщатися мініатюрами за допомогою клавіатури:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна вибрати мініатюри за допомогою клавіатури:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна видалити мініатюри за допомогою клавіатури:"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Обробка зображення",
+		"vsui-imageProcessingPanel-imageProcessingString": "Обробка зображення",
 		"vsdv-openFile-addFileString": "Додати файл",
 		"vsdv-openFile-authenticateFileString": "Автентифікувати файл",
 		"vsdv-downloadFile-actionMessage": "Завантажити файл",
 		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
 		"vsui-thumbnailViewer-selectedLabel": "ВИБРАНО",
-		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
-		"vsdv-documentPasswordDialog-title": "Пароль документа",
+		"vsui-documentPasswordDialog-title": "Пароль документа",
+		"vsui-dialog-okButton": "В порядку",
+		"vsui-dialog-cancelButton": "Скасувати",
+		"vsui-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsui-imageSelectionDialog-title": "Виберіть зображення",
+		"vsui-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsui-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
-		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
-		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
-		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Друк зображень",
-		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
-		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsui-printImagesDialog-title": "Друк зображень",
+		"vsui-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анотаціями",
+		"vsui-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsui-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
 		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
-		"vsdv-exportFileSettingsDialog-title": "Параметри експорту файлу",
-		"vsdv-documentLayoutSettingsDialog-title": "Параметри оформлення документа"
+		"vsui-exportFileSettingsDialog-title": "Параметри експорту файлу"
 	}
 }

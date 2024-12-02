@@ -22,7 +22,7 @@
 			"title": "Atveriet failu no URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Dokumenta izkārtojuma iestatījumi"
+			"title": "Izkārtojuma iestatījumi"
 		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Izmantojiet noklusējuma izkārtojuma iestatījumus"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Lapas izmērs"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Rādīt slēpto saturu"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Var pārvietoties sīktēlos, izmantojot tastatūru:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Var atlasīt sīktēlus, izmantojot tastatūru:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Var izdzēst sīktēlus, izmantojot tastatūru:"
+			},
 			"okButton": {
 				"value": "labi"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
 		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Attēlu apstrāde",
+		"vsui-imageProcessingPanel-imageProcessingString": "Attēlu apstrāde",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
 		"vsui-thumbnailViewer-selectedLabel": "ATLASĪTS",
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
-		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
+		"vsui-documentPasswordDialog-title": "Dokumenta parole",
+		"vsui-dialog-okButton": "labi",
+		"vsui-dialog-cancelButton": "Atcelt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
+		"vsui-imageSelectionDialog-title": "Izvēlieties attēlus",
+		"vsui-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
+		"vsui-imageSelectionDialog-allImagesString": "Visi attēli",
+		"vsui-imageSelectionDialog-customImagesString": "Pielāgots",
+		"vsdv-documentLayoutSettingsDialog-title": "Dokumenta izkārtojuma iestatījumi",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-dialog-cancelButton": "Atcelt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
-		"vsdv-imageSelectionDialog-title": "Izvēlieties attēlus",
-		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
-		"vsdv-imageSelectionDialog-allImagesString": "Visi attēli",
-		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
-		"vsdv-printImagesDialog-title": "Drukāt attēlus",
-		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
-		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsui-printImagesDialog-title": "Drukāt attēlus",
+		"vsui-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
+		"vsui-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
-		"vsdv-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi",
-		"vsdv-documentLayoutSettingsDialog-title": "Dokumenta izkārtojuma iestatījumi"
+		"vsui-exportFileSettingsDialog-title": "Faila eksportēšanas iestatījumi"
 	}
 }

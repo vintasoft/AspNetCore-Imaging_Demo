@@ -22,7 +22,7 @@
 			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Ρυθμίσεις διάταξης εγγράφου"
+			"title": "Ρυθμίσεις διάταξης"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Χρησιμοποιήστε τις προεπιλεγμένες ρυθμίσεις διάταξης"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Μέγεθος σελίδας"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Εμφάνιση κρυφού περιεχομένου"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να πλοηγηθεί στις μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορεί να επιλέξει μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Μπορείτε να διαγράψετε μικρογραφίες χρησιμοποιώντας το πληκτρολόγιο:"
+			},
 			"okButton": {
 				"value": "ΟΚ"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
 		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
-		"vsdv-imageProcessingPanel-imageProcessingString": "ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ",
+		"vsui-imageProcessingPanel-imageProcessingString": "ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
 		"vsui-thumbnailViewer-selectedLabel": "ΕΠΙΛΕΓΜΕΝΟ",
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
-		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsui-dialog-okButton": "ΟΚ",
+		"vsui-dialog-cancelButton": "Ακύρωση",
+		"vsui-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsui-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vsui-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vsui-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vsui-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-dialog-cancelButton": "Ακύρωση",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
-		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
-		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
-		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
-		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
-		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
-		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
-		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
-		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsui-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vsui-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsui-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
+		"vsui-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
+		"vsui-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
 		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL",
-		"vsdv-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου",
-		"vsdv-documentLayoutSettingsDialog-title": "Ρυθμίσεις διάταξης εγγράφου"
+		"vsui-exportFileSettingsDialog-title": "Οι ρυθμίσεις για εξαγωγή αρχείου"
 	}
 }

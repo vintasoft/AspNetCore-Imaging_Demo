@@ -22,7 +22,7 @@
 			"title": "Åpne filen fra URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Innstillinger for dokumentlayout"
+			"title": "Layoutinnstillinger"
 		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Bruk standard layoutinnstillinger"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Sidestørrelse"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Vis skjult innhold"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere miniatyrbilder ved hjelp av tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan velge miniatyrbilder ved hjelp av tastaturet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniatyrbilder ved hjelp av tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Bildebehandling",
+		"vsui-imageProcessingPanel-imageProcessingString": "Bildebehandling",
 		"vsdv-openFile-addFileString": "Legg til fil",
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
 		"vsui-thumbnailViewer-selectedLabel": "VALGT",
-		"vsdv-uploadFileButton-uploadFileString": "Last opp fil",
-		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentiser filen",
+		"vsui-imageSelectionDialog-title": "Velg bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Gjeldende bilde",
+		"vsui-imageSelectionDialog-allImagesString": "Alle bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
+		"vsdv-documentLayoutSettingsDialog-title": "Innstillinger for dokumentlayout",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentiser filen",
-		"vsdv-imageSelectionDialog-title": "Velg bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Gjeldende bilde",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
-		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
 		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL",
-		"vsdv-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen",
-		"vsdv-documentLayoutSettingsDialog-title": "Innstillinger for dokumentlayout"
+		"vsui-exportFileSettingsDialog-title": "Innstillingene for å eksportere filen"
 	}
 }

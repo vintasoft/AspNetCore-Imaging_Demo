@@ -22,7 +22,7 @@
 			"title": "Открыть файл по URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Настройки макета документа"
+			"title": "Настройки макета"
 		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Использовать настройки макета по умолчанию"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Размер страницы"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Показать скрытый контент"
@@ -493,7 +498,7 @@
 				"text": "Слева"
 			},
 			"centerOption": {
-				"text": "Выровнять по центру"
+				"text": "Центр"
 			},
 			"focusOnHoverLabel": {
 				"text": "Фокус при наведении:"
@@ -509,6 +514,15 @@
 			},
 			"canDragThumbnailsLabel": {
 				"text": "Можно перетаскивать миниатюры:"
+			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можно перемещаться по миниатюрам с помощью клавиатуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можно выбирать миниатюры с помощью клавиатуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можно удалять миниатюры с помощью клавиатуры:"
 			},
 			"okButton": {
 				"value": "ОК"
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Обработка изображений",
+		"vsui-imageProcessingPanel-imageProcessingString": "Обработка изображений",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Загрузить файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
 		"vsui-thumbnailViewer-selectedLabel": "ВЫБРАННЫЕ",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
-		"vsdv-documentPasswordDialog-title": "Пароль к документу",
+		"vsui-documentPasswordDialog-title": "Пароль к документу",
+		"vsui-dialog-okButton": "ОК",
+		"vsui-dialog-cancelButton": "Отмена",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
+		"vsui-imageSelectionDialog-title": "Выберите изображения",
+		"vsui-imageSelectionDialog-currentImageString": "Текущее изображение",
+		"vsui-imageSelectionDialog-allImagesString": "Все изображения",
+		"vsui-imageSelectionDialog-customImagesString": "Пользовательский",
+		"vsdv-documentLayoutSettingsDialog-title": "Настройки макета документа",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-dialog-cancelButton": "Отмена",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
-		"vsdv-imageSelectionDialog-title": "Выберите изображения",
-		"vsdv-imageSelectionDialog-currentImageString": "Текущее изображение",
-		"vsdv-imageSelectionDialog-allImagesString": "Все изображения",
-		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
-		"vsdv-printImagesDialog-title": "Распечатать изображения",
-		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",
-		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
-		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
+		"vsui-printImagesDialog-title": "Распечатать изображения",
+		"vsui-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsui-printImagesPanel-withAnnotationsLabel": "с аннотациями",
+		"vsui-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
+		"vsui-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
 		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL",
-		"vsdv-exportFileSettingsDialog-title": "Настройки для экспорта файла",
-		"vsdv-documentLayoutSettingsDialog-title": "Настройки макета документа"
+		"vsui-exportFileSettingsDialog-title": "Настройки для экспорта файла"
 	}
 }

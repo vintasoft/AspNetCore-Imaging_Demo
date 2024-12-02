@@ -22,7 +22,7 @@
 			"title": "Адкрыць файл з URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Налады макета дакумента"
+			"title": "Налады макета"
 		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Выкарыстоўвайце налады макета па змаўчанні"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Памер старонкі"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Паказаць схаваны кантэнт"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна перамяшчацца па мініяцюрах з дапамогай клавіятуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выбраць эскізы з дапамогай клавіятуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выдаліць эскізы з дапамогай клавіятуры:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Апрацоўка малюнкаў",
+		"vsui-imageProcessingPanel-imageProcessingString": "Апрацоўка малюнкаў",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-downloadFile-actionMessage": "Спампаваць файл",
 		"vsdv-saveChanges-saveChangesInImages": "Захаваць змены ў малюнках",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
 		"vsui-thumbnailViewer-selectedLabel": "АБРАНЫЯ",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
-		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Адмяніць",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsui-imageSelectionDialog-title": "Выберыце выявы",
+		"vsui-imageSelectionDialog-currentImageString": "Актуальны малюнак",
+		"vsui-imageSelectionDialog-allImagesString": "Усе выявы",
+		"vsui-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsdv-documentLayoutSettingsDialog-title": "Налады макета дакумента",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Адмяніць",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
-		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
-		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
-		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
-		"vsdv-printImagesDialog-title": "Друк малюнкаў",
-		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
-		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsui-printImagesDialog-title": "Друк малюнкаў",
+		"vsui-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
+		"vsui-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
+		"vsui-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
 		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
-		"vsdv-exportFileSettingsDialog-title": "Налады для экспарту файла",
-		"vsdv-documentLayoutSettingsDialog-title": "Налады макета дакумента"
+		"vsui-exportFileSettingsDialog-title": "Налады для экспарту файла"
 	}
 }

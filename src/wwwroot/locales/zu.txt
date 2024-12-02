@@ -22,7 +22,7 @@
 			"title": "Vula ifayela ku-URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Izilungiselelo zesakhiwo sedokhumenti"
+			"title": "Izilungiselelo zesakhiwo"
 		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Sebenzisa izilungiselelo zesakhiwo esizenzakalelayo"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Usayizi Wekhasi"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Bonisa okuqukethwe okufihliwe"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Ingakwazi Ukuzulazula Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Ungakhetha Izithonjana Usebenzisa Ikhibhodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Ingasusa Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
 		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Ukucutshungulwa kwesithombe",
+		"vsui-imageProcessingPanel-imageProcessingString": "Ukucutshungulwa kwesithombe",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
 		"vsui-thumbnailViewer-selectedLabel": "OKUKHETHIWE",
-		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-dialog-okButton": "KULUNGILE",
+		"vsui-dialog-cancelButton": "Khansela",
+		"vsui-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
+		"vsui-imageSelectionDialog-title": "Khetha izithombe",
+		"vsui-imageSelectionDialog-currentImageString": "Isithombe samanje",
+		"vsui-imageSelectionDialog-allImagesString": "Zonke izithombe",
+		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
+		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsui-printImagesDialog-title": "Phrinta izithombe",
+		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
+		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
 		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
-		"vsdv-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela",
-		"vsdv-documentLayoutSettingsDialog-title": "Izilungiselelo zesakhiwo sedokhumenti"
+		"vsui-exportFileSettingsDialog-title": "Izilungiselelo zokuthekelisa ifayela"
 	}
 }

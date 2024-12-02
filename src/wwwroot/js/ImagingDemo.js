@@ -60,9 +60,13 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
-    var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
-    if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
+    var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
+    if (uploadAndOpenFileButton != null)
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
+
+    var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
+    if (uploadAndAddFileButton != null)
+        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -73,9 +77,6 @@ function __initMenu(docViewerSettings) {
 
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
-
-        // add the "Document layout settings" button to the menu panel
-        fileMenuPanelItems.insertItem(4, "documentLayoutSettingsButton");
     }
 }
 
@@ -316,42 +317,42 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
-    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    var imageSelectionDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
 
-    var documentLayoutSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebDocumentLayoutSettingsDialogJS();
+    var documentLayoutSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebDocumentLayoutSettingsDialogJS();
     documentLayoutSettingsDialog.render(floatingContainer);
     tempDialogs.push(documentLayoutSettingsDialog);
 
-    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    var printImagesDialog = new Vintasoft.Imaging.UI.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
     tempDialogs.push(printImagesDialog);
 
-    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(imageViewerSettingsDialog);
 
-    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
 
-    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiUploadImageFromUrlDialogJS();
     uploadImageFromUrlDialog.render(floatingContainer);
     tempDialogs.push(uploadImageFromUrlDialog);
 
-    var exportFileSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebExportFileSettingsDialogJS();
+    var exportFileSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebExportFileSettingsDialogJS();
     exportFileSettingsDialog.render(floatingContainer);
     tempDialogs.push(exportFileSettingsDialog);
 
 
     // create image viewer context menu panel
-    var imageViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebImageViewerContextMenuJS();
+    var imageViewerContextMenu = new Vintasoft.Imaging.UI.UIElements.WebImageViewerContextMenuJS();
     imageViewerContextMenu.render(floatingContainer);
     tempDialogs.push(imageViewerContextMenu);
     
     // create thumbnail viewer context menu panel
-    var thumbnailViewerContextMenu = new Vintasoft.Imaging.DocumentViewer.UIElements.WebThumbnailViewerContextMenuJS();
+    var thumbnailViewerContextMenu = new Vintasoft.Imaging.UI.UIElements.WebThumbnailViewerContextMenuJS();
     thumbnailViewerContextMenu.render(floatingContainer);
     tempDialogs.push(thumbnailViewerContextMenu);
 }

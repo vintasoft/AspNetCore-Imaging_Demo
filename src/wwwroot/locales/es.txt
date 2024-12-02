@@ -22,7 +22,7 @@
 			"title": "Abrir archivo desde URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Configuración de diseño del documento"
+			"title": "Configuración de diseño"
 		},
 		"printImagesButton": {
 			"title": "Imprimir imágenes"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Usar la configuración de diseño predeterminada"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Tamaño de página"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Mostrar contenido oculto"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Puede arrastrar miniaturas:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Puede navegar por las miniaturas mediante el teclado:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Puede seleccionar miniaturas mediante el teclado:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Puede eliminar miniaturas mediante el teclado:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descargar y abrir archivo",
 		"vsdv-uploadAndAddFileButton-addFileString": "Subir y agregar archivo",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Procesamiento de imágenes",
+		"vsui-imageProcessingPanel-imageProcessingString": "Procesamiento de imágenes",
 		"vsdv-openFile-addFileString": "Agregar archivo",
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
 		"vsdv-downloadFile-actionMessage": "Descargar archivo",
 		"vsdv-saveChanges-saveChangesInImages": "Guardar cambios en imágenes.",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Guardar cambios en anotaciones",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Grabar anotaciones en imágenes",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Guardar cambios en un documento PDF",
 		"vsui-thumbnailViewer-selectedLabel": "SELECCIONADO",
-		"vsdv-uploadFileButton-uploadFileString": "Subir archivo",
-		"vsdv-documentPasswordDialog-title": "Contraseña del documento",
+		"vsui-documentPasswordDialog-title": "Contraseña del documento",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Cancelar",
+		"vsui-documentPasswordPanel-authenticateFileString": "autenticar archivo",
+		"vsui-imageSelectionDialog-title": "Seleccionar imágenes",
+		"vsui-imageSelectionDialog-currentImageString": "Imagen actual",
+		"vsui-imageSelectionDialog-allImagesString": "Todas las imágenes",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizado",
+		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Cancelar",
-		"vsdv-documentPasswordPanel-authenticateFileString": "autenticar archivo",
-		"vsdv-imageSelectionDialog-title": "Seleccionar imágenes",
-		"vsdv-imageSelectionDialog-currentImageString": "Imagen actual",
-		"vsdv-imageSelectionDialog-allImagesString": "Todas las imágenes",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizado",
-		"vsdv-printImagesDialog-title": "Imprimir imágenes",
-		"vsdv-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "con anotaciones",
-		"vsdv-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
-		"vsdv-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
+		"vsui-printImagesDialog-title": "Imprimir imágenes",
+		"vsui-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
+		"vsui-printImagesPanel-withAnnotationsLabel": "con anotaciones",
+		"vsui-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
+		"vsui-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
 		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL",
-		"vsdv-exportFileSettingsDialog-title": "La configuración para exportar el archivo.",
-		"vsdv-documentLayoutSettingsDialog-title": "Configuración de diseño del documento"
+		"vsui-exportFileSettingsDialog-title": "La configuración para exportar el archivo."
 	}
 }

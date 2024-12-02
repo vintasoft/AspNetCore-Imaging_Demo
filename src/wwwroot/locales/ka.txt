@@ -22,7 +22,7 @@
 			"title": "გახსენით ფაილი URL-დან"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "დოკუმენტის განლაგების პარამეტრები"
+			"title": "განლაგების პარამეტრები"
 		},
 		"printImagesButton": {
 			"title": "სურათების დაბეჭდვა"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "გამოიყენეთ ნაგულისხმევი განლაგების პარამეტრები"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "გვერდის ზომა"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "დამალული შინაარსის ჩვენება"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "შეუძლია მინიატურების გადატანა:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "შესაძლებელია მინიატურების ნავიგაცია კლავიატურის გამოყენებით:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "შეგიძლიათ აირჩიოთ ესკიზები კლავიატურის გამოყენებით:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "შეგიძლიათ წაშალოთ ესკიზები კლავიატურის გამოყენებით:"
+			},
 			"okButton": {
 				"value": "კარგი"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ატვირთეთ და გახსენით ფაილი",
 		"vsdv-uploadAndAddFileButton-addFileString": "ატვირთეთ და დაამატეთ ფაილი",
-		"vsdv-imageProcessingPanel-imageProcessingString": "გამოსახულების დამუშავება",
+		"vsui-imageProcessingPanel-imageProcessingString": "გამოსახულების დამუშავება",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
 		"vsui-thumbnailViewer-selectedLabel": "შერჩეული",
-		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
-		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsui-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsui-dialog-okButton": "კარგი",
+		"vsui-dialog-cancelButton": "გაუქმება",
+		"vsui-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsui-imageSelectionDialog-title": "აირჩიეთ სურათები",
+		"vsui-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
+		"vsui-imageSelectionDialog-allImagesString": "ყველა სურათი",
+		"vsui-imageSelectionDialog-customImagesString": "საბაჟო",
+		"vsdv-documentLayoutSettingsDialog-title": "დოკუმენტის განლაგების პარამეტრები",
 		"vsdv-dialog-okButton": "კარგი",
 		"vsdv-dialog-cancelButton": "გაუქმება",
-		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
-		"vsdv-imageSelectionDialog-title": "აირჩიეთ სურათები",
-		"vsdv-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
-		"vsdv-imageSelectionDialog-allImagesString": "ყველა სურათი",
-		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
-		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
-		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
-		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
+		"vsui-printImagesDialog-title": "სურათების დაბეჭდვა",
+		"vsui-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
+		"vsui-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
+		"vsui-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
 		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
-		"vsdv-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის",
-		"vsdv-documentLayoutSettingsDialog-title": "დოკუმენტის განლაგების პარამეტრები"
+		"vsui-exportFileSettingsDialog-title": "პარამეტრები ფაილის ექსპორტისთვის"
 	}
 }

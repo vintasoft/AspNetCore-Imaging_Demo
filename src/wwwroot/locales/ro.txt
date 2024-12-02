@@ -22,7 +22,7 @@
 			"title": "Deschideți fișierul de la URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Setări de aspect al documentului"
+			"title": "Setări de aspect"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Utilizați setările implicite de aspect"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Dimensiunea paginii"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Afișează conținut ascuns"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Poate naviga prin miniaturi folosind tastatura:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Poate selecta miniaturi folosind tastatura:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Poate șterge miniaturile folosind tastatura:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
 		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Procesarea imaginii",
+		"vsui-imageProcessingPanel-imageProcessingString": "Procesarea imaginii",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
 		"vsui-thumbnailViewer-selectedLabel": "SELECTAT",
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
-		"vsdv-documentPasswordDialog-title": "Parola documentului",
+		"vsui-documentPasswordDialog-title": "Parola documentului",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Anulează",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsui-imageSelectionDialog-title": "Selectați imagini",
+		"vsui-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsui-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Anulează",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
-		"vsdv-imageSelectionDialog-title": "Selectați imagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
-		"vsdv-printImagesDialog-title": "Tipărește imagini",
-		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
-		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
-		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsui-printImagesDialog-title": "Tipărește imagini",
+		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
 		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
-		"vsdv-exportFileSettingsDialog-title": "Setările pentru exportul fișierului",
-		"vsdv-documentLayoutSettingsDialog-title": "Setări de aspect al documentului"
+		"vsui-exportFileSettingsDialog-title": "Setările pentru exportul fișierului"
 	}
 }

@@ -22,7 +22,7 @@
 			"title": "افتح الملف من URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "إعدادات تخطيط المستند"
+			"title": "إعدادات التخطيط"
 		},
 		"printImagesButton": {
 			"title": "طباعة الصور"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "استخدم إعدادات التخطيط الافتراضية"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "حجم الصفحة"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "إظهار المحتوى المخفي"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن التنقل بين الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن تحديد الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن حذف الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
 			"okButton": {
 				"value": "موافق"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
 		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
-		"vsdv-imageProcessingPanel-imageProcessingString": "معالجة الصورة",
+		"vsui-imageProcessingPanel-imageProcessingString": "معالجة الصورة",
 		"vsdv-openFile-addFileString": "اضف ملف",
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
 		"vsui-thumbnailViewer-selectedLabel": "المحدد",
-		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
-		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-dialog-okButton": "موافق",
+		"vsui-dialog-cancelButton": "إلغاء",
+		"vsui-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
+		"vsui-imageSelectionDialog-title": "اختر الصور",
+		"vsui-imageSelectionDialog-currentImageString": "الصورة الحالية",
+		"vsui-imageSelectionDialog-allImagesString": "كل الصور",
+		"vsui-imageSelectionDialog-customImagesString": "مخصص",
+		"vsdv-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-dialog-cancelButton": "إلغاء",
-		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
-		"vsdv-imageSelectionDialog-title": "اختر الصور",
-		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
-		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
-		"vsdv-printImagesDialog-title": "طباعة الصور",
-		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
-		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
-		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsui-printImagesDialog-title": "طباعة الصور",
+		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
+		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
 		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
-		"vsdv-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف",
-		"vsdv-documentLayoutSettingsDialog-title": "إعدادات تخطيط المستند"
+		"vsui-exportFileSettingsDialog-title": "الإعدادات لتصدير الملف"
 	}
 }

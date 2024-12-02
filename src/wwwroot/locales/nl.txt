@@ -22,7 +22,7 @@
 			"title": "Bestand openen vanaf URL"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Instellingen voor documentlay-out"
+			"title": "Lay-outinstellingen"
 		},
 		"printImagesButton": {
 			"title": "Afbeeldingen afdrukken"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Gebruik standaard lay-outinstellingen"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Paginaformaat"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Toon verborgen inhoud"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan miniaturen slepen:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen navigeren met toetsenbord:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen selecteren met toetsenbord:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan miniaturen verwijderen met toetsenbord:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Bestand downloaden en openen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Bestand uploaden en toevoegen",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Afbeelding verwerken",
+		"vsui-imageProcessingPanel-imageProcessingString": "Afbeelding verwerken",
 		"vsdv-openFile-addFileString": "Bestand toevoegen",
 		"vsdv-openFile-authenticateFileString": "Authenticeer bestand",
 		"vsdv-downloadFile-actionMessage": "Download bestand",
 		"vsdv-saveChanges-saveChangesInImages": "Wijzigingen in afbeeldingen opslaan",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Sla wijzigingen in annotaties op",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand annotaties op afbeeldingen",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Wijzigingen opslaan in PDF-document",
 		"vsui-thumbnailViewer-selectedLabel": "GESELECTEERD",
-		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
-		"vsdv-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsui-documentPasswordDialog-title": "Documentwachtwoord",
+		"vsui-dialog-okButton": "OK",
+		"vsui-dialog-cancelButton": "Annuleren",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
+		"vsui-imageSelectionDialog-title": "Selecteer afbeeldingen",
+		"vsui-imageSelectionDialog-currentImageString": "Huidige afbeelding",
+		"vsui-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
+		"vsui-imageSelectionDialog-customImagesString": "Aangepast",
+		"vsdv-documentLayoutSettingsDialog-title": "Instellingen voor documentlay-out",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-dialog-cancelButton": "Annuleren",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticeer bestand",
-		"vsdv-imageSelectionDialog-title": "Selecteer afbeeldingen",
-		"vsdv-imageSelectionDialog-currentImageString": "Huidige afbeelding",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle afbeeldingen",
-		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
-		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
-		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
-		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vsui-printImagesDialog-title": "Afbeeldingen afdrukken",
+		"vsui-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsui-printImagesPanel-withAnnotationsLabel": "met annotaties",
+		"vsui-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
 		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL",
-		"vsdv-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren",
-		"vsdv-documentLayoutSettingsDialog-title": "Instellingen voor documentlay-out"
+		"vsui-exportFileSettingsDialog-title": "De instellingen om het bestand te exporteren"
 	}
 }

@@ -22,7 +22,7 @@
 			"title": "Файлро аз URL кушоед"
 		},
 		"documentLayoutSettingsButton": {
-			"title": "Танзимоти тарҳбандии ҳуҷҷат"
+			"title": "Танзимоти тарҳ"
 		},
 		"printImagesButton": {
 			"title": "Тасвирҳоро чоп кунед"
@@ -188,6 +188,11 @@
 		"documentLayoutSettingsDialog": {
 			"useDefaultLayoutSettingsLabel": {
 				"text": "Танзимоти тарҳбандии пешфарзро истифода баред"
+			},
+			"pageSizeGroupBox": {
+				"pageSizeGroupBox": {
+					"text": "Андозаи саҳифа"
+				}
 			},
 			"showHiddenContentLabel": {
 				"text": "Мундариҷаи пинҳоншударо нишон диҳед"
@@ -510,6 +515,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед бо истифода аз клавиатура эскизҳоро паймоиш кунед:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Бо истифода аз клавиатура метавонад эскизҳоро интихоб кунад:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед эскизҳоро бо клавиатура тоза кунед:"
+			},
 			"okButton": {
 				"value": "ДУРУСТ"
 			},
@@ -576,32 +590,32 @@
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
-		"vsdv-imageProcessingPanel-imageProcessingString": "Коркарди тасвир",
+		"vsui-imageProcessingPanel-imageProcessingString": "Коркарди тасвир",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
 		"vsui-thumbnailViewer-selectedLabel": "ИНТИХОБ ШУДА",
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
-		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-dialog-okButton": "ДУРУСТ",
+		"vsui-dialog-cancelButton": "Бекор кардан",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsui-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
+		"vsui-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
+		"vsui-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
+		"vsui-imageSelectionDialog-customImagesString": "Фармоишгар",
+		"vsdv-documentLayoutSettingsDialog-title": "Танзимоти тарҳбандии ҳуҷҷат",
 		"vsdv-dialog-okButton": "ДУРУСТ",
 		"vsdv-dialog-cancelButton": "Бекор кардан",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
-		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
-		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
-		"vsdv-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
-		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
-		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
-		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
-		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
-		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsui-printImagesDialog-title": "Тасвирҳоро чоп кунед",
+		"vsui-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsui-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
+		"vsui-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
+		"vsui-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
 		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
-		"vsdv-exportFileSettingsDialog-title": "Танзимот барои содироти файл",
-		"vsdv-documentLayoutSettingsDialog-title": "Танзимоти тарҳбандии ҳуҷҷат"
+		"vsui-exportFileSettingsDialog-title": "Танзимот барои содироти файл"
 	}
 }
