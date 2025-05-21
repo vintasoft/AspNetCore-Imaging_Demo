@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "從 URL 開啟文件"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "布局设置"
-		},
 		"printImagesButton": {
 			"title": "打印图像"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
+		"vsui-documentNavigationTool-getActions": "获取操作",
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsui-thumbnailViewer-selectedLabel": "已選",

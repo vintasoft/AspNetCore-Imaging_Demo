@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Fungua faili kutoka kwa URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Mipangilio ya mpangilio"
-		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
+		"vsui-documentNavigationTool-getActions": "Pata vitendo",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsui-thumbnailViewer-selectedLabel": "WALIOCHAGULIWA",

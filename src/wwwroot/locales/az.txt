@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "URL-dən faylı açın"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Layout parametrləri"
-		},
 		"printImagesButton": {
 			"title": "Şəkilləri çap edin"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
 		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
+		"vsui-documentNavigationTool-getActions": "Tədbirlər alın",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
 		"vsui-thumbnailViewer-selectedLabel": "SEÇİLİB",

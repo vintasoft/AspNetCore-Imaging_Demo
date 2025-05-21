@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "URL-den faýl açyň"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Salgy sazlamalary"
-		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
+		"vsui-documentNavigationTool-getActions": "Hereket ediň",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
 		"vsui-thumbnailViewer-selectedLabel": "Saýlandy",

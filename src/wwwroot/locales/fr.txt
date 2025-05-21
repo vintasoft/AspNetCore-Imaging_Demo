@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Ouvrir le fichier à partir de l'URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Paramètres de mise en page"
-		},
 		"printImagesButton": {
 			"title": "Imprimer des images"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
 		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",
 		"vsdv-saveChanges-saveChangesInImages": "Enregistrer les modifications dans les images",
+		"vsui-documentNavigationTool-getActions": "Obtenir les actions",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
 		"vsui-thumbnailViewer-selectedLabel": "CHOISI",

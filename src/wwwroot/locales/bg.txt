@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Отворете файл от URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Настройки на оформлението"
-		},
 		"printImagesButton": {
 			"title": "Печат на изображения"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
 		"vsdv-downloadFile-actionMessage": "Свали файл",
 		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
+		"vsui-documentNavigationTool-getActions": "Вземете действия",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
 		"vsui-thumbnailViewer-selectedLabel": "ИЗБРАНО",

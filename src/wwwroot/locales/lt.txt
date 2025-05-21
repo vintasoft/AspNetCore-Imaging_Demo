@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Atidaryti failą iš URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Išdėstymo nustatymai"
-		},
 		"printImagesButton": {
 			"title": "Spausdinti vaizdus"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
 		"vsui-thumbnailViewer-selectedLabel": "PASIRINKTA",

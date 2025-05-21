@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Vula ifayela ku-URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Izilungiselelo zesakhiwo"
-		},
 		"printImagesButton": {
 			"title": "Phrinta izithombe"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Qinisekisa ifayela",
 		"vsdv-downloadFile-actionMessage": "Landa ifayela",
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
+		"vsui-documentNavigationTool-getActions": "Thola izenzo",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
 		"vsui-thumbnailViewer-selectedLabel": "OKUKHETHIWE",

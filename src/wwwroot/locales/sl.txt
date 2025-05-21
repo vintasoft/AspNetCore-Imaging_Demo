@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Odpri datoteko z naslova URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Nastavitve postavitve"
-		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
 		"vsdv-saveChanges-saveChangesInImages": "Shranite spremembe v slikah",
+		"vsui-documentNavigationTool-getActions": "Pridobite dejanja",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
 		"vsui-thumbnailViewer-selectedLabel": "IZBRANO",

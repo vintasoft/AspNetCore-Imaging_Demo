@@ -62,11 +62,11 @@ function __initMenu(docViewerSettings) {
 
     var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
     if (uploadAndOpenFileButton != null)
-        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .psd, .tif, .tiff, .svg, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
 
     var uploadAndAddFileButton = items.getItemByRegisteredId("uploadAndAddFileButton");
     if (uploadAndAddFileButton != null)
-        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
+        uploadAndAddFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .psd, .tif, .tiff, .svg, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .cr2, .crw, .nef, .nrw, .dng, .dcm, .dic, .acr, .pdf");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");

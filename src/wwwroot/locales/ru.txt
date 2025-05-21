@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Открыть файл по URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Настройки макета"
-		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Загрузить файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
+		"vsui-documentNavigationTool-getActions": "Получить действия",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsui-thumbnailViewer-selectedLabel": "ВЫБРАННЫЕ",

@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Файлды URL'ден ачыңыз"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Жайгашуу орнотуулары"
-		},
 		"printImagesButton": {
 			"title": "Сүрөттөрдү басып чыгаруу"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
+		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
 		"vsui-thumbnailViewer-selectedLabel": "ТАНДАЛГАН",

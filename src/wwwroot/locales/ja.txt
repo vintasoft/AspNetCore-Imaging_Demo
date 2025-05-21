@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "URLからファイルを開く"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "レイアウト設定"
-		},
 		"printImagesButton": {
 			"title": "画像を印刷"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
 		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
+		"vsui-documentNavigationTool-getActions": "アクションを取得",
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
 		"vsui-thumbnailViewer-selectedLabel": "選択済み",

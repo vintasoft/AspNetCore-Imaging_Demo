@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Atveriet failu no URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Izkārtojuma iestatījumi"
-		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsui-thumbnailViewer-selectedLabel": "ATLASĪTS",

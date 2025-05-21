@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "გახსენით ფაილი URL-დან"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "განლაგების პარამეტრები"
-		},
 		"printImagesButton": {
 			"title": "სურათების დაბეჭდვა"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები",
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
 		"vsui-thumbnailViewer-selectedLabel": "შერჩეული",

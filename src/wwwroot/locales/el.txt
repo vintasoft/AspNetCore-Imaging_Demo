@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Ρυθμίσεις διάταξης"
-		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsui-thumbnailViewer-selectedLabel": "ΕΠΙΛΕΓΜΕΝΟ",

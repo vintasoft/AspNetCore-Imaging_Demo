@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Åpne filen fra URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Layoutinnstillinger"
-		},
 		"printImagesButton": {
 			"title": "Skriv ut bilder"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
 		"vsui-thumbnailViewer-selectedLabel": "VALGT",

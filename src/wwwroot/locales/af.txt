@@ -21,9 +21,6 @@
 		"openFileFromUrlButton": {
 			"title": "Maak lêer oop vanaf URL"
 		},
-		"documentLayoutSettingsButton": {
-			"title": "Uitleg instellings"
-		},
 		"printImagesButton": {
 			"title": "Druk prente"
 		},
@@ -595,6 +592,7 @@
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
+		"vsui-documentNavigationTool-getActions": "Kry aksies",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsui-thumbnailViewer-selectedLabel": "GEKIES",
