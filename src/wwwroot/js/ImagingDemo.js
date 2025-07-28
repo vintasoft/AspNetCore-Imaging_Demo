@@ -472,8 +472,8 @@ function __main() {
     // subscribe to the focusedIndexChanged event of image viewer
     Vintasoft.Shared.subscribeToEvent(imageViewer1, "focusedIndexChanged", __imageViewer_focusedIndexChanged);
 
-    // get the visual tool, which allows to pan images in image viewer
-    var tool = _docViewer.getVisualToolById("PanTool");
+    // get the visual tool, which allows to pan and zoom images in image viewer
+    var tool = _docViewer.getVisualToolById("PanTool,ZoomTool");
     // set the visual tool as active visual tool in image viewer
     _docViewer.set_CurrentVisualTool(tool);
 
