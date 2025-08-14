@@ -42,6 +42,31 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 
 
 
+// === "Tools" toolbar ===
+
+/**
+ Creates UI button for activating the visual tool, which allows to pan images in image viewer.
+*/
+function __createPanToolButton() {
+    // if touch device is used
+    if (__isTouchDevice()) {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Pan, Zoom",
+            localizationId: "panToolButton"
+        }, "PanTool,ZoomTool");
+    }
+    else {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Pan",
+            localizationId: "panToolButton"
+        }, "PanTool");
+    }
+}
+
+
+
 // === Init UI ===
 
 /**
@@ -50,6 +75,9 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
+
+    // register the "Pan" button in web UI elements factory
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createPanToolButton);
 }
 
 /**
@@ -385,6 +413,13 @@ function __enableUiLocalization() {
     });
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
 
 
 // === Main ===
@@ -472,8 +507,20 @@ function __main() {
     // subscribe to the focusedIndexChanged event of image viewer
     Vintasoft.Shared.subscribeToEvent(imageViewer1, "focusedIndexChanged", __imageViewer_focusedIndexChanged);
 
+    // names of visual tools in composite visual tool
+    var visualToolNames = "PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // get zoom tool from document viewer
+        var zoomTool = _docViewer.getVisualToolById("ZoomTool");
+        // specify that zoom tool should not disable context menu
+        zoomTool.set_DisableContextMenu(false);
+
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
     // get the visual tool, which allows to pan and zoom images in image viewer
-    var tool = _docViewer.getVisualToolById("PanTool,ZoomTool");
+    var tool = _docViewer.getVisualToolById(visualToolNames);
     // set the visual tool as active visual tool in image viewer
     _docViewer.set_CurrentVisualTool(tool);
 
