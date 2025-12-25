@@ -9,6 +9,9 @@
 		"toolsLabel": {
 			"text": "Werkzeuge"
 		},
+		"imageProcessingLabel": {
+			"text": "Bildverarbeitung"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Datei herunterladen und öffnen"
 		},
@@ -54,26 +57,389 @@
 		"panToolButton": {
 			"title": "Schwenken"
 		},
-		"rectangularSelectionToolButton": {
-			"title": "Rechteckige Auswahl"
-		},
-		"magnifierToolButton": {
-			"title": "Lupe"
-		},
 		"zoomToolButton": {
 			"title": "Skalierung"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Skalenauswahl"
 		},
+		"rectangularSelectionToolButton": {
+			"title": "Rechteckige Auswahl"
+		},
+		"magnifierToolButton": {
+			"title": "Lupe"
+		},
+		"SELECT COMMAND...": {
+			"text": "Befehl auswählen..."
+		},
+		"AddNoise": {
+			"text": "AddNoise"
+		},
+		"AdvancedReplaceColor": {
+			"text": "AdvancedReplaceColor"
+		},
+		"AutoColors": {
+			"text": "AutoColors"
+		},
+		"AutoContrast": {
+			"text": "AutoContrast"
+		},
+		"AutoInvert": {
+			"text": "AutoInvert"
+		},
+		"AutoLevels": {
+			"text": "AutoLevels"
+		},
+		"AutoTextInvert": {
+			"text": "AutoTextInvert"
+		},
+		"AutoTextOrientation": {
+			"text": "AutoTextOrientation"
+		},
+		"BevelEdge": {
+			"text": "BevelEdge"
+		},
+		"Binarize": {
+			"text": "Binarize"
+		},
+		"Blur": {
+			"text": "Blur"
+		},
+		"BorderClear": {
+			"text": "BorderClear"
+		},
+		"BorderRemoval": {
+			"text": "BorderRemoval"
+		},
+		"ButterworthHighpass": {
+			"text": "ButterworthHighpass"
+		},
+		"ButterworthLowpass": {
+			"text": "ButterworthLowpass"
+		},
+		"CannyEdgeDetector": {
+			"text": "CannyEdgeDetector"
+		},
+		"ChangeBrightness": {
+			"text": "ChangeBrightness"
+		},
+		"ChangeBrightnessContrast": {
+			"text": "ChangeBrightnessContrast"
+		},
+		"ChangeContrast": {
+			"text": "ChangeContrast"
+		},
+		"ChangeGamma": {
+			"text": "ChangeGamma"
+		},
+		"ChangeHSL": {
+			"text": "ChangeHSL"
+		},
+		"ChangePixelFormat": {
+			"text": "ChangePixelFormat"
+		},
+		"ChangePixelFormatToBgr": {
+			"text": "ChangePixelFormatToBgr"
+		},
+		"ChangePixelFormatToBlackWhite": {
+			"text": "ChangePixelFormatToBlackWhite"
+		},
+		"ChangePixelFormatToGrayscale": {
+			"text": "ChangePixelFormatToGrayscale"
+		},
+		"ChangePixelFormatToPalette": {
+			"text": "ChangePixelFormatToPalette"
+		},
+		"Clear": {
+			"text": "Clear"
+		},
+		"ColorBlend": {
+			"text": "ColorBlend"
+		},
+		"ColorBlend16": {
+			"text": "ColorBlend16"
+		},
+		"ColorNoiseClear": {
+			"text": "ColorNoiseClear"
+		},
+		"Crop": {
+			"text": "Ernte"
+		},
+		"Curves": {
+			"text": "Curves"
+		},
+		"Curves16": {
+			"text": "Curves16"
+		},
+		"Desaturate": {
+			"text": "Desaturate"
+		},
+		"Deskew": {
+			"text": "Deskew"
+		},
+		"DeskewDocumentImage": {
+			"text": "DeskewDocumentImage"
+		},
+		"Despeckle": {
+			"text": "Despeckle"
+		},
+		"Dilate": {
+			"text": "Dilate"
+		},
+		"DocumentPerspectiveCorrection": {
+			"text": "DocumentPerspectiveCorrection"
+		},
+		"DocumentSegmentation": {
+			"text": "DocumentSegmentation"
+		},
+		"DottedLineRemoval": {
+			"text": "DottedLineRemoval"
+		},
+		"DrawImage": {
+			"text": "DrawImage"
+		},
+		"DropShadow": {
+			"text": "DropShadow"
+		},
+		"EdgeDetection": {
+			"text": "EdgeDetection"
+		},
+		"Emboss": {
+			"text": "Emboss"
+		},
+		"Erode": {
+			"text": "Erode"
+		},
+		"FillRectangle": {
+			"text": "FillRectangle"
+		},
+		"Flip": {
+			"text": "Flip"
+		},
+		"GaussianBlur": {
+			"text": "GaussianBlur"
+		},
+		"GaussianHighpass": {
+			"text": "GaussianHighpass"
+		},
+		"GaussianLowpass": {
+			"text": "GaussianLowpass"
+		},
+		"GetAlphaChannelMask": {
+			"text": "GetAlphaChannelMask"
+		},
+		"GetBackgroundColor": {
+			"text": "GetBackgroundColor"
+		},
+		"GetBorderColor": {
+			"text": "GetBorderColor"
+		},
+		"GetBorderRect": {
+			"text": "GetBorderRect"
+		},
+		"GetColorCount": {
+			"text": "GetColorCount"
+		},
+		"GetDocumentImageRotationAngle": {
+			"text": "GetDocumentImageRotationAngle"
+		},
+		"GetHistogram": {
+			"text": "GetHistogram"
+		},
+		"GetImageColorDepth": {
+			"text": "GetImageColorDepth"
+		},
+		"GetRotationAngle": {
+			"text": "GetRotationAngle"
+		},
+		"GetTextOrientation": {
+			"text": "GetTextOrientation"
+		},
+		"GetThreshold": {
+			"text": "GetThreshold"
+		},
+		"GetUniqueColor": {
+			"text": "GetUniqueColor"
+		},
+		"Halftone": {
+			"text": "Halftone"
+		},
+		"HalftoneRecognition": {
+			"text": "HalftoneRecognition"
+		},
+		"HalftoneRemoval": {
+			"text": "HalftoneRemoval"
+		},
+		"HasCertainColor": {
+			"text": "HasCertainColor"
+		},
+		"HolePunchFilling": {
+			"text": "HolePunchFilling"
+		},
+		"HolePunchRemoval": {
+			"text": "HolePunchRemoval"
+		},
+		"IdealHighpass": {
+			"text": "IdealHighpass"
+		},
+		"IdealLowpass": {
+			"text": "IdealLowpass"
+		},
+		"ImageComparison": {
+			"text": "ImageComparison"
+		},
+		"ImageScaling": {
+			"text": "ImageScaling"
+		},
+		"ImageSegmentation": {
+			"text": "ImageSegmentation"
+		},
+		"ImageSharpening": {
+			"text": "ImageSharpening"
+		},
+		"ImageSmoothing": {
+			"text": "ImageSmoothing"
+		},
+		"Invert": {
+			"text": "Umkehren"
+		},
+		"IsDocumentImage": {
+			"text": "IsDocumentImage"
+		},
+		"IsImageBlackWhite": {
+			"text": "IsImageBlackWhite"
+		},
+		"IsImageBlank": {
+			"text": "IsImageBlank"
+		},
+		"IsImageGrayscale": {
+			"text": "IsImageGrayscale"
+		},
+		"Levels": {
+			"text": "Levels"
+		},
+		"LineRemoval": {
+			"text": "LineRemoval"
+		},
+		"MatrixTransform": {
+			"text": "MatrixTransform"
+		},
+		"Maximum": {
+			"text": "Maximum"
+		},
+		"Mean": {
+			"text": "Mean"
+		},
+		"Median": {
+			"text": "Median"
+		},
+		"MidPoint": {
+			"text": "MidPoint"
+		},
+		"Minimum": {
+			"text": "Minimum"
+		},
+		"Mosaic": {
+			"text": "Mosaic"
+		},
+		"MotionBlur": {
+			"text": "MotionBlur"
+		},
+		"OcrPreprocessing": {
+			"text": "OcrPreprocessing"
+		},
+		"OilPainting": {
+			"text": "OilPainting"
+		},
+		"Overlay": {
+			"text": "Overlay"
+		},
+		"OverlayBinary": {
+			"text": "OverlayBinary"
+		},
+		"OverlayMasked": {
+			"text": "OverlayMasked"
+		},
+		"OverlayWithBlending": {
+			"text": "OverlayWithBlending"
+		},
+		"Pixelate": {
+			"text": "Pixelate"
+		},
+		"Posterize": {
+			"text": "Posterize"
+		},
+		"QuadrilateralWarp": {
+			"text": "QuadrilateralWarp"
+		},
+		"RedEyeRemoval": {
+			"text": "RedEyeRemoval"
+		},
+		"RemapColors": {
+			"text": "RemapColors"
+		},
+		"RemapColors16": {
+			"text": "RemapColors16"
+		},
+		"ReplaceColor": {
+			"text": "ReplaceColor"
+		},
+		"Resample": {
+			"text": "Resample"
+		},
+		"Resize": {
+			"text": "Resize"
+		},
+		"ResizeCanvas": {
+			"text": "ResizeCanvas"
+		},
+		"RestoreTextFromHalftone": {
+			"text": "RestoreTextFromHalftone"
+		},
+		"Rotate": {
+			"text": "Rotate"
+		},
+		"Sepia": {
+			"text": "Sepia"
+		},
+		"SetAlphaChannelMask": {
+			"text": "SetAlphaChannelMask"
+		},
+		"SetAlphaChannelValue": {
+			"text": "SetAlphaChannelValue"
+		},
+		"ShapeRemoval": {
+			"text": "ShapeRemoval"
+		},
+		"Sharpen": {
+			"text": "Sharpen"
+		},
+		"Skew": {
+			"text": "Skew"
+		},
+		"Smoothing": {
+			"text": "Smoothing"
+		},
+		"Solarize": {
+			"text": "Solarize"
+		},
+		"TileReflection": {
+			"text": "TileReflection"
+		},
+		"imageProcessingCommandSettingsButton": {
+			"title": "Einstellungen für Bildverarbeitungsbefehle"
+		},
+		"applyImageProcessingCommandButton": {
+			"title": "Bildverarbeitungsbefehl anwenden"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Rückgängig/Wiederholen-Verlauf deaktivieren"
+		},
 		"sidePanelCloseButton": {
 			"title": "Seitenleiste anzeigen"
 		},
 		"showThumbnailViewerPanelButton": {
 			"title": "Miniaturansichten"
-		},
-		"showImageProcessingPanelButton": {
-			"title": "Bildverarbeitung"
 		},
 		"thumbnailViewerPanel": {
 			"rotateViewClockwiseButton": {
@@ -84,14 +450,6 @@
 			},
 			"deleteThumbnailButton": {
 				"title": "Miniaturansicht löschen"
-			}
-		},
-		"imageProcessingPanel": {
-			"parametersButton": {
-				"value": "Einstellungen"
-			},
-			"runButton": {
-				"value": "Anwenden"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -588,6 +946,10 @@
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Datei herunterladen und öffnen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Datei hochladen und hinzufügen",
 		"vsui-imageProcessingPanel-imageProcessingString": "Bildverarbeitung",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Rückgängig/Wiederholen-Verlauf aktivieren",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Rückgängig/Wiederholen-Verlauf deaktivieren",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Aktion rückgängig machen",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Aktion wiederherstellen",
 		"vsdv-openFile-addFileString": "Datei hinzufügen",
 		"vsdv-openFile-authenticateFileString": "Datei authentifizieren",
 		"vsdv-downloadFile-actionMessage": "Download-Datei",

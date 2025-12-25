@@ -9,6 +9,9 @@
 		"toolsLabel": {
 			"text": "ツール"
 		},
+		"imageProcessingLabel": {
+			"text": "画像処理"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
 		},
@@ -54,26 +57,389 @@
 		"panToolButton": {
 			"title": "パン"
 		},
-		"rectangularSelectionToolButton": {
-			"title": "長方形の選択範囲"
-		},
-		"magnifierToolButton": {
-			"title": "拡大鏡"
-		},
 		"zoomToolButton": {
 			"title": "スケール"
 		},
 		"zoomSelectionToolButton": {
 			"title": "スケールの選択"
 		},
+		"rectangularSelectionToolButton": {
+			"title": "長方形の選択範囲"
+		},
+		"magnifierToolButton": {
+			"title": "拡大鏡"
+		},
+		"SELECT COMMAND...": {
+			"text": "コマンドを選択..."
+		},
+		"AddNoise": {
+			"text": "AddNoise"
+		},
+		"AdvancedReplaceColor": {
+			"text": "AdvancedReplaceColor"
+		},
+		"AutoColors": {
+			"text": "AutoColors"
+		},
+		"AutoContrast": {
+			"text": "AutoContrast"
+		},
+		"AutoInvert": {
+			"text": "AutoInvert"
+		},
+		"AutoLevels": {
+			"text": "AutoLevels"
+		},
+		"AutoTextInvert": {
+			"text": "AutoTextInvert"
+		},
+		"AutoTextOrientation": {
+			"text": "AutoTextOrientation"
+		},
+		"BevelEdge": {
+			"text": "BevelEdge"
+		},
+		"Binarize": {
+			"text": "Binarize"
+		},
+		"Blur": {
+			"text": "Blur"
+		},
+		"BorderClear": {
+			"text": "BorderClear"
+		},
+		"BorderRemoval": {
+			"text": "BorderRemoval"
+		},
+		"ButterworthHighpass": {
+			"text": "ButterworthHighpass"
+		},
+		"ButterworthLowpass": {
+			"text": "ButterworthLowpass"
+		},
+		"CannyEdgeDetector": {
+			"text": "CannyEdgeDetector"
+		},
+		"ChangeBrightness": {
+			"text": "ChangeBrightness"
+		},
+		"ChangeBrightnessContrast": {
+			"text": "ChangeBrightnessContrast"
+		},
+		"ChangeContrast": {
+			"text": "ChangeContrast"
+		},
+		"ChangeGamma": {
+			"text": "ChangeGamma"
+		},
+		"ChangeHSL": {
+			"text": "ChangeHSL"
+		},
+		"ChangePixelFormat": {
+			"text": "ChangePixelFormat"
+		},
+		"ChangePixelFormatToBgr": {
+			"text": "ChangePixelFormatToBgr"
+		},
+		"ChangePixelFormatToBlackWhite": {
+			"text": "ChangePixelFormatToBlackWhite"
+		},
+		"ChangePixelFormatToGrayscale": {
+			"text": "ChangePixelFormatToGrayscale"
+		},
+		"ChangePixelFormatToPalette": {
+			"text": "ChangePixelFormatToPalette"
+		},
+		"Clear": {
+			"text": "Clear"
+		},
+		"ColorBlend": {
+			"text": "ColorBlend"
+		},
+		"ColorBlend16": {
+			"text": "ColorBlend16"
+		},
+		"ColorNoiseClear": {
+			"text": "ColorNoiseClear"
+		},
+		"Crop": {
+			"text": "作物"
+		},
+		"Curves": {
+			"text": "Curves"
+		},
+		"Curves16": {
+			"text": "Curves16"
+		},
+		"Desaturate": {
+			"text": "Desaturate"
+		},
+		"Deskew": {
+			"text": "Deskew"
+		},
+		"DeskewDocumentImage": {
+			"text": "DeskewDocumentImage"
+		},
+		"Despeckle": {
+			"text": "Despeckle"
+		},
+		"Dilate": {
+			"text": "Dilate"
+		},
+		"DocumentPerspectiveCorrection": {
+			"text": "DocumentPerspectiveCorrection"
+		},
+		"DocumentSegmentation": {
+			"text": "DocumentSegmentation"
+		},
+		"DottedLineRemoval": {
+			"text": "DottedLineRemoval"
+		},
+		"DrawImage": {
+			"text": "DrawImage"
+		},
+		"DropShadow": {
+			"text": "DropShadow"
+		},
+		"EdgeDetection": {
+			"text": "EdgeDetection"
+		},
+		"Emboss": {
+			"text": "Emboss"
+		},
+		"Erode": {
+			"text": "Erode"
+		},
+		"FillRectangle": {
+			"text": "FillRectangle"
+		},
+		"Flip": {
+			"text": "Flip"
+		},
+		"GaussianBlur": {
+			"text": "GaussianBlur"
+		},
+		"GaussianHighpass": {
+			"text": "GaussianHighpass"
+		},
+		"GaussianLowpass": {
+			"text": "GaussianLowpass"
+		},
+		"GetAlphaChannelMask": {
+			"text": "GetAlphaChannelMask"
+		},
+		"GetBackgroundColor": {
+			"text": "GetBackgroundColor"
+		},
+		"GetBorderColor": {
+			"text": "GetBorderColor"
+		},
+		"GetBorderRect": {
+			"text": "GetBorderRect"
+		},
+		"GetColorCount": {
+			"text": "GetColorCount"
+		},
+		"GetDocumentImageRotationAngle": {
+			"text": "GetDocumentImageRotationAngle"
+		},
+		"GetHistogram": {
+			"text": "GetHistogram"
+		},
+		"GetImageColorDepth": {
+			"text": "GetImageColorDepth"
+		},
+		"GetRotationAngle": {
+			"text": "GetRotationAngle"
+		},
+		"GetTextOrientation": {
+			"text": "GetTextOrientation"
+		},
+		"GetThreshold": {
+			"text": "GetThreshold"
+		},
+		"GetUniqueColor": {
+			"text": "GetUniqueColor"
+		},
+		"Halftone": {
+			"text": "Halftone"
+		},
+		"HalftoneRecognition": {
+			"text": "HalftoneRecognition"
+		},
+		"HalftoneRemoval": {
+			"text": "HalftoneRemoval"
+		},
+		"HasCertainColor": {
+			"text": "HasCertainColor"
+		},
+		"HolePunchFilling": {
+			"text": "HolePunchFilling"
+		},
+		"HolePunchRemoval": {
+			"text": "HolePunchRemoval"
+		},
+		"IdealHighpass": {
+			"text": "IdealHighpass"
+		},
+		"IdealLowpass": {
+			"text": "IdealLowpass"
+		},
+		"ImageComparison": {
+			"text": "ImageComparison"
+		},
+		"ImageScaling": {
+			"text": "ImageScaling"
+		},
+		"ImageSegmentation": {
+			"text": "ImageSegmentation"
+		},
+		"ImageSharpening": {
+			"text": "ImageSharpening"
+		},
+		"ImageSmoothing": {
+			"text": "ImageSmoothing"
+		},
+		"Invert": {
+			"text": "反転"
+		},
+		"IsDocumentImage": {
+			"text": "IsDocumentImage"
+		},
+		"IsImageBlackWhite": {
+			"text": "IsImageBlackWhite"
+		},
+		"IsImageBlank": {
+			"text": "IsImageBlank"
+		},
+		"IsImageGrayscale": {
+			"text": "IsImageGrayscale"
+		},
+		"Levels": {
+			"text": "Levels"
+		},
+		"LineRemoval": {
+			"text": "LineRemoval"
+		},
+		"MatrixTransform": {
+			"text": "MatrixTransform"
+		},
+		"Maximum": {
+			"text": "Maximum"
+		},
+		"Mean": {
+			"text": "Mean"
+		},
+		"Median": {
+			"text": "Median"
+		},
+		"MidPoint": {
+			"text": "MidPoint"
+		},
+		"Minimum": {
+			"text": "Minimum"
+		},
+		"Mosaic": {
+			"text": "Mosaic"
+		},
+		"MotionBlur": {
+			"text": "MotionBlur"
+		},
+		"OcrPreprocessing": {
+			"text": "OcrPreprocessing"
+		},
+		"OilPainting": {
+			"text": "OilPainting"
+		},
+		"Overlay": {
+			"text": "Overlay"
+		},
+		"OverlayBinary": {
+			"text": "OverlayBinary"
+		},
+		"OverlayMasked": {
+			"text": "OverlayMasked"
+		},
+		"OverlayWithBlending": {
+			"text": "OverlayWithBlending"
+		},
+		"Pixelate": {
+			"text": "Pixelate"
+		},
+		"Posterize": {
+			"text": "Posterize"
+		},
+		"QuadrilateralWarp": {
+			"text": "QuadrilateralWarp"
+		},
+		"RedEyeRemoval": {
+			"text": "RedEyeRemoval"
+		},
+		"RemapColors": {
+			"text": "RemapColors"
+		},
+		"RemapColors16": {
+			"text": "RemapColors16"
+		},
+		"ReplaceColor": {
+			"text": "ReplaceColor"
+		},
+		"Resample": {
+			"text": "Resample"
+		},
+		"Resize": {
+			"text": "Resize"
+		},
+		"ResizeCanvas": {
+			"text": "ResizeCanvas"
+		},
+		"RestoreTextFromHalftone": {
+			"text": "RestoreTextFromHalftone"
+		},
+		"Rotate": {
+			"text": "Rotate"
+		},
+		"Sepia": {
+			"text": "Sepia"
+		},
+		"SetAlphaChannelMask": {
+			"text": "SetAlphaChannelMask"
+		},
+		"SetAlphaChannelValue": {
+			"text": "SetAlphaChannelValue"
+		},
+		"ShapeRemoval": {
+			"text": "ShapeRemoval"
+		},
+		"Sharpen": {
+			"text": "Sharpen"
+		},
+		"Skew": {
+			"text": "Skew"
+		},
+		"Smoothing": {
+			"text": "Smoothing"
+		},
+		"Solarize": {
+			"text": "Solarize"
+		},
+		"TileReflection": {
+			"text": "TileReflection"
+		},
+		"imageProcessingCommandSettingsButton": {
+			"title": "画像処理コマンドの設定"
+		},
+		"applyImageProcessingCommandButton": {
+			"title": "画像処理コマンドを適用します"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "元に戻す/やり直し履歴を無効にする"
+		},
 		"sidePanelCloseButton": {
 			"title": "サイドバーを表示"
 		},
 		"showThumbnailViewerPanelButton": {
 			"title": "サムネイル"
-		},
-		"showImageProcessingPanelButton": {
-			"title": "画像処理"
 		},
 		"thumbnailViewerPanel": {
 			"rotateViewClockwiseButton": {
@@ -84,14 +450,6 @@
 			},
 			"deleteThumbnailButton": {
 				"title": "サムネイルの削除"
-			}
-		},
-		"imageProcessingPanel": {
-			"parametersButton": {
-				"value": "設定"
-			},
-			"runButton": {
-				"value": "適用する"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -588,6 +946,10 @@
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
 		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsui-imageProcessingPanel-imageProcessingString": "画像処理",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "元に戻す/やり直し履歴を有効にする",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "元に戻す/やり直し履歴を無効にする",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "操作を元に戻す",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "操作をやり直す",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",

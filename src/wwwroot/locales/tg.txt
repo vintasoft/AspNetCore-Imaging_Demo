@@ -9,6 +9,9 @@
 		"toolsLabel": {
 			"text": "Воситаҳо"
 		},
+		"imageProcessingLabel": {
+			"text": "Коркарди тасвир"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
 		},
@@ -54,26 +57,389 @@
 		"panToolButton": {
 			"title": "Пан"
 		},
-		"rectangularSelectionToolButton": {
-			"title": "Интихоби росткунҷа"
-		},
-		"magnifierToolButton": {
-			"title": "Бузургкунанда"
-		},
 		"zoomToolButton": {
 			"title": "Масштаб"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Интихоби масштаб"
 		},
+		"rectangularSelectionToolButton": {
+			"title": "Интихоби росткунҷа"
+		},
+		"magnifierToolButton": {
+			"title": "Бузургкунанда"
+		},
+		"SELECT COMMAND...": {
+			"text": "ИНТИХОБ КАРДАН..."
+		},
+		"AddNoise": {
+			"text": "AddNoise"
+		},
+		"AdvancedReplaceColor": {
+			"text": "AdvancedReplaceColor"
+		},
+		"AutoColors": {
+			"text": "AutoColors"
+		},
+		"AutoContrast": {
+			"text": "AutoContrast"
+		},
+		"AutoInvert": {
+			"text": "AutoInvert"
+		},
+		"AutoLevels": {
+			"text": "AutoLevels"
+		},
+		"AutoTextInvert": {
+			"text": "AutoTextInvert"
+		},
+		"AutoTextOrientation": {
+			"text": "AutoTextOrientation"
+		},
+		"BevelEdge": {
+			"text": "BevelEdge"
+		},
+		"Binarize": {
+			"text": "Binarize"
+		},
+		"Blur": {
+			"text": "Blur"
+		},
+		"BorderClear": {
+			"text": "BorderClear"
+		},
+		"BorderRemoval": {
+			"text": "BorderRemoval"
+		},
+		"ButterworthHighpass": {
+			"text": "ButterworthHighpass"
+		},
+		"ButterworthLowpass": {
+			"text": "ButterworthLowpass"
+		},
+		"CannyEdgeDetector": {
+			"text": "CannyEdgeDetector"
+		},
+		"ChangeBrightness": {
+			"text": "ChangeBrightness"
+		},
+		"ChangeBrightnessContrast": {
+			"text": "ChangeBrightnessContrast"
+		},
+		"ChangeContrast": {
+			"text": "ChangeContrast"
+		},
+		"ChangeGamma": {
+			"text": "ChangeGamma"
+		},
+		"ChangeHSL": {
+			"text": "ChangeHSL"
+		},
+		"ChangePixelFormat": {
+			"text": "ChangePixelFormat"
+		},
+		"ChangePixelFormatToBgr": {
+			"text": "ChangePixelFormatToBgr"
+		},
+		"ChangePixelFormatToBlackWhite": {
+			"text": "ChangePixelFormatToBlackWhite"
+		},
+		"ChangePixelFormatToGrayscale": {
+			"text": "ChangePixelFormatToGrayscale"
+		},
+		"ChangePixelFormatToPalette": {
+			"text": "ChangePixelFormatToPalette"
+		},
+		"Clear": {
+			"text": "Clear"
+		},
+		"ColorBlend": {
+			"text": "ColorBlend"
+		},
+		"ColorBlend16": {
+			"text": "ColorBlend16"
+		},
+		"ColorNoiseClear": {
+			"text": "ColorNoiseClear"
+		},
+		"Crop": {
+			"text": "Зироат"
+		},
+		"Curves": {
+			"text": "Curves"
+		},
+		"Curves16": {
+			"text": "Curves16"
+		},
+		"Desaturate": {
+			"text": "Desaturate"
+		},
+		"Deskew": {
+			"text": "Deskew"
+		},
+		"DeskewDocumentImage": {
+			"text": "DeskewDocumentImage"
+		},
+		"Despeckle": {
+			"text": "Despeckle"
+		},
+		"Dilate": {
+			"text": "Dilate"
+		},
+		"DocumentPerspectiveCorrection": {
+			"text": "DocumentPerspectiveCorrection"
+		},
+		"DocumentSegmentation": {
+			"text": "DocumentSegmentation"
+		},
+		"DottedLineRemoval": {
+			"text": "DottedLineRemoval"
+		},
+		"DrawImage": {
+			"text": "DrawImage"
+		},
+		"DropShadow": {
+			"text": "DropShadow"
+		},
+		"EdgeDetection": {
+			"text": "EdgeDetection"
+		},
+		"Emboss": {
+			"text": "Emboss"
+		},
+		"Erode": {
+			"text": "Erode"
+		},
+		"FillRectangle": {
+			"text": "FillRectangle"
+		},
+		"Flip": {
+			"text": "Flip"
+		},
+		"GaussianBlur": {
+			"text": "GaussianBlur"
+		},
+		"GaussianHighpass": {
+			"text": "GaussianHighpass"
+		},
+		"GaussianLowpass": {
+			"text": "GaussianLowpass"
+		},
+		"GetAlphaChannelMask": {
+			"text": "GetAlphaChannelMask"
+		},
+		"GetBackgroundColor": {
+			"text": "GetBackgroundColor"
+		},
+		"GetBorderColor": {
+			"text": "GetBorderColor"
+		},
+		"GetBorderRect": {
+			"text": "GetBorderRect"
+		},
+		"GetColorCount": {
+			"text": "GetColorCount"
+		},
+		"GetDocumentImageRotationAngle": {
+			"text": "GetDocumentImageRotationAngle"
+		},
+		"GetHistogram": {
+			"text": "GetHistogram"
+		},
+		"GetImageColorDepth": {
+			"text": "GetImageColorDepth"
+		},
+		"GetRotationAngle": {
+			"text": "GetRotationAngle"
+		},
+		"GetTextOrientation": {
+			"text": "GetTextOrientation"
+		},
+		"GetThreshold": {
+			"text": "GetThreshold"
+		},
+		"GetUniqueColor": {
+			"text": "GetUniqueColor"
+		},
+		"Halftone": {
+			"text": "Halftone"
+		},
+		"HalftoneRecognition": {
+			"text": "HalftoneRecognition"
+		},
+		"HalftoneRemoval": {
+			"text": "HalftoneRemoval"
+		},
+		"HasCertainColor": {
+			"text": "HasCertainColor"
+		},
+		"HolePunchFilling": {
+			"text": "HolePunchFilling"
+		},
+		"HolePunchRemoval": {
+			"text": "HolePunchRemoval"
+		},
+		"IdealHighpass": {
+			"text": "IdealHighpass"
+		},
+		"IdealLowpass": {
+			"text": "IdealLowpass"
+		},
+		"ImageComparison": {
+			"text": "ImageComparison"
+		},
+		"ImageScaling": {
+			"text": "ImageScaling"
+		},
+		"ImageSegmentation": {
+			"text": "ImageSegmentation"
+		},
+		"ImageSharpening": {
+			"text": "ImageSharpening"
+		},
+		"ImageSmoothing": {
+			"text": "ImageSmoothing"
+		},
+		"Invert": {
+			"text": "Табдил додан"
+		},
+		"IsDocumentImage": {
+			"text": "IsDocumentImage"
+		},
+		"IsImageBlackWhite": {
+			"text": "IsImageBlackWhite"
+		},
+		"IsImageBlank": {
+			"text": "IsImageBlank"
+		},
+		"IsImageGrayscale": {
+			"text": "IsImageGrayscale"
+		},
+		"Levels": {
+			"text": "Levels"
+		},
+		"LineRemoval": {
+			"text": "LineRemoval"
+		},
+		"MatrixTransform": {
+			"text": "MatrixTransform"
+		},
+		"Maximum": {
+			"text": "Maximum"
+		},
+		"Mean": {
+			"text": "Mean"
+		},
+		"Median": {
+			"text": "Median"
+		},
+		"MidPoint": {
+			"text": "MidPoint"
+		},
+		"Minimum": {
+			"text": "Minimum"
+		},
+		"Mosaic": {
+			"text": "Mosaic"
+		},
+		"MotionBlur": {
+			"text": "MotionBlur"
+		},
+		"OcrPreprocessing": {
+			"text": "OcrPreprocessing"
+		},
+		"OilPainting": {
+			"text": "OilPainting"
+		},
+		"Overlay": {
+			"text": "Overlay"
+		},
+		"OverlayBinary": {
+			"text": "OverlayBinary"
+		},
+		"OverlayMasked": {
+			"text": "OverlayMasked"
+		},
+		"OverlayWithBlending": {
+			"text": "OverlayWithBlending"
+		},
+		"Pixelate": {
+			"text": "Pixelate"
+		},
+		"Posterize": {
+			"text": "Posterize"
+		},
+		"QuadrilateralWarp": {
+			"text": "QuadrilateralWarp"
+		},
+		"RedEyeRemoval": {
+			"text": "RedEyeRemoval"
+		},
+		"RemapColors": {
+			"text": "RemapColors"
+		},
+		"RemapColors16": {
+			"text": "RemapColors16"
+		},
+		"ReplaceColor": {
+			"text": "ReplaceColor"
+		},
+		"Resample": {
+			"text": "Resample"
+		},
+		"Resize": {
+			"text": "Resize"
+		},
+		"ResizeCanvas": {
+			"text": "ResizeCanvas"
+		},
+		"RestoreTextFromHalftone": {
+			"text": "RestoreTextFromHalftone"
+		},
+		"Rotate": {
+			"text": "Rotate"
+		},
+		"Sepia": {
+			"text": "Sepia"
+		},
+		"SetAlphaChannelMask": {
+			"text": "SetAlphaChannelMask"
+		},
+		"SetAlphaChannelValue": {
+			"text": "SetAlphaChannelValue"
+		},
+		"ShapeRemoval": {
+			"text": "ShapeRemoval"
+		},
+		"Sharpen": {
+			"text": "Sharpen"
+		},
+		"Skew": {
+			"text": "Skew"
+		},
+		"Smoothing": {
+			"text": "Smoothing"
+		},
+		"Solarize": {
+			"text": "Solarize"
+		},
+		"TileReflection": {
+			"text": "TileReflection"
+		},
+		"imageProcessingCommandSettingsButton": {
+			"title": "Танзимоти фармони коркарди тасвир"
+		},
+		"applyImageProcessingCommandButton": {
+			"title": "Фармони коркарди тасвирро истифода баред"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Таърихи бозгардонидан/бозгаштро ғайрифаъол кунед"
+		},
 		"sidePanelCloseButton": {
 			"title": "Намоиши панели паҳлӯ"
 		},
 		"showThumbnailViewerPanelButton": {
 			"title": "Суратҳо"
-		},
-		"showImageProcessingPanelButton": {
-			"title": "Коркарди тасвир"
 		},
 		"thumbnailViewerPanel": {
 			"rotateViewClockwiseButton": {
@@ -84,14 +450,6 @@
 			},
 			"deleteThumbnailButton": {
 				"title": "Нусхаи ангораро нест кунед"
-			}
-		},
-		"imageProcessingPanel": {
-			"parametersButton": {
-				"value": "Танзимотҳо"
-			},
-			"runButton": {
-				"value": "Муроҷиат кунед"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -588,6 +946,10 @@
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsui-imageProcessingPanel-imageProcessingString": "Коркарди тасвир",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Таърихи бозгардонидан/аз навро фаъол созед",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Таърихи бозгардонидан/бозгаштро ғайрифаъол кунед",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Амалро бекор кунед",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Амалро такрор кунед",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",

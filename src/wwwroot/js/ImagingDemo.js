@@ -106,6 +106,27 @@ function __initMenu(docViewerSettings) {
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(2, "previousUploadFilesButton");
     }
+
+    // get the main menu of document viewer
+    var mainMenu = items.getItemByRegisteredId("mainMenu");
+    // if main menu is found
+    if (mainMenu != null) {
+        // get items of main menu
+        var mainMenuItems = mainMenu.get_Items();
+
+        // add new item to the main menu
+        mainMenuItems.addItem("imageProcessingAndUndoRedoToolbarPanel");
+
+        var imageProcessingAndUndoRedoToolbarPanel = items.getItemByRegisteredId("imageProcessingAndUndoRedoToolbarPanel");
+        if (imageProcessingAndUndoRedoToolbarPanel != null) {
+            var imageProcessingPanel = imageProcessingAndUndoRedoToolbarPanel.get_Items().getItem(0);
+            var imageProcessingUiHelper = new ImageProcessingUiHelperJS(_docViewer, __unblockUI);
+
+            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "settingsButtonClicked", __imageProcessingPanel_settingsButtonClicked);
+            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "processingStarting", imageProcessingUiHelper.imageProcessingPanel_processingStarting);
+            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "processingFinished", imageProcessingUiHelper.imageProcessingPanel_processingFinished);
+        }
+    }
 }
 
 /**
@@ -115,21 +136,6 @@ function __initMenu(docViewerSettings) {
 function __initSidePanel(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
-
-    var sidePanel = items.getItemByRegisteredId("sidePanel");
-    if (sidePanel != null) {
-        var sidePanelItems = sidePanel.get_PanelsCollection();
-        sidePanelItems.addItem("imageProcessingPanel");
-
-        var imageProcessingPanel = items.getItemByRegisteredId("imageProcessingPanel");
-        if (imageProcessingPanel != null) {
-            var imageProcessingUiHelper = new ImageProcessingUiHelperJS(_docViewer, __unblockUI);
-
-            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "settingsButtonClicked", __imageProcessingPanel_settingsButtonClicked);
-            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "processingStarting", imageProcessingUiHelper.imageProcessingPanel_processingStarting);
-            Vintasoft.Shared.subscribeToEvent(imageProcessingPanel, "processingFinished", imageProcessingUiHelper.imageProcessingPanel_processingFinished);
-        }
-    }
 
     // get the thumbnail viewer panel of document viewer
     var thumbnailViewerPanel = items.getItemByRegisteredId("thumbnailViewerPanel");
@@ -313,6 +319,31 @@ function __getApplicationUrl() {
     return applicationUrl;
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
+/**
+ Returns a value indicating whether application is executing on mobile device.
+*/
+function __isMobileDevice() {
+    const toMatch = [
+        /Android/i,
+        /webOS/i,
+        /iPhone/i,
+        /iPad/i,
+        /iPod/i,
+        /BlackBerry/i,
+        /Windows Phone/i
+    ];
+
+    return toMatch.some((toMatchItem) => {
+        return navigator.userAgent.match(toMatchItem);
+    });
+}
 
 
 // === Localization ===
@@ -413,13 +444,6 @@ function __enableUiLocalization() {
     });
 }
 
-/**
- Returns a value indicating whether touch device is used.
-*/
-function __isTouchDevice() {
-    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
-}
-
 
 
 // === Main ===
@@ -457,7 +481,13 @@ function __main() {
     docViewerSettings.set_CanExportAndDownloadFile(true);
     docViewerSettings.set_CanDownloadFile(false);
     docViewerSettings.set_CanAddFile(true);
+    // specify that document viewer can clear session cache
     docViewerSettings.set_CanClearSessionCache(true);
+    // if application is executing on desktop (not a mobile device)
+    if (!__isMobileDevice()) {
+        // specify that undo-redo panel should show the undo action list
+        docViewerSettings.set_ShowUndoActionList(true);
+    }
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);
@@ -497,6 +527,9 @@ function __main() {
     imageViewer1.set_DisplayMode(new Vintasoft.Imaging.WebImageViewerDisplayModeEnumJS("SingleContinuousColumn"));
     // specify that image viewer must show images in the fit width mode
     imageViewer1.set_ImageSizeMode(new Vintasoft.Imaging.WebImageSizeModeEnumJS("FitToWidth"));
+
+    // specify that image viewer should save information about processed images
+    imageViewer1.get_UndoManager().set_IsEnabled(true);
 
     // create the progress image
     var progressImage = new Image();

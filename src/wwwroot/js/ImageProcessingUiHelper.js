@@ -7,10 +7,12 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
     var _isVisualToolSelectionUsed = false;
     var _imageProcessingCommandSettingsDialog = null;
     var _imageProcessingCommandResultDialog = null;
+    // a value indicating whether the image processing command settings dialog was shown
+    var _isImageProcessingCommandSettingsDialogShown = false;
 
 
     /**
-     Shows image processing command setting dialog.
+     Shows image processing command settings dialog.
     */
     ImageProcessingUiHelperJS.prototype.showImageProcessingCommandSettingsDialog = function (imageProcessingCommand) {
         var viewer = docViewer.get_ImageViewer();
@@ -38,6 +40,15 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
             }
         }
 
+        // if the image processing settings dialog was not shown earlier
+        if (!_isImageProcessingCommandSettingsDialogShown) {
+            // get a value indicating whether the undo manager is enabled in image viewer
+            var isUndoManagerEnabled = viewer.get_UndoManager().get_IsEnabled();
+            // if undo manager is enabled
+            if (isUndoManagerEnabled)
+                // specify that the image processing command should not change the source image file
+                imageProcessingCommand.set_ChangeSource(false);
+        }
 
         // if previous image processing dialog exists
         if (_imageProcessingCommandSettingsDialog != null) {
@@ -63,6 +74,9 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
         // add dialog to the web document viewer
         docViewer.get_Items().addItem(_imageProcessingCommandSettingsDialog);
 
+        // remember that the image processing settings dialog was shown
+        _isImageProcessingCommandSettingsDialogShown = true;
+
         // show the dialog
         _imageProcessingCommandSettingsDialog.show();
     }
@@ -77,6 +91,16 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
             var uiElement = event.target;
             var docViewer = uiElement.get_RootControl();
             var viewer = docViewer.get_ImageViewer();
+
+            // if the image processing settings dialog was not shown earlier
+            if (!_isImageProcessingCommandSettingsDialogShown) {
+                // get a value indicating whether the undo manager is enabled in image viewer
+                var isUndoManagerEnabled = viewer.get_UndoManager().get_IsEnabled();
+                // if undo manager is enabled
+                if (isUndoManagerEnabled)
+                    // specify that the image processing command should not change the source image file
+                    imageProcessingCommand.set_ChangeSource(false);
+            }
 
             // if command can work with image region
             if ((imageProcessingCommand instanceof Vintasoft.Imaging.ImageProcessing.WebImageProcessingCommandWithRegionJS) ||

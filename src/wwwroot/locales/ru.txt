@@ -9,11 +9,14 @@
 		"toolsLabel": {
 			"text": "Инструменты"
 		},
+		"imageProcessingLabel": {
+			"text": "Обработка изображений"
+		},
 		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
 		},
 		"uploadAndAddFileButton": {
-			"title": "Загрузите и добавьте файл"
+			"title": "Загрузить и добавить файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
@@ -25,7 +28,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл"
+			"title": "Скачать файл"
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
@@ -54,26 +57,389 @@
 		"panToolButton": {
 			"title": "Панорамирование"
 		},
-		"rectangularSelectionToolButton": {
-			"title": "Прямоугольное выделение"
-		},
-		"magnifierToolButton": {
-			"title": "Лупа"
-		},
 		"zoomToolButton": {
 			"title": "Масштаб"
 		},
 		"zoomSelectionToolButton": {
 			"title": "Масштабирование выделения"
 		},
+		"rectangularSelectionToolButton": {
+			"title": "Прямоугольное выделение"
+		},
+		"magnifierToolButton": {
+			"title": "Лупа"
+		},
+		"SELECT COMMAND...": {
+			"text": "ВЫБЕРИТЕ КОМАНДУ..."
+		},
+		"AddNoise": {
+			"text": "Добавить шум"
+		},
+		"AdvancedReplaceColor": {
+			"text": "Расширенная замена цвета"
+		},
+		"AutoColors": {
+			"text": "Автоцвет"
+		},
+		"AutoContrast": {
+			"text": "Автоконтраст"
+		},
+		"AutoInvert": {
+			"text": "Автоинвертация"
+		},
+		"AutoLevels": {
+			"text": "Автоуровни"
+		},
+		"AutoTextInvert": {
+			"text": "Автоинвертация текста"
+		},
+		"AutoTextOrientation": {
+			"text": "Автоориентация текста"
+		},
+		"BevelEdge": {
+			"text": "Скос кромки"
+		},
+		"Binarize": {
+			"text": "Бинаризовать"
+		},
+		"Blur": {
+			"text": "Размытие"
+		},
+		"BorderClear": {
+			"text": "Очистить границу"
+		},
+		"BorderRemoval": {
+			"text": "Удаление границы"
+		},
+		"ButterworthHighpass": {
+			"text": "Фильтр верхних частот Баттерворта"
+		},
+		"ButterworthLowpass": {
+			"text": "Фильтр нижних частот Баттерворта"
+		},
+		"CannyEdgeDetector": {
+			"text": "Детектор границ Canny"
+		},
+		"ChangeBrightness": {
+			"text": "Изменить яркость"
+		},
+		"ChangeBrightnessContrast": {
+			"text": "Изменить яркость и контрастность"
+		},
+		"ChangeContrast": {
+			"text": "Изменить контрастность"
+		},
+		"ChangeGamma": {
+			"text": "Изменить гамму"
+		},
+		"ChangeHSL": {
+			"text": "Изменить HSL"
+		},
+		"ChangePixelFormat": {
+			"text": "Изменить формат пикселя"
+		},
+		"ChangePixelFormatToBgr": {
+			"text": "Изменить формат пикселя на фон"
+		},
+		"ChangePixelFormatToBlackWhite": {
+			"text": "Изменить формат пикселя на черно-белый"
+		},
+		"ChangePixelFormatToGrayscale": {
+			"text": "Изменить формат пикселя на оттенки серого"
+		},
+		"ChangePixelFormatToPalette": {
+			"text": "Изменить формат пикселя на палитру"
+		},
+		"Clear": {
+			"text": "Очистить"
+		},
+		"ColorBlend": {
+			"text": "Смешивание цветов"
+		},
+		"ColorBlend16": {
+			"text": "Смешивание цветов (16-бит)"
+		},
+		"ColorNoiseClear": {
+			"text": "Очистить цветовой шум"
+		},
+		"Crop": {
+			"text": "Обрезать"
+		},
+		"Curves": {
+			"text": "Кривые"
+		},
+		"Curves16": {
+			"text": "Кривые (16-бит)"
+		},
+		"Desaturate": {
+			"text": "Обесцвечивание"
+		},
+		"Deskew": {
+			"text": "Выравнивание перекоса"
+		},
+		"DeskewDocumentImage": {
+			"text": "Выравнивание перекоса изображения документа"
+		},
+		"Despeckle": {
+			"text": "Устранение бликов"
+		},
+		"Dilate": {
+			"text": "Расширение"
+		},
+		"DocumentPerspectiveCorrection": {
+			"text": "Коррекция перспективы документа"
+		},
+		"DocumentSegmentation": {
+			"text": "Сегментация документа"
+		},
+		"DottedLineRemoval": {
+			"text": "Удаление пунктирной линии"
+		},
+		"DrawImage": {
+			"text": "Рисование изображения"
+		},
+		"DropShadow": {
+			"text": "Отбрасывание тени"
+		},
+		"EdgeDetection": {
+			"text": "Выявление краев"
+		},
+		"Emboss": {
+			"text": "Тиснение"
+		},
+		"Erode": {
+			"text": "Размывание"
+		},
+		"FillRectangle": {
+			"text": "Заливка прямоугольника"
+		},
+		"Flip": {
+			"text": "Отражение"
+		},
+		"GaussianBlur": {
+			"text": "Размытие по Гауссу"
+		},
+		"GaussianHighpass": {
+			"text": "Высокочастотный фильтр по Гауссу"
+		},
+		"GaussianLowpass": {
+			"text": "Низкочастотный фильтр по Гауссу"
+		},
+		"GetAlphaChannelMask": {
+			"text": "Получить маску альфа-канала"
+		},
+		"GetBackgroundColor": {
+			"text": "Получить цвет фона"
+		},
+		"GetBorderColor": {
+			"text": "Получить цвет границы"
+		},
+		"GetBorderRect": {
+			"text": "Получить прямоугольник границы"
+		},
+		"GetColorCount": {
+			"text": "Получить количество цветов"
+		},
+		"GetDocumentImageRotationAngle": {
+			"text": "Получить угол поворота изображения документа"
+		},
+		"GetHistogram": {
+			"text": "Получить гистограмму"
+		},
+		"GetImageColorDepth": {
+			"text": "Получить глубину цвета изображения"
+		},
+		"GetRotationAngle": {
+			"text": "Получить угол поворота"
+		},
+		"GetTextOrientation": {
+			"text": "Получить ориентацию текста"
+		},
+		"GetThreshold": {
+			"text": "Получить порог"
+		},
+		"GetUniqueColor": {
+			"text": "Получить уникальный цвет"
+		},
+		"Halftone": {
+			"text": "Полутона"
+		},
+		"HalftoneRecognition": {
+			"text": "Распознавание полутонов"
+		},
+		"HalftoneRemoval": {
+			"text": "Удаление полутонов"
+		},
+		"HasCertainColor": {
+			"text": "Имеет определенный цвет"
+		},
+		"HolePunchFilling": {
+			"text": "Заполнение дырокола"
+		},
+		"HolePunchRemoval": {
+			"text": "Удаление дырокола"
+		},
+		"IdealHighpass": {
+			"text": "Идеальный фильтр верхних частот"
+		},
+		"IdealLowpass": {
+			"text": "Идеальный фильтр нижних частот"
+		},
+		"ImageComparison": {
+			"text": "Сравнение изображений"
+		},
+		"ImageScaling": {
+			"text": "Масштабирование изображений"
+		},
+		"ImageSegmentation": {
+			"text": "Сегментация изображений"
+		},
+		"ImageSharpening": {
+			"text": "Резкость изображения"
+		},
+		"ImageSmoothing": {
+			"text": "Сглаживание изображения"
+		},
+		"Invert": {
+			"text": "Инвертировать"
+		},
+		"IsDocumentImage": {
+			"text": "Идентификация изображения документа"
+		},
+		"IsImageBlackWhite": {
+			"text": "Идентификация изображения черного и белого цветов"
+		},
+		"IsImageBlank": {
+			"text": "Идентификация изображения пустого цвета"
+		},
+		"IsImageGrayscale": {
+			"text": "Идентификация изображения серого цветов"
+		},
+		"Levels": {
+			"text": "Уровни"
+		},
+		"LineRemoval": {
+			"text": "Удаление линий"
+		},
+		"MatrixTransform": {
+			"text": "Матричное преобразование"
+		},
+		"Maximum": {
+			"text": "Максимум"
+		},
+		"Mean": {
+			"text": "Среднее значение"
+		},
+		"Median": {
+			"text": "Медиана"
+		},
+		"MidPoint": {
+			"text": "Средняя точка"
+		},
+		"Minimum": {
+			"text": "Минимум"
+		},
+		"Mosaic": {
+			"text": "Мозаика"
+		},
+		"MotionBlur": {
+			"text": "Размытие движения"
+		},
+		"OcrPreprocessing": {
+			"text": "Предварительная обработка OCR"
+		},
+		"OilPainting": {
+			"text": "Масляная живопись"
+		},
+		"Overlay": {
+			"text": "Наложение"
+		},
+		"OverlayBinary": {
+			"text": "Наложение с бинарным наложением"
+		},
+		"OverlayMasked": {
+			"text": "Наложение с маской"
+		},
+		"OverlayWithBlending": {
+			"text": "Наложение со смешиванием"
+		},
+		"Pixelate": {
+			"text": "Пикселизация"
+		},
+		"Posterize": {
+			"text": "Постеризация"
+		},
+		"QuadrilateralWarp": {
+			"text": "Четырехсторонняя деформация"
+		},
+		"RedEyeRemoval": {
+			"text": "Устранение эффекта красных глаз"
+		},
+		"RemapColors": {
+			"text": "Переназначение цветов"
+		},
+		"RemapColors16": {
+			"text": "Переназначение цветов (16-бит)"
+		},
+		"ReplaceColor": {
+			"text": "Замена цвета"
+		},
+		"Resample": {
+			"text": "Ресэмплирование"
+		},
+		"Resize": {
+			"text": "Изменение размера"
+		},
+		"ResizeCanvas": {
+			"text": "Изменение размера холста"
+		},
+		"RestoreTextFromHalftone": {
+			"text": "Восстановление текста из полутона"
+		},
+		"Rotate": {
+			"text": "Поворот"
+		},
+		"Sepia": {
+			"text": "Сепия"
+		},
+		"SetAlphaChannelMask": {
+			"text": "Установить маску альфа-канала"
+		},
+		"SetAlphaChannelValue": {
+			"text": "Установить значение альфа-канала"
+		},
+		"ShapeRemoval": {
+			"text": "Удаление формы"
+		},
+		"Sharpen": {
+			"text": "Резкость"
+		},
+		"Skew": {
+			"text": "Наклон"
+		},
+		"Smoothing": {
+			"text": "Сглаживание"
+		},
+		"Solarize": {
+			"text": "Соляризация"
+		},
+		"TileReflection": {
+			"text": "Отражение плитки"
+		},
+		"imageProcessingCommandSettingsButton": {
+			"title": "Настройки команды обработки изображения"
+		},
+		"applyImageProcessingCommandButton": {
+			"title": "Примените команду обработки изображения"
+		},
+		"enableUndoRedoHistoryButton": {
+			"title": "Отключить историю отмен/повторов"
+		},
 		"sidePanelCloseButton": {
 			"title": "Показать боковую панель"
 		},
 		"showThumbnailViewerPanelButton": {
 			"title": "Миниатюры"
-		},
-		"showImageProcessingPanelButton": {
-			"title": "Обработка изображений"
 		},
 		"thumbnailViewerPanel": {
 			"rotateViewClockwiseButton": {
@@ -84,14 +450,6 @@
 			},
 			"deleteThumbnailButton": {
 				"title": "Удалить миниатюру"
-			}
-		},
-		"imageProcessingPanel": {
-			"parametersButton": {
-				"value": "Настройки"
-			},
-			"runButton": {
-				"value": "Применить"
 			}
 		},
 		"gotoFirstPageButton": {
@@ -586,11 +944,15 @@
 	},
 	"strings": {
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsui-imageProcessingPanel-imageProcessingString": "Обработка изображений",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title": "Включить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-enableUndoRedoHistoryButton-title2": "Отключить историю отмен/повторов",
+		"vsui-undoRedoToolbarPanel-undoActionButton-title": "Отменить действие",
+		"vsui-undoRedoToolbarPanel-redoActionButton-title": "Повторить действие",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
-		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-downloadFile-actionMessage": "Скачать файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsui-documentNavigationTool-getActions": "Получить действия",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
