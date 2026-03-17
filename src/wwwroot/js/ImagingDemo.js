@@ -42,31 +42,6 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
 
 
 
-// === "Tools" toolbar ===
-
-/**
- Creates UI button for activating the visual tool, which allows to pan images in image viewer.
-*/
-function __createPanToolButton() {
-    // if touch device is used
-    if (__isTouchDevice()) {
-        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
-            cssClass: "vsdv-tools-panButton",
-            title: "Pan, Zoom",
-            localizationId: "panToolButton"
-        }, "PanTool,ZoomTool");
-    }
-    else {
-        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
-            cssClass: "vsdv-tools-panButton",
-            title: "Pan",
-            localizationId: "panToolButton"
-        }, "PanTool");
-    }
-}
-
-
-
 // === Init UI ===
 
 /**
@@ -75,9 +50,6 @@ function __createPanToolButton() {
 function __registerNewUiElements() {
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
-
-    // register the "Pan" button in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("panToolButton", __createPanToolButton);
 }
 
 /**
