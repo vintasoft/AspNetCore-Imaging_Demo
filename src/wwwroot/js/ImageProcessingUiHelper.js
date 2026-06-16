@@ -45,9 +45,13 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
             // get a value indicating whether the undo manager is enabled in image viewer
             var isUndoManagerEnabled = viewer.get_UndoManager().get_IsEnabled();
             // if undo manager is enabled
-            if (isUndoManagerEnabled)
-                // specify that the image processing command should not change the source image file
-                imageProcessingCommand.set_ChangeSource(false);
+            if (isUndoManagerEnabled) {
+                // if image processing command can modify image
+                if (imageProcessingCommand.get_CanModifyImage()) {
+                    // specify that the image processing command should not change the source image file
+                    imageProcessingCommand.set_ChangeSource(false);
+                }
+            }
         }
 
         // if previous image processing dialog exists
