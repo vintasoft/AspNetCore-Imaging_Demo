@@ -73,7 +73,8 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
             {
                 title: "Image processing command settings",
                 cssClass: "vsui-dialog imageProcessingSettings",
-                localizationId: "imageProcessingSettingsDialog"
+                localizationId: "imageProcessingSettingsDialog",
+                css: { minWidth: '500px' }
             });
         // add dialog to the web document viewer
         docViewer.get_Items().addItem(_imageProcessingCommandSettingsDialog);
@@ -139,10 +140,15 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
         var imageProcessingCommand = eventArgs.command;
         var data = eventArgs.data;
         if (data.success) {
-            // if image processing command did not change the image, i.e. image processing command is information command
+            // if image processing command did not change the image
             if (data.processedImage == null)
-                // show the image processing results
-                __informativeImageProcessingCommand_success(docViewer, data);
+                // show the result of information image processing command
+                __showInformativeImageProcessingCommandResult(docViewer, data);
+
+            // if image processing command result contains regions
+            if (__hasRegionsInImageProcessingResult(data)) {
+                __highlightInformativeImageProcessingCommandResults(docViewer, data);
+            }
 
             // if image processing command can work with image region
             if ((imageProcessingCommand instanceof Vintasoft.Imaging.ImageProcessing.WebImageProcessingCommandWithRegionJS) ||
@@ -159,11 +165,11 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
     }
 
     /**
-     Informative image processing command is executed successfully.
-     @param {object} docViewer DocumentViewer.
+     Shows the result of information image processing command.
+     @param {object} docViewer The document viewer.
      @param {object} imageProcessingResult The result of applying the command to an image.
     */
-    function __informativeImageProcessingCommand_success(docViewer, imageProcessingResult) {
+    function __showInformativeImageProcessingCommandResult(docViewer, imageProcessingResult) {
         // unblock the UI
         unblockUiFunc();
 
@@ -194,6 +200,7 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
                 title: "Image processing command result",
                 cssClass: "vsui-dialog imageProcessingResult",
                 localizationId: "imageProcessingResultDialog",
+                css: { minWidth: '500px' },
                 hideNestedElements: false,
                 editable: false
             });
@@ -202,38 +209,72 @@ ImageProcessingUiHelperJS = function (docViewer, unblockUiFunc) {
 
         // show the dialog
         _imageProcessingCommandResultDialog.show();
-
-
-        var documentRegions = imageProcessingResult.documentRegions;
-        var regions = imageProcessingResult.regions;
-        var halftoneRegions = imageProcessingResult.halftoneRegions;
-        if (documentRegions != null || regions != null || halftoneRegions != null) {
-            var fillColor = "rgba(255,255,0,0.3)";
-            var highlightRegions;
-            if (documentRegions != null) {
-                highlightRegions = documentRegions;
-                fillColor = "rgba(255,255,0,0.3)";
-            }
-            else if (regions != null) {
-                highlightRegions = regions;
-                fillColor = "rgba(0,255,0,0.3)";
-            }
-            else if (halftoneRegions != null) {
-                highlightRegions = halftoneRegions;
-                fillColor = "rgba(0,0,255,0.3)";
-            }
-            // highlight regions in image viewer
-            __highlightInformativeImageProcessingCommandResults(docViewer, highlightRegions, fillColor)
-        }
     }
 
     /**
-     Highlights regions in image viewer.
-     @param {object} docViewer DocumentViewer.
-     @param {object} highlightRegions Regions.
-     @param {string} fillColor Fill color.
+     Returns a value indicating whether the image processing command results contains detected regions.
+     @param {object} imageProcessingResult The result of applying the command to an image.
+     @returns {boolean} True - result contains detected regions; False - result does not contain detected regions.
     */
-    function __highlightInformativeImageProcessingCommandResults(docViewer, highlightRegions, fillColor) {
+    function __hasRegionsInImageProcessingResult(imageProcessingResult) {
+        if (imageProcessingResult.documentRegions != null)
+            return true;
+        if (imageProcessingResult.regions != null)
+            return true;
+        if (imageProcessingResult.halftoneRegions != null)
+            return true;
+        if (imageProcessingResult.tableRegions != null)
+            return true;
+        return false;
+    }
+
+    /**
+     Highlights the result of information image processing command.
+     @param {object} docViewer The document viewer.
+     @param {object} imageProcessingResult The result of applying the command to an image.
+    */
+    function __highlightInformativeImageProcessingCommandResults(docViewer, imageProcessingResult) {
+        var fillColor = "rgba(255,255,0,0.3)";
+        var highlightRegions = null;
+
+        // get the document regions from the image processing command result
+        var documentRegions = imageProcessingResult.documentRegions;
+        // if document regions exist
+        if (documentRegions != null) {
+            highlightRegions = documentRegions;
+            fillColor = "rgba(255,255,0,0.3)";
+        }
+        else {
+            // get the regions from the image processing command result
+            var regions = imageProcessingResult.regions;
+            // if regions exist
+            if (regions != null) {
+                highlightRegions = regions;
+                fillColor = "rgba(0,255,0,0.3)";
+            }
+            else {
+                // get the halftone regions from the image processing command result
+                var halftoneRegions = imageProcessingResult.halftoneRegions;
+                // if halftone regions exist
+                if (halftoneRegions != null) {
+                    highlightRegions = halftoneRegions;
+                    fillColor = "rgba(0,0,255,0.3)";
+                }
+                else {
+                    // get the table regions from the image processing command result
+                    var tableRegions = imageProcessingResult.tableRegions;
+                    // if table regions exist
+                    if (tableRegions != null) {
+                        highlightRegions = tableRegions;
+                        fillColor = "rgba(255,255,0,0.3)";
+                    }
+                }
+            }
+        }
+        // if command does have regions to highlight
+        if (highlightRegions == null)
+            return;
+
         // get the highlight tool from web document viewer
         var highlightVisualTool = docViewer.getVisualToolById("HighlightTool");
         // set the highlight tool as current visual tool of web document viewer
